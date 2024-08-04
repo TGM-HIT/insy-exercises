@@ -1,0 +1,2 @@
+# insy-exercises
+Informationssysteme Aufgaben
