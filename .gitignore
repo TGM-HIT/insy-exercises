@@ -400,3 +400,4 @@ FodyWeavers.xsd
 .venv/
 site/
 
+*.DS_Store

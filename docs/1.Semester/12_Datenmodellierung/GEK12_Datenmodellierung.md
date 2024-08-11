@@ -26,7 +26,7 @@ Es wird versucht aus einer nicht technischen Beschreibung die erforderlichen Ele
 
 ## Fragestellungen
 
-Bitte versuche alle wichtigen Informationen kurz und prägnant als Dokumentation laut den Dokumentationsrichtlinien zu verschriftlichen.
+Bitte versuche alle wichtigen Informationen kurz und prägnant als Dokumentation laut den Dokumentationsrichtlinien zu verschriftlichen nachdem du folgende Skripte durchgearbeitet hast: [Datenmodellierung 1 - Konzepte, Begriffe](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%201%20-%20Konzepte%2C%20Begriffe.pdf); [Datenmodellierung 2 - ERM, ERD](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%202%20-%20ERM%2C%20ERD.pdf)
 
 ### Grundlegend
 
@@ -52,6 +52,12 @@ Nachdem du die Fragestellungen ausgearbeitet hast, siehe dir folgende Aufgabenst
 > Ein Landwirtschaftsbetrieb züchtet verschiedene Tiere (Kühe, Schweine, etc.). Jedes Tier hat einen Namen, ein Geburtsdatum, Schulterhöhe und Gewicht. Es ist im Zuchtregister mit einer Nummer gekennzeichnet. Der Landwirt verwaltet zu jedem Tier die bevorzugte Futtersorte, dessen Hersteller und Preis. Von den Futterherstellern sind Name, Anschrift, Name und Telefonnummer des Vertreters bekannt. Die Tiere sind in mehreren Ställen untergebracht. Sie stehen dort in Boxen (nach Art getrennt). Für die Stalljungen ist noch die Information notwendig, welchen Belag (Heu, Sand, etc.) sie in jede Box streuen sollen.
 
 Schreibe dir zuerst alle Objekttypen, Attribute und Schlüsselkandidaten heraus. Erstelle dann ein entsprechendes ERD. Dieses kann Handschriftlich oder mit einem Tool gezeichnet sein (zb. [diagrams.net](https://app.diagrams.net/)).
+
+Das ERD sollte den Regeln und Standarts aus den Skripten entsprechen und alle Entitäten, Attribute, Beziehungen, Kardinalitäten und Optionalitäten enthalten. Vergleiche mit dem Beispiel ERD.
+
+??? Beispiel-ERD
+
+    ![Beispiel-ERD](erd_example.png)
 
 ### Erweitert
 
@@ -89,8 +95,8 @@ Gruppengröße: 1 Person
 * "flightdatabase"; tgm Projekteserver; [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *flightdata* pw: *IbelieveIcanfly*)
 * "Flightdata Schema"; GitHub, zuletzt besucht 2024-08-11; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/11_Einfache_Abfragen/FlightDataStructure.pdf)
 * "SQL Tutorial"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/)
-* "Datenmodellierung 1 - Konzepte, Begriffe" Erhard List; 
-* "Datenmodellierung 2 - ERM, ERD" Erhard List; 
+* "Datenmodellierung 1 - Konzepte, Begriffe" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%201%20-%20Konzepte%2C%20Begriffe.pdf)
+* "Datenmodellierung 2 - ERM, ERD" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%202%20-%20ERM%2C%20ERD.pdf)
 
 ---
 **Version** *20240811v3*
