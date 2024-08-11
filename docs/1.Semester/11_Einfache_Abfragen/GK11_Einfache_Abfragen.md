@@ -99,7 +99,7 @@ Schreibe SQL Statements für folgende Aufgaben:
 4. Flugzeuge, die mehr als 30 Sitzreihen haben. Gib zusätzlich aus, wie viele Sitzplätze sie mehr als 30 haben.
 5. Passagiere, die in Reihe 5-15 sitzen und ein „e“ im Vornamen haben.
 
-Weitere [Übungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.%20Semester/GK11%20Einfache%20Abfragen/Flightdata%20%C3%9Cbung.xlsx) (nicht erforderlich für Bewertung, eventuell hilfreich für die Moodle Überprüfung) ([Lösungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.%20Semester/GK11%20Einfache%20Abfragen/Flightdata%20%C3%9Cbung%20L%C3%B6sung.xlsx)).
+Weitere [Übungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.Semester/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung.xlsx) (nicht erforderlich für Bewertung, eventuell hilfreich für die Moodle Überprüfung) ([Lösungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.Semester/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung%20L%C3%B6sung.xlsx)).
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinie.md zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
@@ -120,7 +120,7 @@ Gruppengröße: 1 Person
 * "Microsoft Office Lens";  [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&hl=de_AT&gl=US), [iPhone](https://apps.apple.com/at/app/microsoft-office-lens-pdf-scan/id975925059)
 * "Online PDF Editor"; zuletzt besucht 2021-08-06; [pdffiller](https://www.pdffiller.com/de/)
 * "flightdatabase"; tgm Projekteserver; [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *flightdata* pw: *IbelieveIcanfly*)
-* "Flightdata Schema"; GitHub, zuletzt besucht 2024-08-11; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.%20Semester/GK11%20Einfache%20Abfragen/FlightDataStructure.pdf)
+* "Flightdata Schema"; GitHub, zuletzt besucht 2024-08-11; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/11_Einfache_Abfragen/FlightDataStructure.pdf)
 * "SQL Tutorial"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/)
 * "phpMyAdmin Tutorial"; tutorialspoint; zuletzt besucht 2022-08-01; [online](https://www.tutorialspoint.com/phpmyadmin/index.htm)
 * "SQL Island"; Technische Universität Kaiserslautern; zuletzt besucht 2022-08-01; [online](https://sql-island.informatik.uni-kl.de/)
