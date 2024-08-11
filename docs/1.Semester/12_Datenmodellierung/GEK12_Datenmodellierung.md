@@ -55,7 +55,7 @@ Schreibe dir zuerst alle Objekttypen, Attribute und Schlüsselkandidaten heraus.
 
 Das ERD sollte den Regeln und Standarts aus den Skripten entsprechen und alle Entitäten, Attribute, Beziehungen, Kardinalitäten und Optionalitäten enthalten. Vergleiche mit dem Beispiel ERD.
 
-??? Beispiel-ERD
+??? Beispiel ERD
 
     ![Beispiel-ERD](erd_example.png)
 
