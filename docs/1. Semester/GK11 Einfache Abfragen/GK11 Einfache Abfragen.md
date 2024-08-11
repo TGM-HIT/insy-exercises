@@ -1,9 +1,7 @@
-```
 ---
 hide:
   - navigation
 ---
-```
 
 # GK11 Einfache Abfragen
 
