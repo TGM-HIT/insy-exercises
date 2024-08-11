@@ -46,8 +46,11 @@ Nachdem du die Fragestellungen ausgearbeitet hast, löse folgende Aufgabenstellu
 Porbiere folgenden SQL Statements aus:
 
 ```sql
-#Was ist das kürzeste SQL auf eine Tabelle?
+#Was ist das kürzeste SQL auf eine Tabelle? * steht als Platzhalter für alle Spalten
 SELECT * FROM planes;
+
+#Statt dem * können auch nur bestimmte Spalten ausgegeben werden.
+SELECT manufacturer, type FROM planes
 
 #Ist SQL Case-Sensitive?
 #Befehle nicht, Tabellennamen, Spaltennamen, Werte schon
@@ -55,7 +58,7 @@ SELECT * FROM planes;
 SELECT * FROM planes
 
 #Wie können Werte gefiltert werden?
-SELECT * FROM planes WHERE id > 50
+SELECT * FROM planes WHERE id >= 50
 SELECT * FROM planes WHERE manufacturer='Airbus'
 
 #Wie filtern wir leere Werte/Zellen?
@@ -70,7 +73,9 @@ SELECT * FROM `planes` WHERE maxspeed BETWEEN 400 AND 500
 SELECT * FROM `planes` WHERE maxspeed < 400 OR maxspeed > 500
 
 #Gib alle Airbus oder Boeing Flugzeuge aus mit einer Maxspeed kleiner als 500.
-SELECT * FROM `planes` WHERE maxspeed < 500 AND (manufacturer='Airbus' OR manufacturer='Boeing')
+#Berechnungen können im SELECT durchgeführt werden.
+#AS lässt Spalten umbenennen.
+SELECT *, 500-maxspeed AS Differenz FROM `planes` WHERE maxspeed < 500 AND (manufacturer='Airbus' OR manufacturer='Boeing')
 
 #Gib alle Flugzeuge aus von einem Hersteller der mit B beginnt.
 #% wildcard für beliebig viele beliebige Zeichen
@@ -88,6 +93,8 @@ Schreibe SQL Statements für folgende Aufgaben:
 3. Zeige Flugzeuge, die breiter als lang sind.
 4. Flugzeuge, die mehr als 30 Sitzreihen haben. Gib zusätzlich aus, wie viele Sitzplätze sie mehr als 30 haben.
 5. Passagiere, die in Reihe 5-15 sitzen und ein „e“ im Vornamen haben.
+
+Weitere [Übungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.%20Semester/GK11%20Einfache%20Abfragen/Flightdata%20%C3%9Cbung.xlsx) (nicht erforderlich für Bewertung, eventuell hilfreich für die Moodle Überprüfung) ([Lösungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.%20Semester/GK11%20Einfache%20Abfragen/Flightdata%20%C3%9Cbung%20L%C3%B6sung.xlsx)).
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinie.md zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
