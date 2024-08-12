@@ -101,7 +101,7 @@ Mache dich nun mit der Benutzeroberfläche vertraut. Versuche einfache Befehle a
 
 Bis auf Systemrelevante Datenbanken ist unsere DB leer. Das wollen wir ändern.
 
-* [Download Sample Databases]()
+* [Download Sample Databases](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F1.Semester%2F13_Datenbanksystem_Installation%2FSample_databases)
 * Zeige dir das SQL File rechts im Fileexplorer an
 * markiere alle SQLs, dann Rechtsklick
 * Run...
@@ -146,7 +146,6 @@ Gruppengröße: 1 Person
 - "Microsoft Office Lens";  [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&hl=de_AT&gl=US), [iPhone](https://apps.apple.com/at/app/microsoft-office-lens-pdf-scan/id975925059)
 - "Online PDF Editor"; zuletzt besucht 2021-08-06; [pdffiller](https://www.pdffiller.com/de/)
 - "flightdatabase"; tgm Projekteserver; [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *flightdata* pw: *IbelieveIcanfly*)
-- "Flightdata Schema"; elearning tgm;
 - "SQL Tutorial"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/)
 - "Ubuntu Desktop vs. Ubuntu Server: What’s the Difference?"; makeuseof; 2021-12-27; zuletzt besucht 2022-08-04; [online](https://www.makeuseof.com/tag/difference-ubuntu-desktop-ubuntu-server/)
 - "Definition Secure Shell (SSH)"; computerweekly; Peter Loshin; zuletzt besucht 2022-08-04; [online](https://www.computerweekly.com/de/definition/Secure-Shell-SSH)
@@ -159,7 +158,7 @@ Gruppengröße: 1 Person
 - "How to Create MySQL Users Accounts and Grant Privileges"; linuxize; 2020-05-30; zuletzt besucht 2022-08-04; [online](https://linuxize.com/post/how-to-create-mysql-user-accounts-and-grant-privileges/)
 - "MobaXterm";mobaxterm; zuletzt besucht 2022-08-04; [online](https://mobaxterm.mobatek.net/)
 - "iTerm2"; iterm2; zuletzt besucht 2022-08-04; [online](https://iterm2.com/)
-- "SampleDatabase"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; online
+- "SampleDatabase"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; [online](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F1.Semester%2F13_Datenbanksystem_Installation%2FSample_databases)
 
 ---
 **Version** *20240812v3*
