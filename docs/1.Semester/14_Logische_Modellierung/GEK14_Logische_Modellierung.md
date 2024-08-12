@@ -58,29 +58,29 @@ Nachdem du die Fragestellungen ausgearbeitet hast, bearbeite folgende Aufgabenst
 
 Erstelle aus dem ERD aus *GEK12 Datenmodellierung* Landwirtschaftsbetrieb ein RM und in weiterer Folge ein SQL Create-Script. Das Skript soll keine Fehler werfen, auch nicht bei wiederholten ausführen, sollte das Ergebnis immer das selbe sein. Füge testweise halbwegs sinnvolle Werte in jede Tabelle ein.
 
-??? Beispiel RM
+??? "Beispiel RM"
 
-  sportler(nr, name)
-  wettbewerb(name, datum, art)
-  teilnahme(*snr: sportler.nr*, *wnr: wettbewerb.name*, platz)
+    sportler(nr, name)
+    wettbewerb(name, datum, art)
+    teilnahme(*snr: sportler.nr*, *wnr: wettbewerb.name*, platz)
 
-??? Beispiel Create Script
+??? "Beispiel Create Script"
 
-  ```sql
-  DROP DATABASE IF EXISTS test_db;
-  CREATE DATABASE test_db;
-  USE test_db;
+    ```sql
+    DROP DATABASE IF EXISTS test_db;
+    CREATE DATABASE test_db;
+    USE test_db;
 
-  CREATE TABLE person(
+    CREATE TABLE person(
       id int,
       vorname VARCHAR(50),
       nachname VARCHAR(50),
       tel VARCHAR(50)
-  );
+    );
 
-  INSERT INTO person(id, vorname, nachname) VALUES
-  (3, 'dominik', 'hoebert');
-  ```
+    INSERT INTO person(id, vorname, nachname) VALUES
+    (3, 'dominik', 'hoebert');
+    ```
 
 
 [Weiterführende Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/14_Logische_Modellierung/exercises)
