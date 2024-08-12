@@ -41,6 +41,7 @@ Bitte versuche alle wichtigen Informationen kurz und prägnant als Dokumentation
 ### Erweitert
 
 * Was sind schwache Entitäten und wo werden sie angewandt?
+* Welche anderen ERD Standarts werden noch häufig verwendet?
 
 TIPP: in den Quellen findest du die Antworten zu all diesen Fragen mit nur einem Klick.
 
@@ -58,6 +59,8 @@ Das ERD sollte den Regeln und Standarts aus den Skripten entsprechen und alle En
 ??? Beispiel ERD
 
     ![Beispiel-ERD](erd_example.png)
+
+[Weiterführende Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/12_Datenmodellierung/Weiterfuehrende_Uebungen)
 
 ### Erweitert
 
