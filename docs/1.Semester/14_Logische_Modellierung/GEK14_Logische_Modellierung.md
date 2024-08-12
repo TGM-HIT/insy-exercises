@@ -60,8 +60,8 @@ Erstelle aus dem ERD aus *GEK12 Datenmodellierung* Landwirtschaftsbetrieb ein RM
 
 ??? "Beispiel RM"
 
-    sportler(nr, name)
-    wettbewerb(name, datum, art)
+    sportler(nr, name)  
+    wettbewerb(name, datum, art)  
     teilnahme(*snr: sportler.nr*, *wnr: wettbewerb.name*, platz)
 
 ??? "Beispiel Create Script"
