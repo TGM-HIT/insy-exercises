@@ -48,7 +48,9 @@ Bearbeite folgende Aufgabenstellungen nachdem du die Fragestellungen beantwortet
 
 Bringe folgende Bestellungen-Tabelle in die 3. Normalform.
 
-![Bestellungen](https://elearning.tgm.ac.at/pluginfile.php/148143/mod_folder/content/0/Normalformen%20Bestellungen.png)
+![Bestellungen](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/16_Normalformen/recources/Normalformen%20Bestellungen.png?raw=true)
+
+[Weitere Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/16_Normalformen/exercises)
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinien zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
@@ -66,9 +68,8 @@ Gruppengröße: 1 Person
 * "Microsoft Office Lens";  [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&hl=de_AT&gl=US), [iPhone](https://apps.apple.com/at/app/microsoft-office-lens-pdf-scan/id975925059)
 * "Online PDF Editor"; zuletzt besucht 2021-08-06; [pdffiller](https://www.pdffiller.com/de/)
 * "flightdatabase"; tgm Projekteserver; [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *flightdata* pw: *IbelieveIcanfly*)
-* "Flightdata Schema"; elearning tgm;
 * "SQL Tutorial"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/)
-* "Datenmodellierung 4 - Normalisierung" ; Erhard List;
+* "Datenmodellierung 4 - Normalisierung" ; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/16_Normalformen/Datenmodellierung%204%20-%20Normalisierung.pdf)
 
 ---
-**Version** *20220805v1*
+**Version** *20240811v2*
