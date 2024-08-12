@@ -63,11 +63,11 @@ Das ERD sollte den Regeln und Standarts aus den Skripten entsprechen und alle En
 
 Wähle anhand deiner Katalognummer (katnr. % 5) von den folgenden Aufgabenstellungen deine und erstelle ein vollständiges ERD.
 
-0: Autovermietung  
-1: Fluggesellschaft  
-2: Schnellbahn-Unternehmen  
-3: Tankstellenkette  
-4: Videoverleih
+0: [Autovermietung](Autovermietung.md)  
+1: [Fluggesellschaft](Fluggesellschaft.md)  
+2: [Schnellbahn-Unternehmen](Schnellbahn-Unternehmen.md)  
+3: [Tankstellenkette](Tankstellenkette.md)  
+4: [Videoverleih](Videoverleih.md)
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinien zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
