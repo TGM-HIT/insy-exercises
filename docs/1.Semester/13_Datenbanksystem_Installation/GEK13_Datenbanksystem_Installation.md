@@ -18,7 +18,7 @@ Es wird Docker installiert und ein MariaDB Container augesetzt. Dann soll der Da
 
 #### GK Datenbanksystem installieren
 
-* Installation eines relationalen Datenbanksystems (MySQL,  MariaDB) in einer Virtuellen Maschine, Konfiguration Datagrip
+* Installation eines relationalen Datenbanksystems (MySQL, MariaDB) in einer Virtuellen Maschine, Konfiguration Datagrip
 
 ## Voraussetzungen
 
