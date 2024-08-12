@@ -29,6 +29,11 @@ Es wird versucht ein ERD mittels wenigen Regeln in ein vollständiges Relationen
 
 Bitte versuche alle wichtigen Informationen kurz und prägnant als Dokumentation laut den Dokumentationsrichtlinien zu verschriftlichen.
 
+Verwende folgende Quellen:
+
+* "Datenmodellierung 3 - RM"; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/14_Logische_Modellierung/Datenmodellierung%203%20-%20RM.pdf)
+* "Data definition language"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/14_Logische_Modellierung/Data%20definition%20language.pdf)
+
 ### Grundlegend
 
 * Was sagt ein Relationenmodell aus?
@@ -52,6 +57,33 @@ Nachdem du die Fragestellungen ausgearbeitet hast, bearbeite folgende Aufgabenst
 ### Grundanforderungen
 
 Erstelle aus dem ERD aus *GEK12 Datenmodellierung* Landwirtschaftsbetrieb ein RM und in weiterer Folge ein SQL Create-Script. Das Skript soll keine Fehler werfen, auch nicht bei wiederholten ausführen, sollte das Ergebnis immer das selbe sein. Füge testweise halbwegs sinnvolle Werte in jede Tabelle ein.
+
+??? Beispiel RM
+
+  sportler(nr, name)
+  wettbewerb(name, datum, art)
+  teilnahme(*snr: sportler.nr*, *wnr: wettbewerb.name*, platz)
+
+??? Beispiel Create Script
+
+  ```sql
+  DROP DATABASE IF EXISTS test_db;
+  CREATE DATABASE test_db;
+  USE test_db;
+
+  CREATE TABLE person(
+      id int,
+      vorname VARCHAR(50),
+      nachname VARCHAR(50),
+      tel VARCHAR(50)
+  );
+
+  INSERT INTO person(id, vorname, nachname) VALUES
+  (3, 'dominik', 'hoebert');
+  ```
+
+
+[Weiterführende Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/14_Logische_Modellierung/exercises)
 
 ### Erweitert
 
@@ -82,8 +114,8 @@ Gruppengröße: 1 Person
 * "Online PDF Editor"; zuletzt besucht 2021-08-06; [pdffiller](https://www.pdffiller.com/de/)
 * "flightdatabase"; tgm Projekteserver; [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *flightdata* pw: *IbelieveIcanfly*)
 * "SQL Tutorial"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/)
-* "Datenmodellierung 3 - RM"; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online]()
-* "Data definition language"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; [online]()
+* "Datenmodellierung 3 - RM"; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/14_Logische_Modellierung/Datenmodellierung%203%20-%20RM.pdf)
+* "Data definition language"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/14_Logische_Modellierung/Data%20definition%20language.pdf)
 * "SQL UPDATE Statement"; w3cschools; zuletzt besucht 2022-08-04; [online](https://www.w3schools.com/sql/sql_update.asp)
 * "SQL DELETE Statement"; w3cschools; zuletzt besucht 2022-08-04; [online](https://www.w3schools.com/sql/sql_delete.asp)
 * "FOREIGN KEY Constraints"; MySQL 8.0 Reference Manual; zuletzt besucht 2022-11-08; [online](https://dev.mysql.com/doc/refman/8.0/en/create-table-foreign-keys.html)
