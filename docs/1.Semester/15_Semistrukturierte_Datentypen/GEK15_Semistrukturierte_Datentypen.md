@@ -44,7 +44,7 @@ Nachdem du die Fragestellungen ausgearbeitet hast, bearbeite folgende Aufgabenst
 
 ### Grundanforderungen
 
-Erstelle ein kurzes valides CSV mit mindestens 5 Spalten und 3 Zeilen zu einem beliebigen Thema. Wandle dieses sowohl in ein valides XML, als auch in ein valides JSON um.
+Erstelle ein kurzes valides CSV mit mindestens 5 Spalten und 3 Zeilen zu einem beliebigen Thema. Wandle dieses sowohl in ein valides XML, als auch in ein valides JSON um. [CSV-Validator](https://onlinetools.com/csv/validate-csv) [XML-Validator](https://www.xmlvalidation.com/) [JSON-Validator](https://jsonlint.com/)
 
 ### Erweitert
 
