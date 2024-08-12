@@ -1,4 +1,9 @@
-# INSY GEK13 Datenbanksystem Installation
+---
+hide:
+  - navigation
+---
+
+# GEK13 Datenbanksystem Installation
 
 ## Einführung
 
