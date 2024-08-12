@@ -70,20 +70,20 @@ Erstelle aus dem ERD aus *GEK12 Datenmodellierung* Landwirtschaftsbetrieb ein RM
     DROP DATABASE IF EXISTS test_db;
     CREATE DATABASE test_db;
     USE test_db;
-
+    
     CREATE TABLE person(
       id int,
       vorname VARCHAR(50),
       nachname VARCHAR(50),
       tel VARCHAR(50)
     );
-
+    
     INSERT INTO person(id, vorname, nachname) VALUES
     (3, 'dominik', 'hoebert');
     ```
 
+<a href="https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/14_Logische_Modellierung/exercises" target="_blank">Weiterführende Übungen</a>
 
-[Weiterführende Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/14_Logische_Modellierung/exercises)
 
 ### Erweitert
 
