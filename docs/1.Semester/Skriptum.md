@@ -1,4 +1,4 @@
-# INSY 5. Semester Skriptum
+# 1. Semester Skriptum
 
 ## Datenbanksysteme
 
@@ -18,19 +18,19 @@
 
 ### 1., 2., und 3. **Normalformen**
 
-* "Datenmodellierung 4 - Normalisierung" ; Erhard List;
+* "Datenmodellierung 4 - Normalisierung" ; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/16_Normalformen/Datenmodellierung%204%20-%20Normalisierung.pdf)
 
 ## Datenmodelle
 
 ### **Datenmodellierung** (Entitäten, Attribute, Schlüsselkandidaten), konzeptioneller Entwurf, Entity- Relationship-Model  Kardinalitäten/Multiplizitäten, Primäre Schlüsselarten, is- a/Vererbung;
 
-* "Datenmodellierung 1 - Konzepte, Begriffe" Erhard List; 
-* "Datenmodellierung 2 - ERM, ERD" Erhard List; 
+* "Datenmodellierung 1 - Konzepte, Begriffe" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%201%20-%20Konzepte%2C%20Begriffe.pdf)
+* "Datenmodellierung 2 - ERM, ERD" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%202%20-%20ERM%2C%20ERD.pdf)
 
 ### **Logische Modellierung**, Relationenmodell; Create Script, create, drop, update, delete; EK: Trigger, on update, on delete
 
-* "Datenmodellierung 3 - RM"; Erhard List;
-* "Data definition language"; Dominik Höbert; 2020-11-14;
+* "Datenmodellierung 3 - RM"; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/14_Logische_Modellierung/Datenmodellierung%203%20-%20RM.pdf)
+* "Data definition language"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/14_Logische_Modellierung/Data%20definition%20language.pdf)
 * "SQL UPDATE Statement"; w3cschools; zuletzt besucht 2022-08-04; [online](https://www.w3schools.com/sql/sql_update.asp)
 * "SQL DELETE Statement"; w3cschools; zuletzt besucht 2022-08-04; [online](https://www.w3schools.com/sql/sql_delete.asp)
 
