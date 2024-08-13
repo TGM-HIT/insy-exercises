@@ -6,5 +6,5 @@ Here you can find TGM informationtechnologies information systems exercises for 
 
 * [Github](https://github.com/TGM-HIT/insy-exercises)
 * [Projekte](https://github.com/TGM-HIT/insy-projects)
-* [Kompetenzraster]()
+* [Kompetenzraster](https://tgmwien.sharepoint.com/:x:/t/HIT/INSY/ETZVidlYFYpNigAU4txgLjYB4usBafPrzuyLhQBbM8Tz5A?e=SA0nxM)
 * [Skriptum]()
