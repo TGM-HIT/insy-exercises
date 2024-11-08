@@ -96,7 +96,7 @@ Schreibe SQL Statements für folgende Aufgaben:
 1. Zeige Vorname und Nachname aller Passagiere, die auf einem Sitz „F“ sitzen und sortiere nach dem Nachnamen.
 2. Zeige alle Flugzeuge, die nach 2000 auf den Markt gekommen sind und länger als 73m sind.
 3. Zeige Flugzeuge, die breiter als lang sind.
-4. Flugzeuge, die mehr als 30 Sitzreihen haben. Gib zusätzlich aus, wie viele Sitzplätze sie mehr als 30 haben.
+4. Flugzeuge, die mehr als 30 Sitzreihen haben. Gib zusätzlich aus, wie viele Sitzreihen sie mehr als 30 haben.
 5. Passagiere, die in Reihe 5-15 sitzen und ein „e“ im Vornamen haben.
 
 Weitere [Übungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.Semester/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung.xlsx) (nicht erforderlich für Bewertung, eventuell hilfreich für die Moodle Überprüfung) ([Lösungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.Semester/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung%20L%C3%B6sung.xlsx)).
