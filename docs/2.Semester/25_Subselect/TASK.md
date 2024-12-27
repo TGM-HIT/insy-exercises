@@ -52,13 +52,16 @@ WHERE expr operator (
 
 ### Beispiel
 #### students
+
 | StudentID | Name   |
 | --------- | ------ |
 | 1         | Luke   |
 | 2         | Leia   |
 | 3         | Han    |
 | 4         | Chewie |
+
 #### marks
+
 | StudentID | marks |
 | --------- | ----- |
 | 1         | 95    |
@@ -325,11 +328,11 @@ Gruppengrösse: 1 Person
 - [ ] Abgabegespräch über Fragestellungen und Aufgaben
 
 ## Quellen
-[1] "SQL Subqueries" w3crecource; zuletzt besucht am 2021-05-09; [online](https://www.w3resource.com/sql/subqueries/understanding-sql-subqueries.php)
-[2] "13.2.10.6. EXISTS und NOT EXISTS" MySQL 5.7 Reference Manual; zuletzt besucht am 2021-05-09; [online](https://dev.mysql.com/doc/refman/5.7/en/exists-and-not-exists-subqueries.html)
-[3] "SQL EXISTS Operator" w3schools; zuletzt besucht am 2021-05-09; [online](https://www.w3schools.com/sql/sql_exists.asp)
-[4] "SQL ANY and ALL Operators" w3schools; zuletzt besucht am 2021-05-09; [online](https://www.w3schools.com/sql/sql_any_all.asp)
-[5] "SQL IN Operator" w3schools; zuletzt besucht am 2021-05-09; [online](https://www.w3schools.com/sql/sql_in.asp)
+[1] "SQL Subqueries" w3crecource; zuletzt besucht am 2021-05-09; [online](https://www.w3resource.com/sql/subqueries/understanding-sql-subqueries.php)  
+[2] "13.2.10.6. EXISTS und NOT EXISTS" MySQL 5.7 Reference Manual; zuletzt besucht am 2021-05-09; [online](https://dev.mysql.com/doc/refman/5.7/en/exists-and-not-exists-subqueries.html)  
+[3] "SQL EXISTS Operator" w3schools; zuletzt besucht am 2021-05-09; [online](https://www.w3schools.com/sql/sql_exists.asp)  
+[4] "SQL ANY and ALL Operators" w3schools; zuletzt besucht am 2021-05-09; [online](https://www.w3schools.com/sql/sql_any_all.asp)  
+[5] "SQL IN Operator" w3schools; zuletzt besucht am 2021-05-09; [online](https://www.w3schools.com/sql/sql_in.asp)  
 [6] "ANY- / ALL-Operator" Datenbanken Online Lexikon TH Köln, Campus Gummersbach; zuletzt besucht am 2021-05-09; [online](https://wikis.gm.fh-koeln.de/Datenbanken/ANY-ALL)
 
 ---
