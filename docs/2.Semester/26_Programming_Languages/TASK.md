@@ -32,7 +32,7 @@ Bitte versuche alle wichtigen Information kurz und prägnant zu verschriftlichen
 
 Wähle eine beliebige Programmiersprache und erstelle ein minimales Programm, welches eine Verbindung zur Datenbank herstellt und Daten sowohl Lesen als auch Schreiben kann.
 
-Einführungen zu Java und Python: [GEK26 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/2.Semester/26_Programming_Languages)
+Einführungen zu Java und Python: [GEK26 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/2.Semester/26_Programming_Languages/resources)
 
 ### Erweitert
 
@@ -71,14 +71,7 @@ Gruppengrösse: 1 Person
 - [ ] DB Connection mit zwei weiteren Programmiersprachen
 
 ## Quellen
-* "JDBC" Dominik Höbert; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/pluginfile.php/188013/mod_folder/content/0/JDBC%20hoebert.pdf)
-* "JDBC" Erhard List; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/pluginfile.php/188013/mod_folder/content/0/JDBC.pdf)
-* "LAMP - Stack installieren" Dominik Höbert; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/pluginfile.php/188013/mod_folder/content/0/LAMP%20-%20Stack%20installieren.pdf)
-* "LAMP Docker Container Installation" Dominik Höbert; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/pluginfile.php/188013/mod_folder/content/0/LAMP%20Docker%20Container%20Installation.pdf)
-* "IntelliJ LAMP VM Configuration" Dominik Höbert; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/pluginfile.php/188013/mod_folder/content/0/IntelliJ%20LAMP%20VM%20Configuration.pdf)
-* "readPlanes.php" Dominik Höbert; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/pluginfile.php/188013/mod_folder/content/0/readPlanes.php?forcedownload=1)
-* "SQL Python" Dominik Höbert; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/pluginfile.php/188013/mod_folder/content/0/SQL%20Python.pdf)
-* "ORM 1 - Allgemeines" Erhard List; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/pluginfile.php/188013/mod_folder/content/0/ORM%201%20-%20Allgemeines.pdf)
+* [GEK26 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/2.Semester/26_Programming_Languages/resources)
 
 ---
 **Version** *20221227v1*

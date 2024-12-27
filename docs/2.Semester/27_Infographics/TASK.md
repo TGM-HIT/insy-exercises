@@ -75,8 +75,8 @@ Gruppengrösse: 1 Person
 
 ## Quellen
 
-* "DATADESIGN" Dominik Höbert; Bernhard Grafl; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/mod/resource/view.php?id=147279)
-* "Einführung in Power BI" Dominik Höbert; zuletzt besucht 2022-12-17; [online](https://elearning.tgm.ac.at/mod/resource/view.php?id=147280)
+* "DATADESIGN" Dominik Höbert; Bernhard Grafl; zuletzt besucht 2022-12-17; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/2.Semester/27_Infographics/DATADESIGN.pptx)
+* "Einführung in Power BI" Dominik Höbert; zuletzt besucht 2022-12-17; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/2.Semester/27_Infographics/PowerBIIntro.pdf)
 
 ---
 **Version** *20221227v1*
