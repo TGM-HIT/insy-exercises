@@ -8,7 +8,7 @@ hide:
 
 ## Einführung
 
-Am Ende des Schuljahres über SQL und relationale Datenbanken gilt es auch mit anderen Programmiersprachen auf die Datenbank zuzugreifen. Die Datenbank wäre nutzlos könnte nicht auch mit z.B. Java, PHP oder Python Daten gelesen oder geschrieben werden.
+Am Ende des Schuljahres über SQL und relationale Datenbanken gilt es auch mit anderen Programmiersprachen auf die Datenbank zuzugreifen. Die Datenbank wäre nutzlos könnte nicht auch mit z.B. Java oder Python Daten gelesen oder geschrieben werden.
 
 ## Ziele
 
@@ -19,7 +19,7 @@ Mit zumindest einer Sprache auf die Datenbank zugreifen und Daten lesen und schr
 
 #### GK Abfragesprachen
 
-* Datenbankzugriff mittels PHP, Java oder Python; Datenaus- und -einlesen
+* Datenbankzugriff mittels Java oder Python; Datenaus- und -einlesen
 
 ## Voraussetzungen
 
@@ -32,7 +32,7 @@ Bitte versuche alle wichtigen Information kurz und prägnant zu verschriftlichen
 
 Wähle eine beliebige Programmiersprache und erstelle ein minimales Programm, welches eine Verbindung zur Datenbank herstellt und Daten sowohl Lesen als auch Schreiben kann.
 
-Einführungen zu Java, PHP und Python: GEK26 Recources
+Einführungen zu Java und Python: [GEK26 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/2.Semester/26_Programming_Languages)
 
 ### Erweitert
 
