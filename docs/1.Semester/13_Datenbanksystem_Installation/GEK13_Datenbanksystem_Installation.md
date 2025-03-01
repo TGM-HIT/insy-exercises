@@ -86,6 +86,8 @@ mariadb -u root -p
 
 [Jet Brains Datagrip](https://www.jetbrains.com/datagrip/download/#section=windows) (Use your Student Login for Full Version)
 
+"https://tgm-wien.fls.jetbrains.com/" verwende diese URL als Activation-Server für deine Studenten Lizenz.
+
 ### Datagrip konfiguration
 
 Nun wollen wir nicht ständig in der MariaDB Command Line arbeiten sondern eine IDE verwenden. Folge der Anleitung um Datagrip mit MariaDB zu verbinden.
