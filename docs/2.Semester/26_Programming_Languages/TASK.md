@@ -36,7 +36,7 @@ Einführungen zu Java und Python: [GEK26 Recources](https://github.com/TGM-HIT/i
 
 ### Erweitert
 
-Wähle noch zwei weitere Programmiersprachen.
+Wähle noch zwei weitere Programmiersprachen (lesen und schreiben).
 
 
 ## Fragestellungen
