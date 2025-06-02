@@ -30,13 +30,13 @@ Bitte versuche alle wichtigen Information kurz und prägnant zu verschriftlichen
 
 ### Grundanforderungen
 
-Wähle eine beliebige Programmiersprache und erstelle ein minimales Programm, welches eine Verbindung zur Datenbank herstellt und Daten sowohl Lesen als auch Schreiben kann.
+Wähle eine beliebige Programmiersprache (kein PHP) und erstelle ein minimales Programm, welches eine Verbindung zur Datenbank herstellt und Daten sowohl Lesen als auch Schreiben kann.
 
 Einführungen zu Java und Python: [GEK26 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/2.Semester/26_Programming_Languages/resources)
 
 ### Erweitert
 
-Wähle noch zwei weitere Programmiersprachen (lesen und schreiben).
+Wähle noch zwei weitere Programmiersprachen (lesen und schreiben) (immer noch kein PHP).
 
 
 ## Fragestellungen
