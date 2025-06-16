@@ -57,6 +57,7 @@ Gruppengrösse: 1 Person
 ### Grundanforderungen **überwiegend erfüllt**
 
 - [ ] Minimales Programm stellt erfolgreich Verbindung zur Datenbank her
+- [ ] Abgabegespräch
 
 ### Grundanforderungen **zur Gänze erfüllt**
 
