@@ -15,6 +15,8 @@ Es ist das Datenbank-Backup-Archiv herunterzuladen und in einen Postgres-Contain
 
 Die Entpackten DB-Files sollen geeignet in den Container eingebunden werden. Nach Durchsicht der `restore.sql` und dessen Anpassung, soll die Datenbank und der Namespace kurz beschrieben werden. Welche Befehle sind dabei für eine idempotente Ausführung nützlich?
 
+Um einen einfachen Zugriff zu ermöglichen, soll der Adminer als zusätzlicher Container definiert werden. Welche Netzwerk-Informationen sind dafür notwendig? Wie können das Schema und die Datenbank über den Adminer ausgewählt und verwendet werden? Es soll die Datenbankstruktur und die Daten kurz analysiert werden.
+
 ## Abgabe
 Im Repository soll das `README.md` die notwendigen Schritte beschreiben und eine kurze Beschreibung der wiederhergestellten Datenbank enthalten. Auch das verwendete `docker-compose.yml` soll enthalten sein. Bitte das Datenbank-Backup-File und die entpackten Dateien in das `.gitignore` eintragen, sodass keine irrtümliche Abgabe erfolgt.
 
@@ -31,13 +33,14 @@ Gruppengrösse: 2 Personen
 ### Grundanforderungen zur Gänze erfüllt
 - [ ] Zugriffskonfiguration
 - [ ] Ausführung des Recovery
-- [ ] Zugriff auf wiederhergestellte Datenbasis
+- [ ] Zugriff auf wiederhergestellte Datenbasis über Adminer
 
 ## Quellen
 * [Database Backup File](https://nextcloud.borko.at/s/iQteczRt47mBWd2)
 * [Difference between MariaDB and Postgresql](https://aws.amazon.com/compare/the-difference-between-mariadb-and-postgresql/)
 * [Postgresql Documentation 'INSERT'](https://www.postgresql.org/docs/current/sql-insert.html)
 * [MariaDB Documentation 'INSERT'](https://mariadb.com/docs/server/reference/sql-statements/data-manipulation/inserting-loading-data/insert)
+* [Adminer](https://hub.docker.com/_/adminer/)
 
 ---
-**Version** *20250924v1*
+**Version** *20250924v2*
