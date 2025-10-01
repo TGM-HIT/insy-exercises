@@ -20,6 +20,11 @@ Um einen einfachen Zugriff zu ermöglichen, soll der Adminer als zusätzlicher C
 ## Abgabe
 Im Repository soll das `README.md` die notwendigen Schritte beschreiben und eine kurze Beschreibung der wiederhergestellten Datenbank enthalten. Auch das verwendete `docker-compose.yml` soll enthalten sein. Bitte das Datenbank-Backup-File und die entpackten Dateien in das `.gitignore` eintragen, sodass keine irrtümliche Abgabe erfolgt.
 
+## Help, oh I need somebody
+### Network is already in use
+Wenn das Netzwerk schon in Verwendung ist, hilft dieser Command:
+`docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }} {{range .NetworkSettings.Networks}} {{.IPAddress}}{{end}}' | sed 's#^/##';`
+
 ### Classroom Repository
 [Hier](https://classroom.github.com/a/356savRb) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
 
@@ -43,4 +48,4 @@ Gruppengrösse: 2 Personen
 * [Adminer](https://hub.docker.com/_/adminer/)
 
 ---
-**Version** *20250924v2*
+**Version** *20251001v3*
