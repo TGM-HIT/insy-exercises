@@ -22,10 +22,13 @@ Im Repository soll das `README.md` die notwendigen Schritte beschreiben und eine
 
 ## Help, oh I need somebody
 ### Network is already in use
-Wenn das Netzwerk schon in Verwendung ist, hilft dieser Command:
-
+Wenn das Netzwerk schon in Verwendung ist, hilft dieser Command unter Linux:
 ```bash
 docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }} {{range .NetworkSettings.Networks}} {{.IPAddress}}{{end}}' | sed 's#^/##';
+```
+Oder unter Windows:
+```sh
+for /f "tokens=*" %i in ('docker network ls -q') do @docker network inspect %i --format "{{.Name}}: {{range .IPAM.Config}}{{.Subnet}}{{end}}"
 ```
 
 ### Classroom Repository
