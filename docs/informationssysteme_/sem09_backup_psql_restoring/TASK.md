@@ -23,7 +23,10 @@ Im Repository soll das `README.md` die notwendigen Schritte beschreiben und eine
 ## Help, oh I need somebody
 ### Network is already in use
 Wenn das Netzwerk schon in Verwendung ist, hilft dieser Command:
-`docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }} {{range .NetworkSettings.Networks}} {{.IPAddress}}{{end}}' | sed 's#^/##';`
+
+```bash
+docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }} {{range .NetworkSettings.Networks}} {{.IPAddress}}{{end}}' | sed 's#^/##';
+```
 
 ### Classroom Repository
 [Hier](https://classroom.github.com/a/356savRb) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
