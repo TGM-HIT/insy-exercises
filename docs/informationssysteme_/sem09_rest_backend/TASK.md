@@ -17,7 +17,9 @@ Das Ziel dieser Übung ist das Bereitstellen einer grundlegenden Datenmanipulati
 Die funktionstüchtige Datenbank aus dem Backup-Beispiel soll als Quelle für eine CRUD-Backend-Implementierung herangezogen werden. Die Datenbank-Implementierung soll ins neue `docker-compose.yml` übernommen werden. Als Backend-Implementierung soll eine leicht erweiterbare und wartbare Lösung gewählt werden. Die ReST-API der CRUD Befehle soll auch als Dokumentation erstellt werden und im System eingebunden sein.
 
 ## Abgabe
-Im Repository soll das `README.md` die notwendigen Schritte beschreiben und einen Export der implementierten ReST-API (OpenAPI) in einem Markdown enthalten. Auch das verwendete `docker-compose.yml` soll enthalten sein. Bitte alle Binaries und Class-Files in das `.gitignore` eintragen, sodass keine irrtümliche Abgabe erfolgt.
+Im Repository soll das `README.md` die notwendigen Schritte beschreiben und einen Export der implementierten ReST-API (OpenAPI) in einem Markdown enthalten. Auch das verwendete `docker-compose.yml` soll enthalten sein. Bitte alle Binaries und Class-Files in das `.gitignore` eintragen, sodass keine irrtümliche Abgabe erfolgt. Die Source-Code Files, sprich die Implementierung soll im Verzeichnis `backend/` abgelegt werden.
+
+Bei der Verwendung von KI-Tools müssen die Prompts im Verzeichnis `prompts/` als Markdown-Files exportiert werden. Hier soll darauf geachtet werden, dass die Anfrage als auch die Quellen der Antworten ersichtlich sind.
 
 ## Help, oh I need somebody
 ### What should I use for a JAR?
@@ -46,9 +48,9 @@ for /f "tokens=*" %i in ('docker network ls -q') do @docker network inspect %i -
 ## Bewertung
 Gruppengrösse: 2-3 Personen
 ### Grundanforderungen überwiegend erfüllt
-- [ ] CRUD-ReST-API für die Tabelle Sample erstellt
+- [ ] CRUD-ReST-API für die Tabelle Analysis erstellt
 - [ ] Deployment von Backend-Implementierung ist lauffähig
-- [ ] Tabellen Sample, Box, BoxPos und Log sind angedacht 
+- [ ] Tabellen Sample, Box, BoxPos und Log sind teilweise umgesetzt 
 
 ### Grundanforderungen zur Gänze erfüllt
 - [ ] OpenAPI Dokumentation ist für alle implementierten Endpunkte generiert
@@ -61,4 +63,4 @@ Gruppengrösse: 2-3 Personen
 * [API-First Development | Build Spring Boot Application With Swagger Codegen and JPA Buddy](https://jpa-buddy.com/guides/api-first-development-build-spring-boot-application/)
 
 ---
-**Version** *20251007v1*
+**Version** *20251007v2*
