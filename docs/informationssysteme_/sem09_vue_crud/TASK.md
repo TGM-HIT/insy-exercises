@@ -16,6 +16,7 @@ Das Ziel dieser Übung ist das Bereitstellen einer grundlegenden Datenmanipulati
 Basierend auf der Übung [Vue Datatable](https://tgm-hit.github.io/insy-exercises/informationssysteme_/sem09_vue_datatable/TASK) sollen nun folgende Tabellen editierbar sein: **Analysis**, **Sample**, **Box**, **BoxPos**. Die Tabelle **Log** soll weiterhin nur lesend zur Verfügung gestellt werden. Die Ansicht der Tabelle **Analysis** soll neben der _SampleID_ und _SampleTime_ auch noch die Attribute *weight_bru*, *weight_net*, *name* und die View *Box* erhalten. Auch die Ansicht von **Sample** soll die abgelegte Position in der Box über die zur Verfügung gestellte View **sample_boxpos** angezeigt bekommen.
 
 Eine direkte Änderung der Datensätze in der Tabelle wäre von Vorteil. Es ist darauf zu achten, dass bestimmte Attribute nicht veränderbar sein sollen:
+
 * Analysis
     - ID (a_id)
     - SampleID (s_id)
