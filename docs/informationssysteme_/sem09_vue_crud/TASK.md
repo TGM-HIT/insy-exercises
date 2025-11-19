@@ -68,4 +68,4 @@ Gruppengrösse: 2 Personen
 * ["Vue 3 + Vuetify + Axios" Example](https://github.com/mborko/code-examples/tree/master/js/v-data-table)
 
 ---
-**Version** *20251118v1*
+**Version** *20251118v2*
