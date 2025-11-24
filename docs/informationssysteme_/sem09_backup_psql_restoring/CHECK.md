@@ -1,3 +1,6 @@
+## Quiz Ergebnis
+- xy.z %
+
 ## Grundanforderungen überwiegend erfüllt
 - [ ] Analyse des bestehenden Backups
     + Tabellen beschrieben
