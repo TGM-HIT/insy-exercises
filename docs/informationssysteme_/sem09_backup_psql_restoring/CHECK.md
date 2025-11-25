@@ -23,10 +23,12 @@
 
 ## Kommentare
 * Kommandos in README entsprechend formatieren
-* `restore.sql` nicht angepasst --> Ausgabe und Korrektheit somit nicht abnehmbar
+* Bitte keine kompletten Listings der enthaltenen Dateien in der README einbetten, nur wichtige Auszüge verwenden
+* `restore.sql` nicht angepasst --> Ausgabe und Korrektheit somit nicht nachvollziehbar
+* Prompts sind in einem Verzeichnis als Markdown-Dateien abzugeben
 * Quellen bei der Ausarbeitung fehlen (z.B. [1] [Titel; Author; Ort; zuletzt abgerufen am 2019-04-09; online](http://link)
 
 ## Zusatzinformationen
-* Quiz-Ergebnis: 
+* Quiz-Ergebnis: %
 * Repository-Name: 
 
