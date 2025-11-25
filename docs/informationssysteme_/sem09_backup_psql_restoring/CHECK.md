@@ -1,6 +1,3 @@
-## Quiz Ergebnis
-- xy.z %
-
 ## Grundanforderungen überwiegend erfüllt
 - [ ] Analyse des bestehenden Backups
     + Tabellen beschrieben
@@ -29,4 +26,7 @@
 * `restore.sql` nicht angepasst --> Ausgabe und Korrektheit somit nicht abnehmbar
 * Quellen bei der Ausarbeitung fehlen (z.B. [1] [Titel; Author; Ort; zuletzt abgerufen am 2019-04-09; online](http://link)
 
+## Zusatzinformationen
+* Quiz-Ergebnis: 
+* Repository-Name: 
 
