@@ -73,4 +73,4 @@ Gruppengröße: 1 Person
 * "Datenmodellierung 4 - Normalisierung" ; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/16_Normalformen/Datenmodellierung%204%20-%20Normalisierung.pdf)
 
 ---
-**Version** *20240811v2*
+**Version** *20251127v3*
