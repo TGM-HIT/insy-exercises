@@ -46,7 +46,8 @@ Bearbeite folgende Aufgabenstellungen nachdem du die Fragestellungen beantwortet
 
 ### Grundanforderungen
 
-Bringe folgende Bestellungen-Tabelle in die 3. Normalform.
+Bringe folgende Bestellungen-Tabelle in die 3. Normalform. Halte dich an die Regeln aus den Unterlagen.
+Dokumentiere auch die Abhängigkeiten.
 
 ![Bestellungen](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/16_Normalformen/recources/Normalformen%20Bestellungen.png?raw=true)
 
