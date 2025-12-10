@@ -49,6 +49,8 @@ Gruppengrösse: 2-3 Personen
 * [Reporters in Cypress](https://docs.cypress.io/app/tooling/reporters)
 * [Integrating Mochawesome reporter with Cypress](https://antontelesh.github.io/testing/2019/02/04/mochawesome-merge.html)
 * [Screenshots and Videos](https://docs.cypress.io/app/guides/screenshots-and-videos)
+* [Our Approach to Testing the RWA](https://learn.cypress.io/real-world-examples/our-approach-to-testing-the-real-world-app)
+* [Writing and Organizing Tests](https://docs.cypress.io/app/core-concepts/writing-and-organizing-tests)
 
 ---
-**Version** *20251202v1*
+**Version** *20251210v2*
