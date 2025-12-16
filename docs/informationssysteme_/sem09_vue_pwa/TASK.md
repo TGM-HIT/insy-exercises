@@ -17,7 +17,7 @@ Das Ziel dieser Übung ist das Bereitstellen einer Webanwendung in der Cloud. Da
 Basierend auf der Übung [Vue CRUD](https://tgm-hit.github.io/insy-exercises/informationssysteme_/sem09_vue_crud/TASK) soll nun die ganze Implementierung in der Cloud zugänglich gemacht werden.
 
 ### Grundlegende Kompetenzen
-Die bestehende JS-Applikation soll als *Progressive Webapplication* konfiguriert werden, um lokal gespeicherte Einstellungen als auch schnellere Ladezeiten und grundlegende Offline-Funktionen auf mobilen Endgeräten zu ermöglichen. Die Applikation soll als Icon auf dem Startbildschirm abgelegt und im Vollbild ohne sichtbare Browser-UI geöffnet werden können. Um die Funktionalitäten im vollsten Maße auch auf mobilen Geräten nutzen zu können, soll ein *Cloud-Deployment* durchgeführt werden. Dafür bietet sich das *Github-Student-Developer-Pack* an, welches Cloud-Deployments bei Heroku oder Digital-Ocean kostenfrei zur Verfügung stellt.
+Die bestehende JS-Applikation soll als *Progressive Webapplication* konfiguriert werden, um lokal gespeicherte Einstellungen als auch schnellere Ladezeiten und grundlegende Offline-Funktionen auf mobilen Endgeräten zu ermöglichen. Die Applikation soll als Icon auf dem Startbildschirm abgelegt und im Vollbild ohne sichtbare Browser-UI geöffnet werden können. Um die Funktionalitäten im vollsten Maße auch auf mobilen Geräten nutzen zu können, soll ein *Cloud-Deployment* durchgeführt werden. Dafür bietet sich das *Github-Student-Developer-Pack* an, welches Cloud-Deployments bei Heroku oder Digital-Ocean kostenfrei zur Verfügung stellt. Die Implementierung muss dabei öffentlich zugänglich sein und daher auch mit einem einfachen Login gesichert werden.
 
 Nutzen Sie die Kenntnisse Ihrer Kolleg:innen und binden Sie die Applikation in einen *CI/CD-Workflow* ein. Es sollen alle Bereiche der Applikation ausreichend getestet und dies auch über Testreports ersichtlich sein. Die bestehende Implementierung soll auf Kundenwunsch nun auch mit einem *Auswahlfeld für Attribute* der einzelnen Tabellen und einer Dark/Light-*Theme* erweitert werden.
 
@@ -53,7 +53,7 @@ Bei der Verwendung von KI-Tools müssen die Prompts im Verzeichnis `prompts/` al
 Gruppengrösse: 3 Personen
 ### Grundanforderungen überwiegend erfüllt
 - [ ] PWA Konfiguration
-- [ ] Cloud-Deployment
+- [ ] Cloud-Deployment mit einfachem Login
 - [ ] Einbindung von CI/CD-Workflow mit Testreports
 
 ### Grundanforderungen zur Gänze erfüllt
@@ -82,4 +82,4 @@ Gruppengrösse: 3 Personen
 * [Turn your GitHub Changelog into a dedicated Website](https://openchangelog.com/blog/github-changelog)
 
 ---
-**Version** *20251216v1*
+**Version** *20251216v2*
