@@ -14,7 +14,7 @@
 - [ ] Login von Usern mit den Rollen Reader, Admin und Researcher
 
 ### Erweiterte Anforderungen zur Gänze erfüllt
-- [ ] User der Researcher-Rolle bekommen nur eingeschränkte Daten zur Verfügung gestellt (Flags beginnen mit F und V)
+- [ ] User der Researcher-Rolle bekommen nur eingeschränkte Daten zur Verfügung gestellt
 - [ ] Erstellung und Anzeige der Reports auf Basis der SQL-Funktionen
 - [ ] Globale Filterung nach einem gesetzten Start- und Enddatum
 
