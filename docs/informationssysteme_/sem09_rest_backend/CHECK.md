@@ -14,6 +14,7 @@
 * Generierung von Code nicht dokumentiert
 * Export der implementierten ReST-API (OpenAPI) ist nicht in einem Markdown enthalten
 * Backend nicht deployable
+* Bitte Packages verwenden
 
 * Kommandos in README entsprechend formatieren
 * Bitte keine kompletten Listings der enthaltenen Dateien in der README einbetten, nur wichtige Auszüge verwenden
