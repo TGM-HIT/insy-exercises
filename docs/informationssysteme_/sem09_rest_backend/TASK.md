@@ -48,9 +48,9 @@ for /f "tokens=*" %i in ('docker network ls -q') do @docker network inspect %i -
 ## Bewertung
 Gruppengrösse: 2-3 Personen
 ### Grundanforderungen überwiegend erfüllt
-- [ ] CRUD-ReST-API für die Tabelle Analysis erstellt
+- [ ] CRUD-ReST-API für die Tabelle Sample erstellt
 - [ ] Deployment von Backend-Implementierung ist lauffähig
-- [ ] Tabellen Sample, Box, BoxPos und Log sind teilweise umgesetzt 
+- [ ] Tabellen Analysis, Box, BoxPos und Log sind teilweise umgesetzt 
 
 ### Grundanforderungen zur Gänze erfüllt
 - [ ] OpenAPI Dokumentation ist für alle implementierten Endpunkte generiert
@@ -63,4 +63,4 @@ Gruppengrösse: 2-3 Personen
 * [API-First Development | Build Spring Boot Application With Swagger Codegen and JPA Buddy](https://jpa-buddy.com/guides/api-first-development-build-spring-boot-application/)
 
 ---
-**Version** *20251007v2*
+**Version** *20260106v3*
