@@ -13,10 +13,19 @@
 * GET/POST/PUT richtig verwenden
 * Generierung von Code nicht dokumentiert
 * v-data-table oder v-data-table-server verwenden
+* Achtung auf nicht-veränderbare Attribute
+* Kombinierte Anzeige von BoxPos bei Box ist unzureichend
+
+* Konsistenzcheck fehlt oder ist unzureichend
+* Fehlermeldungen sind nicht sprechend
 
 * Frontend nicht deployable
 * Bitte geeignete Packages/Directories für Code verwenden
 * Eigene Klassen für Mapping verwenden und in eigenen Files ablegen
+
+* Indizes nicht gesetzt
+* Sortierung wird ineffizient bei größerer Anzahl an Datensätzen
+* Filterung soll im Backend stattfinden
 
 * Kommandos in README entsprechend formatieren
 * Bitte keine kompletten Listings der enthaltenen Dateien in der README einbetten, nur wichtige Auszüge verwenden
