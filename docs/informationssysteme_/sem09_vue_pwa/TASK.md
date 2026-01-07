@@ -26,7 +26,7 @@ Nutzen Sie die Kenntnisse Ihrer Kolleg:innen und binden Sie die Applikation in e
 - **Export der angezeigten Analysen und Samples als CSV über ReST-Schnittstelle** Die eingeschränkte Datenmenge über die Filter
 - **Login von Usern mit den Rollen Reader, Admin und Researcher**  Für den *Login von Usern* mit den Rollen Reader, Admin und Researcher soll schon bereitstehender Code der DevOps-Engineers eingesetzt werden. Der Login soll auch den Zugriff auf das Backend einschränken. Hierfür bietet sich eine JWA-Implementierung an.
 - **User der Researcher-Rolle bekommen nur eingeschränkte Daten zur Verfügung gestellt** Wenn sich ein Benutzer mit der Rolle *Researcher* einloggt, sollen nur Samples und Analysen über die Rest-Schnittstelle zurückgegeben werden, wo die Flags mit F oder V beginnen. Nur diese dürfen übergeben und angezeigt werden.
-- **Erstellung und Anzeige der Reports auf Basis der SQL-Funktionen** Die Datenbank enthält vordefinierte SQL-Funktionen, die für tägliche Reports gebraucht werden. Es sollen folgende Punkte analysiert und angezeigt werden:
+- **Erstellung und Anzeige der Reports auf Basis der SQL-Funktionen** Die Datenbank enthält vordefinierte [SQL-Funktionen](functions.sql), die für tägliche Reports gebraucht werden. Es sollen folgende Punkte analysiert und angezeigt werden:
 	+ Rueckstellbehaelter beinhalten Probenummern ohne Analyse
 	+ Rueckstellbehaelter beinhalten keine Probenummer
 	+ Verdaechtige Probenummern im gewünschten Zeitraum
@@ -82,4 +82,4 @@ Gruppengrösse: 3 Personen
 * [Turn your GitHub Changelog into a dedicated Website](https://openchangelog.com/blog/github-changelog)
 
 ---
-**Version** *20251216v2*
+**Version** *20260107v3*
