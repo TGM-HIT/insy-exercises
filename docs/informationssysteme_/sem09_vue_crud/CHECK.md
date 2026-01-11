@@ -13,18 +13,22 @@
 * GET/POST/PUT richtig verwenden
 * Generierung von Code nicht dokumentiert
 * v-data-table oder v-data-table-server verwenden
-* Achtung auf nicht-veränderbare Attribute
-* Kombinierte Anzeige von BoxPos bei Box ist unzureichend
+* Achtung auf nicht-veränderbare Attribute in der Tabelle
+* Kombinierte Anzeige von BoxPos bei Box ist unzureichend oder nicht vorhanden
 
-* Konsistenzcheck fehlt oder ist unzureichend
-* Fehlermeldungen sind nicht sprechend
+* Konsistenzcheck fehlt oder ist ausbaufähig
+* Fehlermeldungen sind nicht (alle) sprechend
 
 * Frontend nicht deployable
 * Bitte geeignete Packages/Directories für Code verwenden
 * Eigene Klassen für Mapping verwenden und in eigenen Files ablegen
 
-* Indizes nicht gesetzt
+* `sample_boxpos` in Samples und Analysis im Backend nicht integriert 
+
+* Neue Indizes in der DB nicht erstellt
+* Sortierung im Backend nicht implementiert
 * Sortierung wird ineffizient bei größerer Anzahl an Datensätzen
+
 * Filterung soll im Backend stattfinden
 
 * Kommandos in README entsprechend formatieren
