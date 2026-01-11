@@ -1,12 +1,24 @@
+Repository-Name: []() 
 
 ### Grundanforderungen überwiegend erfüllt
 - [ ] PWA Konfiguration
+    * Entry Point Definition
+    * Manifest vollständig
+    * Service Worker
 - [ ] Cloud-Deployment
+    * nicht ersichtlich
+    * Logindaten
+    * Zugriff auf alle Tabellen
 - [ ] Einbindung von CI/CD-Workflow mit Testreports
+    * Workflow Konfiguration
+    * Badges am Anfang vom README
+    * Backend & Frontend Testreports
 
 ### Grundanforderungen zur Gänze erfüllt
 - [ ] Auswahlfeld von zu anzeigenden Attributen der einzelnen Tabellen
+    * Attribute auswählbar
 - [ ] Theme mit dark/light Switch
+    * Lesbarkeit der Daten und Dialoge gegeben
 
 ### Erweiterte Anforderungen überwiegend erfüllt
 - [ ] Filterung (dateIn/dateOut, SampleID/AnalysisID, Flags) und Paging am Server
@@ -18,8 +30,18 @@
 - [ ] Erstellung und Anzeige der Reports auf Basis der SQL-Funktionen
 - [ ] Globale Filterung nach einem gesetzten Start- und Enddatum
 
-## Kommentare
-* Kommandos in `README.md` entsprechend formatieren
+
+### Kommentare zu Grundkompetenzen
+* Zugriff auf Webdeployment nicht beschrieben/möglich (URL und Credentials könnte man als Kommentar in elearning eintragen)
 * Änderungen in `CHANGELOG.md` dokumentieren
-* Generierung von Code nicht dokumentiert
-* Quellen bei der Ausarbeitung fehlen (z.B. [1] [Titel; Author; Ort; zuletzt abgerufen am 2019-04-09; online](http://link)
+* Commit Messages verbesserungswürdig
+* plugin-pwa nicht inkludiert
+* Entrypoint nicht definiert
+* Web App Manifest nicht beschrieben
+* Kommandos in `README.md` entsprechend formatieren
+* Badges nicht oder nur teilweise verwendet
+* Arbeitsschritte nicht ausreichend dokumentiert
+* Bitte keine kompletten Listings der enthaltenen Dateien in der README einbetten, nur wichtige Auszüge verwenden
+* Quellen bei der Ausarbeitung fehlen bzw. sind nicht nach IEEE-Standard referenziert (z.B. [1] [Titel; Author; Ort; zuletzt abgerufen am 2019-04-09; online](http://link)
+* Prompts (und deren vollständigen Ergebnisse) sind in einem Verzeichnis als Markdown-Dateien abzugeben
+
