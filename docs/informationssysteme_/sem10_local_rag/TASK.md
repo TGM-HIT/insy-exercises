@@ -23,7 +23,46 @@ Die lokale LLM-Umgebung soll über einen Ollama Docker Container gelöst werden,
 
 Das Modul zur Indizierung soll drei bis zehn PDF-Dokumente mit durchschnittlich 20 und mindestens eines mit mehr als 500 Seiten vektorisieren. Zu beachten ist, dass die Vektordatenbank auch Metadaten aufnehmen soll, damit der lokale Chat auch auf die PDF-Dokumente und die referenzierten Seiten hinweisen kann. Als Vektordatenbank wird das `pgvector` Modul der Postgres-DB empfohlen. Bitte hier ebenso einen Container aufsetzen. Eine Web-GUI zur Übersicht der Tabellen und Daten ist empfehlenswert (z.B. Adminer).
 
+Das Query-Service soll den ChatController implementieren, der in Zukunft austauschbar sein soll. Dieser wird von dem Dashboard verwendet, um die Anfrage der Benutzer an das lokale System zu stellen. Das Dashboard ist eine Web-GUI, die eine Chateingabe verarbeitet, die Ausgabe und die Quellen ausgibt.
+
+Um die verwendeten Dokumente referenzieren zu können, müssen beim Vektorisieren der Inhalte auch die Metadaten gespeichert werden. Dabei sollen folgende Attribute aufgenommen werden:
+
+```sql
+CREATE TABLE IF NOT EXISTS public.document_metadata (
+  id BIGSERIAL PRIMARY KEY,
+  file_name TEXT,
+  source_path TEXT,
+  pdf_title TEXT,
+  pdf_author TEXT,
+  pdf_subject TEXT,
+  pdf_keywords TEXT,
+  creation_ts TIMESTAMPTZ,
+  modification_ts TIMESTAMPTZ,
+  total_pages INT
+);
+
+CREATE TABLE public.vector_store (
+  id TEXT PRIMARY KEY,
+  content TEXT,
+  metadata JSONB,
+  embedding vector(768) NOT NULL
+);
+
+CREATE TABLE public.vector_store_document_chunk (
+  vector_id TEXT NOT NULL REFERENCES public.vector_store(id) ON DELETE CASCADE,
+  document_id BIGINT NOT NULL REFERENCES public.document_metadata(id) ON DELETE CASCADE,
+  chunk_index INT,
+  page_number INT,
+  total_chunks INT,
+  PRIMARY KEY (vector_id, document_id)
+);
+```
+Es sind die notwendigen Indizes hier nicht angeführt. Bitte diese entsprechend zu setzen!
+
+
+
 ### Erweiterte Kompetenzen
+**TBA**
 
 ## Abgabe
 Im Repository soll das `README.md` die notwendigen Schritte beschreiben. Auch das kombinierte `docker-compose.yml` soll enthalten sein. Bitte die Binaries und Class-Files in das `.gitignore` eintragen, sodass keine irrtümliche Abgabe erfolgt (besonders das `node-modules` Verzeichnis). Die Source-Code Files sollen getrennt abgelegt werden. Jegliche Änderungen müssen im `CHANGELOG.md` dokumentiert werden.
