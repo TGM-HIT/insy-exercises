@@ -16,8 +16,12 @@ NotebookLM von Google ist ein KI-gestütztes Recherche- und Notizwerkzeug, mit d
 
 Dieses Tool verlangt jedoch den Zugriff auf persönliche Dokumente. Dies soll mit einem lokalen Retrieval-Augmented Generation (RAG) System nachempfunden werden. Dabei soll ein embedded Modell herangezogen werden, das private Dateien vektorisiert und für lokale Abfragen vorbereitet. 
 
-
 ### Grundlegende Kompetenzen
+Es soll ein modularisiertes Projekt erstellt werden, welches die einzelnen Aufgaben in eigenen Modulen erfüllt (z.B. rag-core, rag-dashboard, rag-indexer-service, rag-mcp-server, rag-query-service). Als Vorschlag hierfür wäre die Spring-Boot Version 3.5.11 mit der Spring-AI in Version 1.1.1
+
+Die lokale LLM-Umgebung soll über einen Ollama Docker Container gelöst werden, der die Modelle *llama3.2* und z.B. *nomic-embed-text* zur Verfügung stellen soll.
+
+Das Modul zur Indizierung soll drei bis zehn PDF-Dokumente mit durchschnittlich 20 und mindestens eines mit mehr als 500 Seiten vektorisieren. Zu beachten ist, dass die Vektordatenbank auch Metadaten aufnehmen soll, damit der lokale Chat auch auf die PDF-Dokumente und die referenzierten Seiten hinweisen kann. Als Vektordatenbank wird das `pgvector` Modul der Postgres-DB empfohlen. Bitte hier ebenso einen Container aufsetzen. Eine Web-GUI zur Übersicht der Tabellen und Daten ist empfehlenswert (z.B. Adminer).
 
 ### Erweiterte Kompetenzen
 
@@ -51,4 +55,4 @@ Gruppengrösse: 3-4 Personen
 * [NotebookLM](https://workspace.google.com/products/notebooklm)
 
 ---
-**Version** *20260318v1*
+**Version** *20260318v2*
