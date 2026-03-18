@@ -59,7 +59,24 @@ CREATE TABLE public.vector_store_document_chunk (
 ```
 Es sind die notwendigen Indizes hier nicht angeführt. Bitte diese entsprechend zu setzen!
 
+Ein wichtiger Teil der Übung ist die Optimierung der Dimension und der Chunk-Größe. Ein Vorschlag für die Applikations Konfiguration wird hier gegeben:
 
+```yml
+  ai:
+    vectorstore:
+      pgvector:
+        table-name: vector_store
+        dimensions: 768
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: llama3.2
+      embedding:
+        options:
+          model: nomic-embed-text
+          num-ctx: 8192
+```
 
 ### Erweiterte Kompetenzen
 **TBA**
