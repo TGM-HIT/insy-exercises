@@ -79,7 +79,11 @@ Ein wichtiger Teil der Übung ist die Optimierung der Dimension und der Chunk-Gr
 ```
 
 ### Erweiterte Kompetenzen
-**TBA**
+Als erste erweiterte Aufgaben sollen verschiedene Modelle miteinander verglichen werden. Als Verlgeich kann zum Beispiel *mxbai-embed-large-v1* herangezogen werden. Auch *llama3.2* kann durch DeepSeek oder Mistral ersetzt werden. Es soll auf jeden Fall der Unterschied festgehalten werden, welcher durch einen Benchmark verglichen werden soll. Dabei ist die Datenmenge, Last und die Response essentiell.
+
+Eine zusätzliche Erweiterung ist die Verwendung von einer anderen Vektordatenbank (z.B. Qdrant). Welche Auswirkungen hat dies auf die Erstellung und Abfrage? Das Benchmark soll dahingehend erweitert werden.
+
+Die Verwaltung der persönlichen Dokumente ist bislang nich weiter beachtet worden. Hier soll nun die Verwaltung der Dokumente über die GUI möglich sein. Auch ein leichtes Hinzufügen von Dokumenten soll ermöglicht werden.
 
 ## Abgabe
 Im Repository soll das `README.md` die notwendigen Schritte beschreiben. Auch das kombinierte `docker-compose.yml` soll enthalten sein. Bitte die Binaries und Class-Files in das `.gitignore` eintragen, sodass keine irrtümliche Abgabe erfolgt (besonders das `node-modules` Verzeichnis). Die Source-Code Files sollen getrennt abgelegt werden. Jegliche Änderungen müssen im `CHANGELOG.md` dokumentiert werden.
@@ -104,11 +108,17 @@ Gruppengrösse: 3-4 Personen
 - [ ] Optimierung von Chunk-Größe und Indizierungszeit
 
 ### Erweiterte Anforderungen überwiegend erfüllt
+- [ ] ein weiteres Modell vektorisieren
+- [ ] Benchmark zu Vektoren, Datenmenge, Geschwindigkeit, Last und Response
 
 ### Erweiterte Anforderungen zur Gänze erfüllt
+- [ ] eine weitere Vektordatenbank verwenden
+- [ ] Benchmarking (aus der EKü mit Vergleich der beiden VektorDBs)
+- [ ] Integration der Verwaltung der Dokumente in der GUI (Vorschlag mit Documentstore, z.B. MinIO)
 
 ## Quellen
 * [NotebookLM](https://workspace.google.com/products/notebooklm)
+* [SYT Theorie - Dezentrale Systeme](https://elearning.tgm.ac.at/course/view.php?id=199#coursecontentcollapse9)
 
 ---
-**Version** *20260318v2*
+**Version** *20260325v3*
