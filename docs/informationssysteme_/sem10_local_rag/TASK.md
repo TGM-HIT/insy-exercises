@@ -119,6 +119,7 @@ Gruppengrösse: 3-4 Personen
 ## Quellen
 * [NotebookLM](https://workspace.google.com/products/notebooklm)
 * [SYT Theorie - Dezentrale Systeme](https://elearning.tgm.ac.at/course/view.php?id=199#coursecontentcollapse9)
+* "Energy Efficiency across Programming Languages" [acm.org](https://dl.acm.org/doi/epdf/10.1145/3136014.3136031)
 
 ---
 **Version** *20260325v3*
