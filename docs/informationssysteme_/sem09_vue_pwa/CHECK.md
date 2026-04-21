@@ -23,13 +23,26 @@ Repository-Name: []()
 
 ### Erweiterte Anforderungen überwiegend erfüllt
 - [ ] Filterung (dateIn/dateOut, SampleID/AnalysisID, Flags) und Paging am Server
+    * Backendfilter im Repository
+    * Paging Methode
+    * Performance Check bei Logs
 - [ ] Export der angezeigten Analysen als CSV über ReST-Schnittstelle
+    * CSV Export nur mit eingeschränkten Attributen
+    * Filterergebnis berücksichtigt
 - [ ] Login von Usern mit den Rollen Reader, Admin und Researcher
+    * API Check mit curl
+    * Plaintext PWs vermieden
+    * Encrypting und Init sauber
 
 ### Erweiterte Anforderungen zur Gänze erfüllt
 - [ ] User der Researcher-Rolle bekommen nur eingeschränkte Daten zur Verfügung gestellt
+    * Gesamte Einschränkung der Datenbasis am Server (AOP-Ansatz)
+    * Flags F und V berücksichtigt
 - [ ] Erstellung und Anzeige der Reports auf Basis der SQL-Funktionen
+    * Reportanzeige auf Datum
 - [ ] Globale Filterung nach einem gesetzten Start- und Enddatum
+    * Settings und Anzeige beachtet
+    * DateIn Werte pre-Filterung im Backend
 
 ### Kommentare zu Grundkompetenzen
 * Zugriff auf Webdeployment nicht beschrieben/möglich (URL und Credentials könnte man als Kommentar in elearning eintragen)
