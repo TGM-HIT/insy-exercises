@@ -125,6 +125,6 @@ Gruppengrösse: 3-4 Personen
 * "Energy Efficiency across Programming Languages" [acm.org](https://dl.acm.org/doi/epdf/10.1145/3136014.3136031)
 
 ---
-Hinweis: Diese Aufgabenbeschreibung wurde mit Unterstützung des KI-Assistenzsystems Perplexity erstellt.  
+*Hinweis:* Diese Aufgabenbeschreibung wurde mit Unterstützung des KI-Assistenzsystems Perplexity erstellt.  
 
-**Version** *20260408v1*
+**Version** *20260408v2*
