@@ -36,6 +36,7 @@ Bitte versuche alle wichtigen Informationen kurz und prägnant als Dokumentation
 * Wie installiert man sich einen Container?
 * Wie bekommt man Daten/Verbindung in/aus dem Container?
 * Was ist ein Docker Compose file?
+* Erkläre das entsprechende Docker Compose File.
 
 ### Erweitert
 
@@ -54,11 +55,11 @@ Nachdem du die Fragestellungen ausgearbeitet hast, siehe dir folgende Aufgabenst
 
 Nachdem [Docker Desktop](https://www.docker.com/) installiert ist und der Balken in der unteren linken Ecke grün ist, können Container installiert werden.
 
-Erstelle dazu in deinem Benutzer Ordner (~) einen neuen Ordner namens `mariadb`. Erstelle darin ein `compose.yml` mit folgendem [Inhalt](https://raw.githubusercontent.com/dominikhoebert/docker-projects/master/mariadb/compose.yml). Stelle sicher, dass dieser Ordner **nicht** in einem Cloudspeicher (wie OneDrive oder Dropbox) liegt (Grund: Cloudspeicher lagern manchmal Daten in die Cloud aus, dann funktioniert unser Container nicht mehr).
+Lade dir die [Vorlage](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F1.Semester%2F13_Datenbanksystem_Installation%2Fdatabase) herunter. Entpacke diesen in deinen Benutzer Ordner (~). Du solltest nun ein deinem Benutzerordner einen mariadb Ordner haben mit einer `compose.yml` und einem Sample_database Ordner. Stelle sicher, dass dieser mariadb Ordner **nicht** in einem Cloudspeicher (wie OneDrive oder Dropbox) liegt (Grund: Cloudspeicher lagern manchmal Daten in die Cloud aus, dann funktioniert unser Container nicht mehr).
 
-Konfiguriere nun das compose file: ändere das `MARIADB_ROOT_PASSWORD` (Passwort Manager!) da sonst jeder mit deiner IP Adresse auf deine Datenbank zugreifen kann. Weiters werden mit diesem compose file nicht nur ein mariadb Container gestartet sondern auch eine Nummer an Web IDEs. Probiere zumindest einen davon aus. Die anderen können mit `#` auskommentiert werden.
+Versuche das compose File zu verstehen. Es muss nichts darin geändert werden.
 
-Mit einem Terminal soll zu dem Ordner navigiert werden (`cd`).
+Mit einem Terminal soll zu dem Ordner navigiert werden (`cd mariadb`).
 Dann soll folgender Befehl ausgeführt werden:
 
 ```bash
@@ -66,14 +67,20 @@ docker-compose up -d
 ```
 
 Dies ladet die Container herunter, installiert und startet diese.
-Nun kann die Web IDE über [localhost:PORT](http://localhost:PORT/) aufgerufen werden (Adminer: 8081; WhoDB: 8082; usw.)
-Melde dich an mit System: MySQL; Server: *mariadb* ; und deinen gewählten DB Credetials (Standard User: *root* ; Password: *example*)
+Nun kann die Web IDE Adminer über [http://localhost:8081](http://localhost:8081/) aufgerufen werden.
+Melde dich an mit System: MySQL; Server: *mariadb* ; Root-User: *root* ; Password: *admin*.
 Mache dich mit der IDE vertraut.
+
+Solltest du je deinen Container zurücksetzen wollen, geht diesem mit dem Command. 
+
+```bash
+docker compose down -v
+```
 
 Um in den Container mittels Bash zu gelangen führe im Terminal aus:
 
 ```bash
-docker exec -ti db /bin/sh
+docker exec -ti mariadb /bin/sh
 ```
 
 Dann kann MariaDB Kommandozeile aufgerufen werden:
@@ -101,20 +108,9 @@ Nun wollen wir nicht ständig in der MariaDB Command Line arbeiten sondern eine 
 * eventuell Driver update
 * Test Connection
 * OK
+* Links bei der Connection klicke auf die Zahl --> Alle Anzeigen
 
 Mache dich nun mit der Benutzeroberfläche vertraut. Versuche einfache Befehle auszuführen.
-
-### Sample Database einbinden
-
-Bis auf Systemrelevante Datenbanken ist unsere DB leer. Das wollen wir ändern.
-
-* [Download Sample Databases](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F1.Semester%2F13_Datenbanksystem_Installation%2FSample_databases)
-* Zeige dir das SQL File rechts im Fileexplorer an
-* markiere alle SQLs, dann Rechtsklick
-* Run...
-* Target data source: Wähle die Zieldatenbank falls noch nicht ausgewählt
-* Run
-* Links bei der Connection klicke auf die Zahl --> Alle Anzeigen
 
 Du solltest nun mehrere Datenbanken sehen. Mache dich mit ihnen vertraut.
 
@@ -135,9 +131,9 @@ Gruppengröße: 1 Person
 - [ ] MariaDB oder MySQL Container installiert
 - [ ] Datagrip Verbindung zur Datenbank im Container hergestellt
 ### Grundanforderungen **zur  Gänze erfüllt**
-- [ ] Sample Databases angelegt
 - [ ] Fragestellungen beantwortet
 - [ ] Kann einfache Befehle in Datagrip ausführen
+
 ### Erweiterte Anforderungen **überwiegend erfüllt**
 
 - [ ] Ubuntu Server installiert
@@ -168,4 +164,4 @@ Gruppengröße: 1 Person
 - "SampleDatabase"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; [online](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F1.Semester%2F13_Datenbanksystem_Installation%2FSample_databases)
 
 ---
-**Version** *20240812v3*
+**Version** *20260805v4*
