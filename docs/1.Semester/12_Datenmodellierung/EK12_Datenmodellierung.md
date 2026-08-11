@@ -49,6 +49,7 @@ Bei einem Abgabegespräch sind die laufende Umgebung sowie kurze Kontrollfragen 
 
 ## Bewertung
 Gruppengröße: 1 Person
+
 ### Erweiterte Anforderungen **überwiegend erfüllt**
 
 - [ ] Erfüllen der erweiternden Aufgabenstellung 

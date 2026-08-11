@@ -44,7 +44,11 @@ TIPP: in den Quellen findest du die Antworten zu all diesen Fragen mit nur einem
 ## Detaillierte Aufgabenbeschreibung
 ### Grundanforderungen
 
+#### 1. SQL Island
+
 Arbeite dich in SQL ein indem du [SQL Island](https://sql-island.informatik.uni-kl.de/) spielst. Gib deinen richtigen Namen im Spiel an, du erhältst ein Zertifikat am Ende, welches du in deine Dokumentation einbindest.
+
+#### 2. flightdatabase
 
 Nachdem du die Fragestellungen ausgearbeitet hast, löse folgende Aufgabenstellungen in der [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *insyread* pw: *insystudent* Projekteserver NEU). Versuche dabei dich mit der Benutzeroberfläche von phpmyadmin auseinanderzusetzten. Probiere alles aus, du kannst nichts kaputt machen. Solltest du dich nicht auskennen, frage deine Lehrperson.
 
@@ -99,7 +103,9 @@ Schreibe SQL Statements für folgende Aufgaben:
 4. Flugzeuge, die mehr als 30 Sitzreihen haben. Gib zusätzlich aus, wie viele Sitzreihen sie mehr als 30 haben.
 5. Passagiere, die in Reihe 5-15 sitzen und ein „e“ im Vornamen haben.
 
-Weitere [Übungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.Semester/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung.xlsx) (nicht erforderlich für Bewertung, eventuell hilfreich für die Moodle Überprüfung) ([Lösungen](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.Semester/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung%20L%C3%B6sung.xlsx)).
+#### 3. Kreuzworträtsel
+
+Löse das [Kreuzworträtsel](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.Semester/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung.xlsx).
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinie.md zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
@@ -111,9 +117,9 @@ Gruppengröße: 1 Person
 ### Grundanforderungen **überwiegend erfüllt**
 - [ ] Erfüllen des Moodle Test
 - [ ] Abgabe der Dokumentation über Fragenstellung und Aufgaben
+- [ ] Check durch die Lehrperson
 ### Grundanforderungen **zur Gänze erfüllt**
 
-- [ ] SQL Island Zertifikat erhalten
 - [ ] Abgabegespräch über Fragestellungen und Aufgaben
 
 ## Quellen
@@ -137,4 +143,4 @@ Gruppengröße: 1 Person
 * "SQL TOP, LIMIT, FETCH FIRST or ROWNUM Clause"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/sql_top.asp)
 
 ---
-**Version** *20240811v2*
+**Version** *20260810v3*

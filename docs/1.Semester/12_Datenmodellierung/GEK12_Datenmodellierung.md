@@ -50,15 +50,67 @@ TIPP: in den Quellen findest du die Antworten zu all diesen Fragen mit nur einem
 
 Nachdem du die Fragestellungen ausgearbeitet hast, siehe dir folgende Aufgabenstellungen an.
 
+#### 1. Data and Tables
+
+Löse das Arbeitsblatt:
+
+![data and tables](Weiterfuehrende_Uebungen/data and tables Übung.PNG)
+
+#### 2. Doughnuts
+
+Löse das Arbeitsblatt:
+
+![doughnuts](Weiterfuehrende_Uebungen/doughnuts.PNG)
+
+#### 3. Richtungssätze
+
+Finde zu den unten angegebenen Beispielen die Kardinalitäten und ob diese optional sind oder nicht. Formuliere jeweils die „Richtungssätze“.
+
+| Objekttypen, Beziehung           | Richtungssätze                                               | Kardinalität, Optionalität |
+| -------------------------------- | ------------------------------------------------------------ | -------------------------- |
+| Hersteller, Auto, produzieren    | ein Hersteller kann einen oder mehrere Autotypen produzieren<br />ein Autotyp muss von genau einem Hersteller produziert werden | 1:cn                       |
+| Schiff, Hafen, ankern            |                                                              |                            |
+| Lehrer, Gegenstand, unterrichten |                                                              |                            |
+| Mann, Frau, heiraten             |                                                              |                            |
+
+#### 4. Landwirtschaftsbetrieb
+
 > Ein Landwirtschaftsbetrieb züchtet verschiedene Tiere (Kühe, Schweine, etc.). Jedes Tier hat einen Namen, ein Geburtsdatum, Schulterhöhe und Gewicht. Es ist im Zuchtregister mit einer Nummer gekennzeichnet. Der Landwirt verwaltet zu jedem Tier die bevorzugte Futtersorte, dessen Hersteller und Preis. Von den Futterherstellern sind Name, Anschrift, Name und Telefonnummer des Vertreters bekannt. Die Tiere sind in mehreren Ställen untergebracht. Sie stehen dort in Boxen (nach Art getrennt). Für die Stalljungen ist noch die Information notwendig, welchen Belag (Heu, Sand, etc.) sie in jede Box streuen sollen.
 
-Schreibe dir zuerst alle Objekttypen, Attribute und Schlüsselkandidaten heraus. Erstelle dann ein entsprechendes ERD. Dieses kann Handschriftlich oder mit einem Tool gezeichnet sein (zb. [diagrams.net](https://app.diagrams.net/)).
+1. Schreibe die Objettypen, Attribute und Schlüsselkandidaten als Tabelle heraus
 
-Das ERD sollte den Regeln und Standarts aus den Skripten entsprechen und alle Entitäten, Attribute, Beziehungen, Kardinalitäten und Optionalitäten enthalten. Vergleiche mit dem Beispiel ERD.
+| Objekttypen | Attribute           | Schlüsselkandidat |
+| ----------- | ------------------- | ----------------- |
+| Tiere       | Namen               |                   |
+|             | Zuchtregisternummer | X                 |
+|             | ...                 |                   |
+
+2. Schreibe die Beziehungen heraus
+
+zb: Tier cn:1 Futtersorte (bevorzugt)
+
+3. Erstelle das ERD nach den Standarts aus den Skripten (ERD nach Chen) entsprechen und alle Entitäten, Attribute, Beziehungen, Kardinalitäten und Optionalitäten enthalten. Vergleiche mit dem Beispiel ERD.
+
+Dieses kann Handschriftlich oder mit einem Tool gezeichnet sein (zb. [diagrams.net](https://app.diagrams.net/)).
+
+Das ERD sollte den Regeln und Standarts aus den Skripten (ERD nach Chen) entsprechen und alle Entitäten, Attribute, Beziehungen, Kardinalitäten und Optionalitäten enthalten. Vergleiche mit dem Beispiel ERD.
 
 ??? Beispiel ERD
 
     ![Beispiel-ERD](erd_example.png)
+
+#### 5. Automobilhersteller
+
+> Ein Automobilhersteller will den Verkauf und die Produktion seiner  Modelle mit Hilfe einer relationalen Datenbank verwalten. Eine Analyse  der Betriebsabläufe ergibt die folgende grundlegende Informationsstruktur:
+>
+> - Ein Kunde (Autohaus) kann verschiedene Modelle bestellen, ein Modell kann von mehreren Kunden bestellt werden.
+> - Jede Kundenbestellung (Auftrag) kann mehrere Auftragspositionen (Modelle) umfassen. Außerdem sind auftragsbezogen Auftragsdatum,  Rechnungsdatum, Zahlungseingang, Bestellmenge und Liefertermin zu  erfassen. Wobei Mengen und Liefertermin von Auftragsposition zu  Auftragsposition unterschiedlich sein können. Die Rechnungsstellung soll auftragsbezogen erfolgen.
+> - Ein Modell besteht aus verschiedenen Bauteilen unterschiedlicher Stückzahl.
+> - Ein Bauteil kann bei verschiedenen Zulieferfirmen gefertigt werden, jede Zulieferfirma kann verschiedene Bauteile liefern. Bauteil-Kosten, Lieferzeit und Qualität variieren zwischen den verschiedenen Zulieferfirmen.
+>
+> Dabei sollen mindestens die folgenden Attribute der Entitäten verwaltet werden: Kunden: Name, Straße, PLZ, Ort, Tel, Fax, E-Mail Modell: Modell-Nr, Modell-Bez, Baujahr, Modell-Preis; Bauteile: Bauteil-Nr, Bauteil-Funktion, Bauteil-Kosten, Lieferzeit, Qualitätsklasse Zulieferfirma: Name, Straße, PLZ, Ort, Tel, Fax, E-Mail, Internetadresse.
+
+Selbe 3 Schritte Vorgehensweiße wie oben.
 
 [Weiterführende Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/12_Datenmodellierung/Weiterfuehrende_Uebungen)
 
@@ -79,11 +131,17 @@ Bei einem Abgabegespräch sind die laufende Umgebung sowie kurze Kontrollfragen 
 
 ## Bewertung
 Gruppengröße: 1 Person
-### Grundanforderungen **überwiegend erfüllt**
+- [ ] ### Grundanforderungen **überwiegend erfüllt**
+
 - [ ] Erfüllen des Moodle Test
+
 - [ ] Abgabe der Dokumentation über Fragenstellung und Aufgaben
+
+- [ ] Check durch die Lehrperson
 ### Grundanforderungen **zur Gänze erfüllt**
+
 - [ ] Abgabegespräch über Fragestellungen und Aufgaben
+
 ### Erweiterte Anforderungen **überwiegend erfüllt**
 
 - [ ] Erfüllen der erweiternden Aufgabenstellung 
@@ -102,4 +160,4 @@ Gruppengröße: 1 Person
 * "Datenmodellierung 2 - ERM, ERD" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%202%20-%20ERM%2C%20ERD.pdf)
 
 ---
-**Version** *20240811v3*
+**Version** *20260810v4*
