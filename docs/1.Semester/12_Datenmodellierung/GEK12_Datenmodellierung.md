@@ -79,21 +79,21 @@ Finde zu den unten angegebenen Beispielen die Kardinalitäten und ob diese optio
 
 1. Schreibe die Objettypen, Attribute und Schlüsselkandidaten als Tabelle heraus
 
-| Objekttypen | Attribute           | Schlüsselkandidat |
-| ----------- | ------------------- | ----------------- |
-| Tiere       | Namen               |                   |
-|             | Zuchtregisternummer | X                 |
-|             | ...                 |                   |
+    | Objekttypen | Attribute           | Schlüsselkandidat |
+    | ----------- | ------------------- | ----------------- |
+    | Tiere       | Namen               |                   |
+    |             | Zuchtregisternummer | X                 |
+    |             | ...                 |                   |
 
 2. Schreibe die Beziehungen heraus
 
-zb: Tier cn:1 Futtersorte (bevorzugt)
+	zb: Tier cn:1 Futtersorte (bevorzugt)
 
 3. Erstelle das ERD nach den Standarts aus den Skripten (ERD nach Chen) entsprechen und alle Entitäten, Attribute, Beziehungen, Kardinalitäten und Optionalitäten enthalten. Vergleiche mit dem Beispiel ERD.
 
-Dieses kann Handschriftlich oder mit einem Tool gezeichnet sein (zb. [diagrams.net](https://app.diagrams.net/)).
+    Dieses kann Handschriftlich oder mit einem Tool gezeichnet sein (zb. [diagrams.net](https://app.diagrams.net/)).
 
-Das ERD sollte den Regeln und Standarts aus den Skripten (ERD nach Chen) entsprechen und alle Entitäten, Attribute, Beziehungen, Kardinalitäten und Optionalitäten enthalten. Vergleiche mit dem Beispiel ERD.
+    Das ERD sollte den Regeln und Standarts aus den Skripten (ERD nach Chen) entsprechen und alle Entitäten, Attribute, Beziehungen, Kardinalitäten und Optionalitäten enthalten. Vergleiche mit dem Beispiel ERD.
 
 ??? Beispiel ERD
 
