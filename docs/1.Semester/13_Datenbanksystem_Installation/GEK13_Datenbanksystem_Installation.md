@@ -130,6 +130,7 @@ Gruppengröße: 1 Person
 ### Grundanforderungen **überwiegend erfüllt**
 - [ ] MariaDB oder MySQL Container installiert
 - [ ] Datagrip Verbindung zur Datenbank im Container hergestellt
+- [ ] Check durch Lehrperson
 ### Grundanforderungen **zur  Gänze erfüllt**
 - [ ] Fragestellungen beantwortet
 - [ ] Kann einfache Befehle in Datagrip ausführen

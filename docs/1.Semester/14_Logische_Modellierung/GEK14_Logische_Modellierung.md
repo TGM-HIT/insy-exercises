@@ -44,7 +44,7 @@ Verwende folgende Quellen:
 
 ### Erweitert
 
-* Wie funktionieren foreign key Constraints in SQL?
+* Wie funktionieren *foreign key Constraints* in SQL?
 * Wie funktionieren ON UPDATE und ON DELETE?
 * Welches Problem können diese lösen?
 
@@ -56,7 +56,7 @@ Nachdem du die Fragestellungen ausgearbeitet hast, bearbeite folgende Aufgabenst
 
 ### Grundanforderungen
 
-Erstelle aus dem ERD aus *GEK12 Datenmodellierung* Landwirtschaftsbetrieb ein RM und in weiterer Folge ein SQL Create-Script. Das Skript soll keine Fehler werfen, auch nicht bei wiederholten ausführen, sollte das Ergebnis immer das selbe sein. Füge testweise halbwegs sinnvolle Werte in jede Tabelle ein.
+Erstelle aus dem ERD aus *GEK12 Datenmodellierung* **Landwirtschaftsbetrieb und Automobilhersteller** ein RM und in weiterer Folge ein SQL Create-Script. Halte dich an die 7 Regeln aus *Datenmodellierung 3 - RM*. Das Skript soll keine Fehler werfen, auch nicht bei wiederholten ausführen, sollte das Ergebnis immer das selbe sein. Füge testweise halbwegs sinnvolle Werte in jede Tabelle ein.
 
 ??? "Beispiel RM"
 
@@ -87,7 +87,7 @@ Erstelle aus dem ERD aus *GEK12 Datenmodellierung* Landwirtschaftsbetrieb ein RM
 
 ### Erweitert
 
-Versuche sinnvolle foreign key Constraints in das Datenbankschema einzubauen.
+Versuche sinnvolle *foreign key Constraints* in das Datenbankschema einzubauen.
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinien zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
@@ -97,17 +97,24 @@ Bei einem Abgabegespräch sind die laufende Umgebung sowie kurze Kontrollfragen 
 ## Bewertung
 Gruppengröße: 1 Person
 ### Grundanforderungen **überwiegend erfüllt**
+
 - [ ] Erfüllen des Moodle Test
+
 - [ ] Abgabe der Dokumentation über Fragenstellung und Aufgaben
+
+- [ ] Check durch die Lehrperson
+
 ### Grundanforderungen **zur Gänze erfüllt**
+
 - [ ] Abgabegespräch über Fragestellungen und Aufgaben
+
 ### Erweiterte Anforderungen **überwiegend erfüllt**
 
-- [ ] Abgabegespräch über Fragestellungen
+- [ ] Erfüllen der erweiternden Aufgabenstellung 
 
 ### Erweiterte Anforderungen **zur Gänze erfüllt**
 
-- [ ] Aufgabenstellung erfüllt
+- [ ] Erweiterte Fragestellungen beantwortet
 
 ## Quellen
 * "Microsoft Office Lens";  [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&hl=de_AT&gl=US), [iPhone](https://apps.apple.com/at/app/microsoft-office-lens-pdf-scan/id975925059)
@@ -121,4 +128,4 @@ Gruppengröße: 1 Person
 * "FOREIGN KEY Constraints"; MySQL 8.0 Reference Manual; zuletzt besucht 2022-11-08; [online](https://dev.mysql.com/doc/refman/8.0/en/create-table-foreign-keys.html)
 
 ---
-**Version** *20240812v2*
+**Version** *20260810v3*

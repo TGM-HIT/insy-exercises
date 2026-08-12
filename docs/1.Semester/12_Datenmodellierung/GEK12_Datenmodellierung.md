@@ -131,13 +131,14 @@ Bei einem Abgabegespräch sind die laufende Umgebung sowie kurze Kontrollfragen 
 
 ## Bewertung
 Gruppengröße: 1 Person
-- [ ] ### Grundanforderungen **überwiegend erfüllt**
+### Grundanforderungen **überwiegend erfüllt**
 
 - [ ] Erfüllen des Moodle Test
 
 - [ ] Abgabe der Dokumentation über Fragenstellung und Aufgaben
 
 - [ ] Check durch die Lehrperson
+
 ### Grundanforderungen **zur Gänze erfüllt**
 
 - [ ] Abgabegespräch über Fragestellungen und Aufgaben
