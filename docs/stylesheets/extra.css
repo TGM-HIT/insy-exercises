@@ -1,0 +1,5 @@
+.invisible-text {
+  visibility: hidden; /* keeps layout space */
+  /* or: */
+  /* display: none;       /* removes from layout entirely */
+}

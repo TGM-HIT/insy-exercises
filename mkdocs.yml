@@ -43,3 +43,6 @@ markdown_extensions:
   - pymdownx.details
 
 edit_uri: "edit/main/docs/"
+
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,51 @@
+set shell := ["pwsh", "-NoProfile", "-Command"]
+
+# Zeigt alle verfügbaren Rezepte
+default:
+    @just --list
+
+# Startet postgres + pgadmin im Hintergrund
+up:
+    docker compose up -d
+
+# Stoppt die Container (Daten bleiben erhalten)
+down:
+    docker compose down
+
+# Stoppt die Container und löscht alle Volumes/Daten
+clean:
+    docker compose down -v
+
+# Setzt die DB komplett zurück und importiert dvdrental.sql neu
+reset: clean up
+    @echo "Warte auf Neuinitialisierung der Datenbank..."
+
+# Zeigt die Logs des postgres-Containers (folgend)
+logs:
+    docker compose logs -f postgres
+
+# Öffnet eine psql-Shell in der dvdrental-Datenbank
+psql:
+    docker exec -it postgres psql -U postgres -d dvdrental
+
+# Führt eine SQL-Datei gegen die dvdrental-Datenbank aus, z.B. just run-sql schema.sql
+run-sql file:
+    docker exec -i postgres psql -U postgres -d dvdrental < {{file}}
+
+# Zeigt den Status der Container
+status:
+    docker compose ps
+
+# Startet zusaetzlich die beiden Testclient-Container (shop-pc = unsicherer
+# Rechner, office-pc = regulaerer Client) fuer die pg_hba.conf/SSL-Tests
+test-clients-up:
+    docker compose --profile test up -d shop-pc office-pc
+
+# Stoppt die Testclient-Container wieder
+test-clients-down:
+    docker compose --profile test rm -sf shop-pc office-pc
+
+# Oeffnet eine psql-Shell als beliebiger Datenbank-Benutzer,
+# z.B. just psql-as mitarbeiter_anna
+psql-as user:
+    docker exec -it postgres psql -U {{user}} -d dvdrental
