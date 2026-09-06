@@ -33,6 +33,7 @@ Das Ziel eurer Arbeit ist die Erstellung eines **übersichtlichen Protokolls** m
 
 ### Bereitstellung der Datenbank (Docker Compose)
 
+Lade den [DB-Ordner](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F3.Semester%2F31_PostgreSQL_Benutzerverwaltung%2Fdb) mit den Projekt Dateien herunter.
 Im Ordner `db/` findet ihr dafür folgende Dateien: TODO Download link
 
 - `compose.yml` - definiert einen `postgres`-Container (inkl. der vorbefüllten Datenbank `dvdrental`) sowie einen `pgadmin`-Container zur grafischen Verwaltung
@@ -111,7 +112,7 @@ Gruppengrösse: 1 Person
 - [ ] Zugriffskontrolle über `pg_hba.conf` (unsicherer Rechner blockiert, SSL-Zwang) umgesetzt und getestet
 - [ ] Marketing-Zugriff auf aktive Kunden-E-Mails mittels View gelöst
 
-_:robot: Diese Aufgabe wurde Mithilfe von KI erstellt._
+_🤖 Diese Aufgabe wurde Mithilfe von KI erstellt._
 
 ## Quellen
 
