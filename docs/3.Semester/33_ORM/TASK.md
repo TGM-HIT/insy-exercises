@@ -38,7 +38,7 @@ Gegeben ist ein kleines Django-Projekt `recipes`, das im Wesentlichen aus einer 
 
 #### Projekt aufsetzen
 
-- Lade zunächst das Projekt herunter, initialisiere ein _virtual environment_ und installiere mittels `pip install -r requirements.txt` die entsprechenden Pakete.
+- Lade zunächst das [Projekt](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F3.Semester%2F33_ORM%2Fproject) herunter, initialisiere ein _virtual environment_ und installiere mittels `pip install -r requirements.txt` die entsprechenden Pakete.
 - Starte das Projekt mittels `./manage.py runserver`.
 - Lege in der `backend/models.py` entsprechende Modelle für Rezepte an (siehe Abschnitt [Datenmodell](#datenmodell)).
 - Füge in der `backend/admin.py` deine Modelle hinzu (`admin.site.register(<Modellname>)`).
@@ -205,6 +205,8 @@ _🤖 Diese Aufgabe wurde Mithilfe von KI erstellt._
 - "Django Dokumentation Queries"; [online](https://docs.djangoproject.com/en/5.2/topics/db/queries/)
 - "django-model-utils"; [online](https://github.com/jazzband/django-model-utils)
 - "django-polymorphic"; [online](https://github.com/jazzband/django-polymorphic)
+- "ORM 1 - Allgemeines"; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/3.Semester/33_ORM/project/ORM%201%20-%20Allgemeines.pdf)
+- "Projektdateien"; [online](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F3.Semester%2F33_ORM%2Fproject)
 
 ---
 
