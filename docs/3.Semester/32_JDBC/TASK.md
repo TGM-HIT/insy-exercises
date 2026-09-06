@@ -89,6 +89,45 @@ javac -cp ".;json-20171018.jar;postgresql-42.2.8.jar" Server.java
 java -cp ".;json-20171018.jar;postgresql-42.2.8.jar" Server
 ```
 
+### Datenmodell
+
+Das Datenbankschema (siehe `webshop.sql`) besteht aus vier Tabellen: Artikel, Kunden, Bestellungen und Bestellzeilen. Eine Bestellung gehört zu genau einem Kunden, eine Bestellzeile referenziert genau eine Bestellung und genau einen Artikel (klassische m:n-Auflösung zwischen Bestellungen und Artikeln).
+
+```mermaid
+erDiagram
+    CLIENTS ||--o{ ORDERS : "gibt auf"
+    ORDERS ||--|{ ORDER_LINES : "enthält"
+    ARTICLES ||--o{ ORDER_LINES : "wird bestellt in"
+
+    CLIENTS {
+        int id PK
+        text name
+        text address
+        text city
+        text country
+    }
+
+    ORDERS {
+        int id PK
+        timestamp created_at
+        int client_id FK
+    }
+
+    ORDER_LINES {
+        int id PK
+        int article_id FK
+        int order_id FK
+        int amount
+    }
+
+    ARTICLES {
+        int id PK
+        text description
+        int price
+        int amount
+    }
+```
+
 ### Funktionsweise des Webshops
 
 Standardmäßig läuft der Webshop auf Port 8000; falls dieser Port bei dir belegt ist, kannst du ihn mittels der Property `Server.port` ändern. Du kannst das laufende Webservice dann entsprechend unter [http://127.0.0.1:8000](http://127.0.0.1:8000) aufrufen.
