@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Webshop",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "webshop",
+      "Username": "postgres",
+      "SSLMode": "prefer",
+      "PassFile": "/pgpass"
+    }
+  }
+}

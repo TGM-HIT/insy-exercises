@@ -1,0 +1,36 @@
+# JDBC Webshop
+
+# List available commands
+default:
+    @just --list
+
+# Start PostgreSQL and pgAdmin
+db-up:
+    cd project/db && docker compose up -d
+
+# Stop PostgreSQL and pgAdmin
+db-down:
+    cd project/db && docker compose down
+
+# Reset database (remove volumes and restart)
+db-reset:
+    cd project/db && docker compose down -v && docker compose up -d
+
+# Compile the server
+build:
+    cd project && javac -cp ".;json-20171018.jar;postgresql-42.2.8.jar" Server.java
+
+# Run the server
+run:
+    cd project && java -cp ".;json-20171018.jar;postgresql-42.2.8.jar" Server
+
+# Start everything (DB + pgAdmin + Server) in Docker
+docker-up:
+    cd project/db && docker compose up -d
+
+# Stop everything
+docker-down:
+    cd project/db && docker compose down
+
+# Build and run (local)
+start: build run
