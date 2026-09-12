@@ -1,1 +1,1 @@
-
+# Semistrukturierte Dateiformate
