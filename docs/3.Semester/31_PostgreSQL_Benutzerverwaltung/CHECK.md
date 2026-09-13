@@ -2,19 +2,16 @@
 
 ## Grundlegend überwiegend
 
-- [ ] Umgebung gestartet; Erstinitialisierung und Reset nachvollziehbar erklärt.
-- [ ] Gruppenrollen angelegt und Berechtigungsmatrix aus den Geschäftsregeln selbst abgeleitet.
-- [ ] Zahlungsrechte einschließlich notwendiger Sequenzrechte korrekt umgesetzt.
-- [ ] Kunden- und Redakteurbeschränkungen auf `film` korrekt umgesetzt.
-- [ ] Erlaubte und abgewiesene Objektzugriffe unter normalen Accounts dokumentiert; Lernversuch zu Spaltenrechten mit Vorhersage und Erklärung ausgewertet.
+- [ ] Datenbank-Umgebung mittels Docker Compose erfolgreich gestartet und Prozess erklärt
+- [ ] Rollen Kunde, Mitarbeiter, Admin und Redakteur angelegt
+- [ ] Berechtigungen für Zahlungen (einsehen, anlegen, ändern, löschen) korrekt vergeben und protokolliert
+- [ ] Zugriffsbeschränkung auf die Spalte `replacement_cost` umgesetzt
+- [ ] Dokumentation
 
 ## Grundlegend vollständig
 
-- [ ] Alle geforderten persönlichen Accounts korrekt zugeordnet; keine ungewollte Rechteweitergabe.
-- [ ] IP-Sperre und TLS-Pflicht umgesetzt; alle Fälle der Verbindungstestmatrix nachgewiesen.
-- [ ] Marketing-Zugriff über eine geschützte View vollständig umgesetzt und getestet.
-- [ ] Marketing-Zugriff über RLS **und** Spaltenrechte vollständig umgesetzt und getestet.
-- [ ] Beide Marketing-Varianten funktionieren gemeinsam und sind über getrennte Accounts nachgewiesen.
-- [ ] Lernversuch zu RLS ohne Policy mit Vorhersage und Erklärung ausgewertet.
-- [ ] Eigene zusätzliche Rolle fachlich begründet, mit minimalen Rechten umgesetzt und positiv sowie negativ getestet.
-- [ ] Lösung mit den abgegebenen Dateien reproduzierbar; Kontrollfragen verständlich beantwortet und eine kurze Transferaufgabe selbstständig umgesetzt.
+- [ ] Individuelle Accounts für Mitarbeiter und Redakteure angelegt
+- [ ] Zugriffskontrolle über `pg_hba.conf` (unsicherer Rechner blockiert, SSL-Zwang) umgesetzt und getestet
+- [ ] Marketing-Zugriff auf aktive Kunden-E-Mails mittels View gelöst
+- [ ] Index.html verknüpft
+- [ ] Dokumentation
