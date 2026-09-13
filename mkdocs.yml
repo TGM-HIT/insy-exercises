@@ -27,7 +27,15 @@ theme:
     - content.code.copy
     - content.code.annotate
 
+plugins:
+  - search
+  - glightbox:
+      manual: true
+      zoomable: true
+      auto_caption: true
+
 markdown_extensions:
+  - attr_list
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -37,7 +45,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - footnotes
   - admonition
   - pymdownx.details
