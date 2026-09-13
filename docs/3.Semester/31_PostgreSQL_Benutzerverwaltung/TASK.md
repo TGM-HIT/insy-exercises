@@ -51,7 +51,7 @@ Die Umgebung verwendet **PostgreSQL 18.6** und **pgAdmin 4 9.17**. Die Versionss
 
 ### Bereitstellung der Datenbank mit Docker Compose
 
-Ladet das [DB-Paket](db.zip) herunter und entpackt es. Alternativ könnt ihr den Ordner `docs/3.Semester/31_PostgreSQL_Benutzerverwaltung/db/` aus dem Kursrepository verwenden.
+Ladet das [DB-Paket](db.zip) herunter und entpackt es. Der entpackte Ordner `db/` enthält die vollständige lokale Arbeitsumgebung.
 
 Das Paket enthält:
 
@@ -115,9 +115,9 @@ Beim nächsten Start werden Zertifikat und Datenbank neu erzeugt. Auf dem Host g
 
 ### Datenmodell
 
-![ER-Diagramm der DVD-Verleihdatenbank](db/dvdrental-diagram.png){ width="450" .on-glb }
+![ER-Diagramm der DVD-Verleihdatenbank](images/dvdrental-diagram.png){ width="350" .on-glb }
 
-*Zum Vergrößern auf das Diagramm klicken.* [Originalbild öffnen](db/dvdrental-diagram.png).
+*Zum Vergrößern auf das Diagramm klicken.* [Originalbild öffnen](images/dvdrental-diagram.png).
 
 **Für diese Übung gilt: Ein Kunde ist aktiv, wenn `customer.active = 1` ist.** Die Spalte `active` hat im gelieferten Dump den Datentyp `integer`. Die zusätzliche boolesche Spalte `activebool` wird für diese Aufgabe nicht verwendet: Sie enthält im Ausgangsdump bei allen Kunden `true` und bildet die geforderte Unterscheidung nicht ab.
 
@@ -383,10 +383,10 @@ Alle folgenden Quellen wurden am **12.09.2026** auf Erreichbarkeit und fachliche
 - pgAdmin 4 9.17: [Container Deployment](https://www.pgadmin.org/docs/pgadmin4/9.17/container_deployment.html).
 - PostgreSQL: [Versionsunterstützung](https://www.postgresql.org/support/versioning/); pgAdmin: [Dokumentations- und Versionsübersicht](https://www.pgadmin.org/docs/).
 - Material for MkDocs: [Bilder und Lightbox](https://squidfunk.github.io/mkdocs-material/reference/images/); [MkDocs GLightbox](https://blueswen.github.io/mkdocs-glightbox/).
-- Kursrepository: [Original-Dump und ER-Diagramm](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/3.Semester/31_PostgreSQL_Benutzerverwaltung/db). Das Diagramm trägt die Quellenangabe „PostgreSQL Tutorial“.
+- Kursrepository: [Original-Dump und ER-Diagramm im Ausgangsstand](https://github.com/TGM-HIT/insy-exercises/tree/badace7c69bd8726f7ff4ff06e8f95dfb458ee73/docs/3.Semester/31_PostgreSQL_Benutzerverwaltung/db). Das Diagramm trägt die Quellenangabe „PostgreSQL Tutorial“.
 
 *Diese Aufgabenbeschreibung wurde mit KI-Unterstützung überarbeitet.*
 
 ---
 
-**Version:** 20260913v4 – Repositoryfassung
+**Version:** 20260913v5 – ZIP-Download und kompakte Bildvorschau
