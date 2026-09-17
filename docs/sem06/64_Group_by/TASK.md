@@ -4,7 +4,7 @@ hide:
 
 ---
 
-# INSY GK24 GROUP BY
+# INSY GK64 GROUP BY
 
 ## Einführung
 

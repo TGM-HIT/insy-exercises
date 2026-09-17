@@ -4,7 +4,7 @@ hide:
 
 ---
 
-# INSY GK25 Subselect
+# INSY GK65 Subselect
 
 ## Einführung
 

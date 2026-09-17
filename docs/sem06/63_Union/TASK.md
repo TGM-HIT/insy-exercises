@@ -4,7 +4,7 @@ hide:
 
 ---
 
-# INSY GK23 UNION
+# INSY GK63 UNION
 
 ## Einführung
 

@@ -4,7 +4,7 @@ hide:
 
 ---
 
-# INSY GK21 Aggregationsfunktionen
+# INSY GK61 Aggregationsfunktionen
 
 ## Einführung
 
@@ -86,7 +86,7 @@ Gruppengröße: 1 Person
 - [ ] Abgabegespräch über Fragestellungen und Aufgaben
 
 ## Quellen
-* "Die Aggregationsfunktionen" Aggregationsfunktionen.pdf; zuletzt besucht 2022-12-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem06/21_Aggregationsfunktionen/Aggregationsfunktionen.pdf)
+* "Die Aggregationsfunktionen" Aggregationsfunktionen.pdf; zuletzt besucht 2022-12-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem06/61_Aggregationsfunktionen/Aggregationsfunktionen.pdf)
 * "SQL MIN() and MAX() Functions" w3schools.com; zuletzt besucht 2022-12-12; [online](https://www.w3schools.com/sql/sql_min_max.asp)
 * "SQL COUNT(), AVG() and SUM() Functions" w3schools.com; zuletzt besucht 2022-12-12; [online](https://www.w3schools.com/sql/sql_count_avg_sum.asp)
 * "SQL SELECT DISTINCT Statement" w3schools.com; zuletzt besucht 2022-12-12; [online](https://www.w3schools.com/sql/sql_distinct.asp)

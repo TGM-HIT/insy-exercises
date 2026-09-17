@@ -4,7 +4,7 @@ hide:
 
 ---
 
-# INSY GEK26 Programming Language DB Connection
+# INSY GEK66 Programming Language DB Connection
 
 ## Einführung
 
@@ -32,7 +32,7 @@ Bitte versuche alle wichtigen Information kurz und prägnant zu verschriftlichen
 
 Wähle eine beliebige Programmiersprache (kein PHP) und erstelle ein minimales Programm, welches eine Verbindung zur Datenbank herstellt und Daten sowohl Lesen als auch Schreiben kann.
 
-Einführungen zu Java und Python: [GEK26 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem06/26_Programming_Languages/resources)
+Einführungen zu Java und Python: [GEK66 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem06/66_Programming_Languages/resources)
 
 ### Erweitert
 
@@ -72,7 +72,7 @@ Gruppengrösse: 1 Person
 - [ ] DB Connection mit zwei weiteren Programmiersprachen
 
 ## Quellen
-* [GEK26 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem06/26_Programming_Languages/resources)
+* [GEK66 Recources](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem06/66_Programming_Languages/resources)
 
 ---
 **Version** *20221227v1*
