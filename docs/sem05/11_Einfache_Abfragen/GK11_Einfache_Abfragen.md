@@ -105,7 +105,7 @@ Schreibe SQL Statements für folgende Aufgaben:
 
 #### 3. Kreuzworträtsel
 
-Löse das [Kreuzworträtsel](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/1.Semester/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung.xlsx).
+Löse das [Kreuzworträtsel](https://github.com/TGM-HIT/insy-exercises/raw/main/docs/sem05/11_Einfache_Abfragen/Flightdata%20%C3%9Cbung.xlsx).
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinie.md zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
