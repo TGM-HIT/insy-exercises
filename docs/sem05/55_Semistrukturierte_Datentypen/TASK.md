@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# GEK15 Semistrukturierte Datentypen
+# GEK55 Semistrukturierte Datentypen
 
 ## Einführung
 
@@ -22,7 +22,7 @@ Es sollen die semistrukturierten Datentypen CSV, XML und JSON kennengelert werde
 
 ## Voraussetzungen
 
-* *GK14 Logische Modellierung* abgeschlossen
+* *GK54 Logische Modellierung* abgeschlossen
 
 ## Fragestellungen
 

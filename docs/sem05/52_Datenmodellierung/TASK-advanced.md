@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# EK12 Datenmodellierung
+# EK52 Datenmodellierung
 
 ## Einführung
 

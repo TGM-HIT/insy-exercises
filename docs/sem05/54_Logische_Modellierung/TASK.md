@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# GEK14 Logische Modellierung
+# GEK54 Logische Modellierung
 
 ## Einführung
 
@@ -23,7 +23,7 @@ Es wird versucht ein ERD mittels wenigen Regeln in ein vollständiges Relationen
 
 ## Voraussetzungen
 
-* *GK13 Datenbank Installation* abgeschlossen
+* *GK53 Datenbank Installation* abgeschlossen
 
 ## Fragestellungen
 
@@ -56,7 +56,7 @@ Nachdem du die Fragestellungen ausgearbeitet hast, bearbeite folgende Aufgabenst
 
 ### Grundanforderungen
 
-Erstelle aus dem ERD aus *GEK12 Datenmodellierung* **Landwirtschaftsbetrieb und Automobilhersteller** ein RM und in weiterer Folge ein SQL Create-Script. Halte dich an die 7 Regeln aus *Datenmodellierung 3 - RM*. Das Skript soll keine Fehler werfen, auch nicht bei wiederholten ausführen, sollte das Ergebnis immer das selbe sein. Füge testweise halbwegs sinnvolle Werte in jede Tabelle ein.
+Erstelle aus dem ERD aus *GEK52 Datenmodellierung* **Landwirtschaftsbetrieb und Automobilhersteller** ein RM und in weiterer Folge ein SQL Create-Script. Halte dich an die 7 Regeln aus *Datenmodellierung 3 - RM*. Das Skript soll keine Fehler werfen, auch nicht bei wiederholten ausführen, sollte das Ergebnis immer das selbe sein. Füge testweise halbwegs sinnvolle Werte in jede Tabelle ein.
 
 ??? "Beispiel RM"
 

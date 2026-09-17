@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# GEK12 Datenmodellierung
+# GEK52 Datenmodellierung
 
 ## Einführung
 
@@ -22,7 +22,7 @@ Es wird versucht aus einer nicht technischen Beschreibung die erforderlichen Ele
 
 ## Voraussetzungen
 
-* *GK11 Einfache Abfragen* abgeschlossen
+* *GK51 Einfache Abfragen* abgeschlossen
 
 ## Fragestellungen
 

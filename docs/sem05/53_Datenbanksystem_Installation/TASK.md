@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# GEK13 Datenbanksystem Installation
+# GEK53 Datenbanksystem Installation
 
 ## Einführung
 
@@ -22,7 +22,7 @@ Es wird Docker installiert und ein MariaDB Container augesetzt. Dann soll der Da
 
 ## Voraussetzungen
 
-* *GK12 Datenmodellierung* abgeschlossen
+* *GK52 Datenmodellierung* abgeschlossen
 
 ## Fragestellungen
 

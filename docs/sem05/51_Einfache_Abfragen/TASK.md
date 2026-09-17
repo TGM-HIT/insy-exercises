@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# GK11 Einfache Abfragen
+# GK51 Einfache Abfragen
 
 ## Einführung
 

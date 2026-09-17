@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# GK16 Normalformen
+# GK56 Normalformen
 
 ## Einführung
 
@@ -22,7 +22,7 @@ Ein Datenmodell über 1. und 2. in die 3. Normalform bringen.
 
 ## Voraussetzungen
 
-* *GK15 semistrukturierte Datentypen* abgeschlossen
+* *GK55 semistrukturierte Datentypen* abgeschlossen
 
 ## Fragestellungen
 
