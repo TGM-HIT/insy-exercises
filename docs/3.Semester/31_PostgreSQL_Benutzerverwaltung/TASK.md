@@ -78,7 +78,7 @@ Im Shop steht ein unsicherer Rechner, welcher keine Verbindung zur Datenbank auf
 
 ### 5. View und Policy
 
-Ein Marketing-Mitarbeiter hat nur Zugriff auf die E-Mail-Adressen von Kunden mit `active = true`. Löst diese Aufgabe sowohl mittels einer **View** als auch mittels einer **Policy**.
+Ein Marketing-Mitarbeiter hat nur Zugriff auf die E-Mail-Adressen von Kunden mit `activebool = true`. Löst diese Aufgabe sowohl mittels einer **View** als auch mittels einer **Policy**.
 
 ## Fragestellungen
 
