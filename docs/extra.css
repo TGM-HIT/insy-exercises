@@ -1,31 +1,47 @@
-/* Standardmäßig ausgeblendet */
+/* Standardmäßig ausgeblendet: Header, Footer, linke Navigation, Tabs-Leiste */
 .md-header,
-.md-footer {
+.md-footer,
+.md-sidebar--primary,
+.md-tabs {
   display: none !important;
 }
 
-/* Wenn die Klasse gesetzt ist: einblenden */
+/* Wenn die Klasse gesetzt ist: alles wieder einblenden */
 body.show-chrome .md-header,
-body.show-chrome .md-footer {
+body.show-chrome .md-footer,
+body.show-chrome .md-sidebar--primary,
+body.show-chrome .md-tabs {
   display: block !important;
 }
 
-/* Der Toggle-Button selbst */
+/* Toggle-Button: dezent, nur Icon */
 #chrome-toggle-btn {
   position: fixed;
   bottom: 16px;
   right: 16px;
   z-index: 1000;
-  padding: 8px 14px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
   border: none;
-  border-radius: 6px;
-  background: #526cfe;
-  color: #fff;
-  font-size: 14px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  opacity: 0.4;
+  transition: opacity 0.2s ease, background 0.2s ease;
 }
 
 #chrome-toggle-btn:hover {
-  opacity: 0.9;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+#chrome-toggle-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
