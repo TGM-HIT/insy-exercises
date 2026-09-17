@@ -31,7 +31,7 @@ Die Grundlagen von JDBC verstehen und anwenden können: Aufbau einer Datenbankve
 
 ## Detaillierte Aufgabenbeschreibung
 
-Lade die [Projekt-Dateien](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F3.Semester%2F32_JDBC%2Fproject) herunter und studiere die begleitenden Unterlagen (`JDBC.pdf`) durch.
+Lade die [Projekt-Dateien](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2Fsem07%2F32_JDBC%2Fproject) herunter und studiere die begleitenden Unterlagen (`JDBC.pdf`) durch.
 
 Beantworte zunächst die [Fragestellungen](#fragestellungen) und bearbeite anschließend die Übung.
 

@@ -126,7 +126,7 @@ Gruppengröße: 1 Person
 * "Microsoft Office Lens";  [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&hl=de_AT&gl=US), [iPhone](https://apps.apple.com/at/app/microsoft-office-lens-pdf-scan/id975925059)
 * "Online PDF Editor"; zuletzt besucht 2021-08-06; [pdffiller](https://www.pdffiller.com/de/)
 * "flightdatabase"; tgm Projekteserver; [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *flightdata* pw: *IbelieveIcanfly*)
-* "Flightdata Schema"; GitHub, zuletzt besucht 2024-08-11; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/11_Einfache_Abfragen/FlightDataStructure.pdf)
+* "Flightdata Schema"; GitHub, zuletzt besucht 2024-08-11; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem05/11_Einfache_Abfragen/FlightDataStructure.pdf)
 * "SQL Tutorial"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/)
 * "phpMyAdmin Tutorial"; tutorialspoint; zuletzt besucht 2022-08-01; [online](https://www.tutorialspoint.com/phpmyadmin/index.htm)
 * "SQL Island"; Technische Universität Kaiserslautern; zuletzt besucht 2022-08-01; [online](https://sql-island.informatik.uni-kl.de/)

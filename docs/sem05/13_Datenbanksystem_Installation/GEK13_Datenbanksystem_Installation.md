@@ -55,7 +55,7 @@ Nachdem du die Fragestellungen ausgearbeitet hast, siehe dir folgende Aufgabenst
 
 Nachdem [Docker Desktop](https://www.docker.com/) installiert ist und der Balken in der unteren linken Ecke grün ist, können Container installiert werden.
 
-Lade dir die [Vorlage](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F1.Semester%2F13_Datenbanksystem_Installation%2Fdatabase) herunter. Entpacke diesen in deinen Benutzer Ordner (~). Du solltest nun ein deinem Benutzerordner einen mariadb Ordner haben mit einer `compose.yml` und einem Sample_database Ordner. Stelle sicher, dass dieser mariadb Ordner **nicht** in einem Cloudspeicher (wie OneDrive oder Dropbox) liegt (Grund: Cloudspeicher lagern manchmal Daten in die Cloud aus, dann funktioniert unser Container nicht mehr).
+Lade dir die [Vorlage](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2Fsem05%2F13_Datenbanksystem_Installation%2Fdatabase) herunter. Entpacke diesen in deinen Benutzer Ordner (~). Du solltest nun ein deinem Benutzerordner einen mariadb Ordner haben mit einer `compose.yml` und einem Sample_database Ordner. Stelle sicher, dass dieser mariadb Ordner **nicht** in einem Cloudspeicher (wie OneDrive oder Dropbox) liegt (Grund: Cloudspeicher lagern manchmal Daten in die Cloud aus, dann funktioniert unser Container nicht mehr).
 
 Versuche das compose File zu verstehen. Es muss nichts darin geändert werden.
 
@@ -162,7 +162,7 @@ Gruppengröße: 1 Person
 - "How to Create MySQL Users Accounts and Grant Privileges"; linuxize; 2020-05-30; zuletzt besucht 2022-08-04; [online](https://linuxize.com/post/how-to-create-mysql-user-accounts-and-grant-privileges/)
 - "MobaXterm";mobaxterm; zuletzt besucht 2022-08-04; [online](https://mobaxterm.mobatek.net/)
 - "iTerm2"; iterm2; zuletzt besucht 2022-08-04; [online](https://iterm2.com/)
-- "SampleDatabase"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; [online](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2F1.Semester%2F13_Datenbanksystem_Installation%2FSample_databases)
+- "SampleDatabase"; GitHub; Dominik Höbert; zuletzt besucht 2024-08-12; [online](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2Fsem05%2F13_Datenbanksystem_Installation%2FSample_databases)
 
 ---
 **Version** *20260805v4*

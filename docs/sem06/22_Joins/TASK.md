@@ -175,7 +175,7 @@ Gruppengrösse: 1 Person
 
 ## Quellen
 
-* JOIN (Höbert); zuletzt besucht 2022-12-27; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/2.Semester/22_Joins/Joins.pdf).  
+* JOIN (Höbert); zuletzt besucht 2022-12-27; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem06/22_Joins/Joins.pdf).  
 * „SQL FULL OUTER JOIN Keyword“. https://www.w3schools.com/sql/sql_join_full.asp (zugegriffen 27. Dezember 2022).  
 * „SQL INNER JOIN Keyword“. https://www.w3schools.com/sql/sql_join_inner.asp (zugegriffen 27. Dezember 2022).  
 * „SQL Joins“. https://www.w3schools.com/sql/sql_join.asp (zugegriffen 27. Dezember 2022).  

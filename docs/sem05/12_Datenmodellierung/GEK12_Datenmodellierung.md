@@ -26,7 +26,7 @@ Es wird versucht aus einer nicht technischen Beschreibung die erforderlichen Ele
 
 ## Fragestellungen
 
-Bitte versuche alle wichtigen Informationen kurz und prägnant als Dokumentation laut den Dokumentationsrichtlinien zu verschriftlichen nachdem du folgende Skripte durchgearbeitet hast: [Datenmodellierung 1 - Konzepte, Begriffe](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%201%20-%20Konzepte%2C%20Begriffe.pdf); [Datenmodellierung 2 - ERM, ERD](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%202%20-%20ERM%2C%20ERD.pdf)
+Bitte versuche alle wichtigen Informationen kurz und prägnant als Dokumentation laut den Dokumentationsrichtlinien zu verschriftlichen nachdem du folgende Skripte durchgearbeitet hast: [Datenmodellierung 1 - Konzepte, Begriffe](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem05/12_Datenmodellierung/Datenmodellierung%201%20-%20Konzepte%2C%20Begriffe.pdf); [Datenmodellierung 2 - ERM, ERD](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem05/12_Datenmodellierung/Datenmodellierung%202%20-%20ERM%2C%20ERD.pdf)
 
 ### Grundlegend
 
@@ -112,7 +112,7 @@ Finde zu den unten angegebenen Beispielen die Kardinalitäten und ob diese optio
 
 Selbe 3 Schritte Vorgehensweiße wie oben.
 
-[Weiterführende Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/12_Datenmodellierung/Weiterfuehrende_Uebungen)
+[Weiterführende Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/sem05/12_Datenmodellierung/Weiterfuehrende_Uebungen)
 
 ### Erweitert
 
@@ -155,10 +155,10 @@ Gruppengröße: 1 Person
 * "Microsoft Office Lens";  [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&hl=de_AT&gl=US), [iPhone](https://apps.apple.com/at/app/microsoft-office-lens-pdf-scan/id975925059)
 * "Online PDF Editor"; zuletzt besucht 2021-08-06; [pdffiller](https://www.pdffiller.com/de/)
 * "flightdatabase"; tgm Projekteserver; [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *flightdata* pw: *IbelieveIcanfly*)
-* "Flightdata Schema"; GitHub, zuletzt besucht 2024-08-11; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/11_Einfache_Abfragen/FlightDataStructure.pdf)
+* "Flightdata Schema"; GitHub, zuletzt besucht 2024-08-11; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem05/11_Einfache_Abfragen/FlightDataStructure.pdf)
 * "SQL Tutorial"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/)
-* "Datenmodellierung 1 - Konzepte, Begriffe" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%201%20-%20Konzepte%2C%20Begriffe.pdf)
-* "Datenmodellierung 2 - ERM, ERD" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/12_Datenmodellierung/Datenmodellierung%202%20-%20ERM%2C%20ERD.pdf)
+* "Datenmodellierung 1 - Konzepte, Begriffe" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem05/12_Datenmodellierung/Datenmodellierung%201%20-%20Konzepte%2C%20Begriffe.pdf)
+* "Datenmodellierung 2 - ERM, ERD" Github; Erhard List; zuletzt besucht 2024-08-11 [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem05/12_Datenmodellierung/Datenmodellierung%202%20-%20ERM%2C%20ERD.pdf)
 
 ---
 **Version** *20260810v4*

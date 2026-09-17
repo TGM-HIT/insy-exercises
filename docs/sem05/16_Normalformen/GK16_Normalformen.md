@@ -107,7 +107,7 @@ Dokumentiere auch die Abhängigkeiten.
 
 ![clowns](exercises/normalization1 clown_info head first sql p176.png)
 
-[Weitere Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/1.Semester/16_Normalformen/exercises)
+[Weitere Übungen](https://github.com/TGM-HIT/insy-exercises/tree/main/docs/sem05/16_Normalformen/exercises)
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinien zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
@@ -132,7 +132,7 @@ Gruppengröße: 1 Person
 * "Online PDF Editor"; zuletzt besucht 2021-08-06; [pdffiller](https://www.pdffiller.com/de/)
 * "flightdatabase"; tgm Projekteserver; [flightdatabase](https://projekte.tgm.ac.at/phpmyadmin/index.php) (user: *flightdata* pw: *IbelieveIcanfly*)
 * "SQL Tutorial"; w3cschools; zuletzt besucht 2022-08-01; [w3cschools.com](https://www.w3schools.com/sql/)
-* "Datenmodellierung 4 - Normalisierung" ; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/1.Semester/16_Normalformen/Datenmodellierung%204%20-%20Normalisierung.pdf)
+* "Datenmodellierung 4 - Normalisierung" ; GitHub; Erhard List; zuletzt besucht 2024-08-12; [online](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem05/16_Normalformen/Datenmodellierung%204%20-%20Normalisierung.pdf)
 
 ---
 **Version** *20260812v4*
