@@ -48,8 +48,11 @@ body.show-chrome .md-tabs {
   fill: currentColor;
 }
 
-.md-main,
-.md-main__inner,
-.md-container {
+html,
+body {
+  height: auto !important;
   min-height: 0 !important;
+}
+.md-container {
+  flex-grow: 0 !important;
 }
