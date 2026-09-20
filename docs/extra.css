@@ -32,7 +32,9 @@ body.show-chrome .md-tabs {
   justify-content: center;
   cursor: pointer;
   opacity: 0.4;
-  transition: opacity 0.2s ease, background 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    background 0.2s ease;
 }
 
 #chrome-toggle-btn:hover {
@@ -44,4 +46,10 @@ body.show-chrome .md-tabs {
   width: 18px;
   height: 18px;
   fill: currentColor;
+}
+
+.md-main,
+.md-main__inner,
+.md-container {
+  min-height: 0 !important;
 }
