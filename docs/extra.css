@@ -1,20 +1,21 @@
 /* Standardmäßig ausgeblendet: Header, Footer, linke Navigation, Tabs-Leiste */
+/* Footer immer ausgeblendet, unabhängig vom Toggle */
+.md-footer {
+  display: none !important;
+}
+
 .md-header,
-.md-footer,
 .md-sidebar--primary,
 .md-tabs {
   display: none !important;
 }
 
-/* Wenn die Klasse gesetzt ist: alles wieder einblenden */
-body.show-chrome .md-header,
-body.show-chrome .md-footer,
-body.show-chrome .md-sidebar--primary,
-body.show-chrome .md-tabs {
+html.show-chrome .md-header,
+html.show-chrome .md-sidebar--primary,
+html.show-chrome .md-tabs {
   display: block !important;
 }
 
-/* Toggle-Button: dezent, nur Icon */
 #chrome-toggle-btn {
   position: fixed;
   bottom: 16px;
@@ -25,7 +26,7 @@ body.show-chrome .md-tabs {
   padding: 0;
   border: none;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.35);
   color: rgba(255, 255, 255, 0.6);
   display: flex;
   align-items: center;
@@ -39,7 +40,7 @@ body.show-chrome .md-tabs {
 
 #chrome-toggle-btn:hover {
   opacity: 1;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.55);
 }
 
 #chrome-toggle-btn svg {
@@ -48,6 +49,7 @@ body.show-chrome .md-tabs {
   fill: currentColor;
 }
 
+/* iFrame lässt sich auch verkleinern */
 html,
 body {
   height: auto !important;
@@ -55,4 +57,17 @@ body {
 }
 .md-container {
   flex-grow: 0 !important;
+}
+
+.invisible-text {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+  /* Do NOT use display:none or visibility:hidden */
 }
