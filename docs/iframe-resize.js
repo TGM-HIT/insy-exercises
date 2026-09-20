@@ -1,19 +1,13 @@
 document$.subscribe(function () {
   function sendHeight() {
-    window.parent.postMessage(
-      { height: document.documentElement.scrollHeight },
-      "*",
-    );
+    const height = Math.ceil(document.body.getBoundingClientRect().height);
+    window.parent.postMessage({ height }, "*");
   }
 
   sendHeight();
   new ResizeObserver(sendHeight).observe(document.body);
 
-  // Instant update on admonition open/close
   document.querySelectorAll("details").forEach((el) => {
-    el.addEventListener("toggle", () => {
-      // let the DOM settle first
-      requestAnimationFrame(sendHeight);
-    });
+    el.addEventListener("toggle", () => requestAnimationFrame(sendHeight));
   });
 });
