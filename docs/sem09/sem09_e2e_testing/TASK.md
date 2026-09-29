@@ -28,7 +28,7 @@ Bei der Verwendung von KI-Tools müssen die Prompts im Verzeichnis `prompts/` al
 ## Help, oh I need somebody
 
 ### Classroom Repository
-[Hier](https://classroom.github.com/a/rfRctHJJ) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
+[Hier](https://github.com/500) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
 
 ## Bewertung
 Gruppengrösse: 2-3 Personen

@@ -44,7 +44,7 @@ services:
 ```
 
 ### Classroom Repository
-[Hier](https://classroom.github.com/a/Ul2A_rOk) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
+[Hier](https://github.com/500) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
 
 ## Bewertung
 Gruppengrösse: 2 Personen

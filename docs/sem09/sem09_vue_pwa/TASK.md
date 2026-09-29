@@ -45,7 +45,7 @@ Im Repository soll das `README.md` die notwendigen Schritte beschreiben. Auch da
 Bei der Verwendung von KI-Tools müssen die Prompts im Verzeichnis `prompts/` als Markdown-Files exportiert werden. Hier soll darauf geachtet werden, dass die Anfrage als auch die Quellen der Antworten ersichtlich sind.
 
 ### Classroom Repository
-[Hier](https://classroom.github.com/a/F7XdDVq4) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
+[Hier](https://github.com/500) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
 
 ## Help, oh I need somebody
 
