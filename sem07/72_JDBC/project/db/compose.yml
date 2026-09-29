@@ -1,0 +1,56 @@
+name: webshop-postgres
+
+services:
+  postgres:
+    container_name: webshop-postgres
+    image: postgres:17.6
+    restart: unless-stopped
+    ports:
+      - 127.0.0.1:5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: webshop
+    volumes:
+      - postgres:/var/lib/postgresql/data
+      - ./webshop.sql:/docker-entrypoint-initdb.d/webshop.sql:ro
+
+  pgadmin:
+    container_name: webshop-pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@pgadmin.com
+      PGADMIN_DEFAULT_PASSWORD: password
+      PGADMIN_LISTEN_PORT: 80
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+      PGPASS_FILE: /pgpass
+    ports:
+      - 127.0.0.1:8080:80
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+      - ./pgadmin/servers.json:/pgadmin4/servers.json:ro
+      - ./pgadmin/pgpass:/pgpass:ro
+    depends_on:
+      - postgres
+
+  server:
+    image: eclipse-temurin:21-jdk
+    container_name: webshop-server
+    working_dir: /app
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      - postgres
+    volumes:
+      - ../Server.java:/app/Server.java
+    command: >
+      sh -c "printf 'url=jdbc:postgresql://postgres/webshop\nuser=postgres\npassword=postgres\n' > /app/db.properties &&
+             curl -sO https://jdbc.postgresql.org/download/postgresql-42.2.8.jar &&
+             curl -sO https://repo1.maven.org/maven2/org/json/json/20171018/json-20171018.jar &&
+             javac -cp '.:json-20171018.jar:postgresql-42.2.8.jar' Server.java &&
+             java -cp '.:json-20171018.jar:postgresql-42.2.8.jar' Server"
+
+volumes:
+  pgadmin:
+  postgres:
