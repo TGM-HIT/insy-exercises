@@ -3,7 +3,7 @@
     + Tabellen beschrieben
     + `restore.sql` analysiert und Funktionen sowie View erkannt
 - [ ] Erstellung und Deployment von Docker Container
-    + Postgres-Version 13 gesetzt
+    + Postgres-Version 9.6.9 gesetzt
     + Adminer konfiguriert
     + IP-Adressen bzw. Naming richtig vergeben
     + Volumes gesetzt
