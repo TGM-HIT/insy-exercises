@@ -43,7 +43,7 @@ for /f "tokens=*" %i in ('docker network ls -q') do @docker network inspect %i -
 ```
 
 ### Classroom Repository
-[Hier](https://github.com/500) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
+[Hier](https://classroom50.org/TGM-HIT/insy5x-2627/assignments/sem09-rest-backend/accept?k=dragon8tract6sample5frail) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
 
 ## Bewertung
 Gruppengrösse: 2-3 Personen
