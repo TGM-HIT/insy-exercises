@@ -60,6 +60,12 @@ Wie du siehst, existieren Methoden zum Anzeigen von Kunden, Bestellungen, und Ar
 
 index.html kann im Browser geöffnet werden um alle Daten einzusehen und Bestellungen zu testen.
 
+## Hinweise
+
+Das Tutorial [3] liefert ein (aktuelles) Beispiel, wie man mittels JDBC auf eine Datenbank zugreifen kann. 
+
 [1] [https://jdbc.postgresql.org/download.html](https://jdbc.postgresql.org/download.html)
 
 [2] [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
+
+[3] [https://www.geeksforgeeks.org/java/jdbc-tutorial/](https://www.geeksforgeeks.org/java/jdbc-tutorial/)
