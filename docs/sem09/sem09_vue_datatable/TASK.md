@@ -44,10 +44,10 @@ services:
 ```
 
 ### Classroom Repository
-[Hier](https://github.com/500) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
+[Hier](https://classroom50.org/TGM-HIT/insy5x-2627/assignments/sem09-vue-datatable/accept?k=dragon8tract6sample5frail) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
 
 ## Bewertung
-Gruppengrösse: 2 Personen
+Gruppengrösse: 2-3 Personen
 ### Grundanforderungen überwiegend erfüllt
 - [ ] Datatable für die Tabelle Analysis erstellt
 - [ ] Deployment von Frontend-Implementierung ist lauffähig
