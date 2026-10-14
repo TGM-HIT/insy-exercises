@@ -129,3 +129,7 @@ Gruppengröße: 1 Person
 
 ---
 **Version** *20260810v3*
+
+??? Note "Meme"
+    ![Meme](https://i.redd.it/9iarnqi0v1rh1.jpeg)
+    
