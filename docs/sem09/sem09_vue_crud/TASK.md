@@ -48,10 +48,10 @@ Bei der Verwendung von KI-Tools müssen die Prompts im Verzeichnis `prompts/` al
 ## Help, oh I need somebody
 
 ### Classroom Repository
-[Hier](https://github.com/500) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
+[Hier](https://classroom50.org/TGM-HIT/insy5x-2627/assignments/sem09-vue-crud/accept?k=dragon8tract6sample5frail) finden Sie das Abgabe-Repository zum Entwickeln und Commiten Ihrer Lösung.
 
 ## Bewertung
-Gruppengrösse: 2 Personen
+Gruppengrösse: 2-3 Personen
 ### Grundanforderungen überwiegend erfüllt
 - [ ] Tabellen Analysis, Sample, Box, BoxPos sind editierbar
 - [ ] Neue Datensätze können in allen editierbaren Tabellen angelegt werden
