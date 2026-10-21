@@ -1,0 +1,46 @@
+# Use root/admin as user/password credentials
+
+name: mariadb
+
+services:
+  mariadb:
+    image: mariadb
+    container_name: mariadb
+    restart: always
+    ports:
+      - 127.0.0.1:3306:3306
+    environment:
+      MARIADB_ROOT_PASSWORD: admin
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    volumes:
+      - mariadb-data:/var/lib/mysql
+      - ./Sample_databases:/docker-entrypoint-initdb.d
+
+  # optionale web DB client
+
+  # https://www.adminer.org/
+  # Server: mariadb
+  adminer:
+    image: adminer
+    container_name: adminer
+    ports:
+      - 127.0.0.1:8081:8080
+    environment:
+      - ADMINER_DEFAULT_SERVER=mariadb
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:8080/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    depends_on:
+      mariadb:
+        condition: service_healthy
+
+volumes:
+  mariadb-data:

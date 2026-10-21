@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe DB</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:_dlc_DocId msdt:dt="string">NE4WTHHXSH2T-229807600-9869</mso:_dlc_DocId>
+<mso:_dlc_DocIdItemGuid msdt:dt="string">09f4aa08-1caa-49ec-aa12-7da1e612710e</mso:_dlc_DocIdItemGuid>
+<mso:_dlc_DocIdUrl msdt:dt="string">https://tgmwien.sharepoint.com/teams/HIT/INSY/_layouts/15/DocIdRedir.aspx?ID=NE4WTHHXSH2T-229807600-9869, NE4WTHHXSH2T-229807600-9869</mso:_dlc_DocIdUrl>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+<div class="container-lg">
+    <h1>Recipe Database</h1>
+
+    <div class="card-group">
+    {%  for r in recipes %}
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+          <h5 class="card-title">{{ r.name  }}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">{{ r.type  }}</h6>
+          <p class="card-text">
+            <ul>
+            {%  for i in r.ingredients %}
+                <li><small>{{ i.quantity }} {{ i.unit }}</small> {{ i.name }}</li>
+            {%  endfor %}
+            </ul>
+          </p>
+          <p class="card-text">
+            {{  r.instructions }}
+          </p>
+      </div>
+    </div>
+    {%  endfor %}
+    </div>
+</div>
+</body>
+</html>

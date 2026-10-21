@@ -1,0 +1,39 @@
+name: dvdrental-postgres
+
+services:
+  postgres:
+    container_name: dvdrental-postgres
+    image: postgres:17.6
+    restart: unless-stopped
+    ports:
+      - 127.0.0.1:5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: dvdrental
+    volumes:
+      - postgres:/var/lib/postgresql/data
+      - ./dvdrental.sql:/docker-entrypoint-initdb.d/dvdrental.sql:ro
+
+  pgadmin:
+    container_name: dvdrental-pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@pgadmin.com
+      PGADMIN_DEFAULT_PASSWORD: password
+      PGADMIN_LISTEN_PORT: 80
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+      PGPASS_FILE: /pgpass
+    ports:
+      - 127.0.0.1:80:80
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+      - ./pgadmin/servers.json:/pgadmin4/servers.json:ro
+      - ./pgadmin/pgpass:/pgpass:ro
+    depends_on:
+      - postgres
+
+volumes:
+  pgadmin:
+  postgres:

@@ -1,0 +1,17 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "DVD Rental",
+            "Group": "Servers",
+            "Host": "postgres",
+            "Port": 5432,
+            "MaintenanceDB": "dvdrental",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "ConnectionParameters": {
+                "sslmode": "prefer",
+                "passfile": "/var/lib/pgadmin/.pgpass"
+            }
+        }
+    }
+}
