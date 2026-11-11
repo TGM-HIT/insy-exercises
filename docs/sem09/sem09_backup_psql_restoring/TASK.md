@@ -78,7 +78,7 @@ Gruppengrösse: 2 Personen
 - [ ] Zugriff auf wiederhergestellte Datenbasis über Adminer
 
 ## Quellen
-* [Database Backup File](https://nextcloud.borko.at/s/MDKrDHdedLKELCS)
+* [Database Backup File](https://nextcloud.borko.at/s/w2XNxndJeFfyfzf)
 * [Difference between MariaDB and Postgresql](https://aws.amazon.com/compare/the-difference-between-mariadb-and-postgresql/)
 * [Postgresql Documentation 'INSERT'](https://www.postgresql.org/docs/current/sql-insert.html)
 * [MariaDB Documentation 'INSERT'](https://mariadb.com/docs/server/reference/sql-statements/data-manipulation/inserting-loading-data/insert)
