@@ -1,0 +1,26 @@
+{
+  "file_chooser": "Zeitüberschreitung beim Dateidialog; alternativer vorhandener XML-Textimport verwendet.",
+  "results": [
+    {
+      "profile": "schwach",
+      "mode": "XML-Dateiinhalt über vorhandenes Textfeld übernommen",
+      "status": "Format und Werte geprüft. Drei Wechselkurse übernommen.",
+      "result": "Gesamtkosten: 170,07 €. Ersparnis gegenüber dem bisherigen Lieferanten: 21,93 € pro Bestellung.",
+      "table": "Lieferant AT · bisher\t180,00\t12,00\t192,00\tReferenz\nLieferant PL\t172,45\t20,42\t192,87\t−0,87 €\nLieferant CZ\t159,82\t10,25\t170,07\t21,93 €"
+    },
+    {
+      "profile": "mittel",
+      "mode": "XML-Dateiinhalt über vorhandenes Textfeld übernommen",
+      "status": "Format und Werte geprüft. Drei Wechselkurse übernommen.",
+      "result": "Gesamtkosten: 170,07 €. Ersparnis gegenüber dem bisherigen Lieferanten: 21,93 € pro Bestellung.",
+      "table": "Lieferant AT · bisher\t180,00\t12,00\t192,00\tReferenz\nLieferant PL\t172,45\t20,42\t192,87\t−0,87 €\nLieferant CZ\t159,82\t10,25\t170,07\t21,93 €"
+    },
+    {
+      "profile": "gut",
+      "mode": "XML-Dateiinhalt über vorhandenes Textfeld übernommen",
+      "status": "Format und Werte geprüft. Drei Wechselkurse übernommen.",
+      "result": "Gesamtkosten: 170,07 €. Ersparnis gegenüber dem bisherigen Lieferanten: 21,93 € pro Bestellung.",
+      "table": "Lieferant AT · bisher\t180,00\t12,00\t192,00\tReferenz\nLieferant PL\t172,45\t20,42\t192,87\t−0,87 €\nLieferant CZ\t159,82\t10,25\t170,07\t21,93 €"
+    }
+  ]
+}

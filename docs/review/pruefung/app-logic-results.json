@@ -1,0 +1,6 @@
+{
+  "passed": 16,
+  "source": "material/rechner.html",
+  "browserXmlParsingTestedHere": false,
+  "notes": "Exakte Kernrechnung und Vorprüfungen getestet. Vollständige XML-Import-/UI-Prüfung erfolgt im Browser."
+}

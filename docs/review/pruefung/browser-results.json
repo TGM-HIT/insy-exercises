@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "name": "Dateiimport und echte Kursberechnung",
+      "passed": true
+    },
+    {
+      "name": "Syntaxfehler",
+      "passed": true,
+      "status": "XML-Syntaxfehler: Prüfe geschlossene Tags, Anführungszeichen und Sonderzeichen."
+    },
+    {
+      "name": "Fehlende Quelle",
+      "passed": true,
+      "status": "Das erste Kindelement muss quelle sein."
+    },
+    {
+      "name": "Negativer Kurs",
+      "passed": true,
+      "status": "Kurs EUR: Bitte eine Zahl mit Dezimalpunkt und höchstens 12 Nachkommastellen verwenden."
+    },
+    {
+      "name": "Doppelte Währung",
+      "passed": true,
+      "status": "Die Währung EUR kommt mehrfach vor. Jede Währung wird genau einmal benötigt."
+    },
+    {
+      "name": "Dreifacher Gleichstand",
+      "passed": true
+    },
+    {
+      "name": "Ungültiger Preis entfernt Ergebnis",
+      "passed": true
+    },
+    {
+      "name": "Vorgegebene Angebote wiederhergestellt",
+      "passed": true
+    },
+    {
+      "name": "Aufgaben-Dropdown enthält formatierten XML-Auftrag",
+      "passed": true
+    }
+  ],
+  "file_url_test": "Blocked by browser URL policy; no workaround attempted.",
+  "preview_url": "http://127.0.0.1:8874/sem07/74_Semistrukturierte_Dateiformate/02_XML/rechner.html"
+}

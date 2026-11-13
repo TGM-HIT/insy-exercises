@@ -1,0 +1,60 @@
+{
+  "context": "Tatsächlich ausgeführte CLI-Prüfungen des didaktischen Modells gut; Unterrichtszeit und Verhalten werden hierdurch nicht gemessen.",
+  "versions": {
+    "Python": "3.14.7",
+    "lxml": "6.1.3",
+    "libxml2": "2.11.9"
+  },
+  "checks": [
+    {
+      "id": "original_xml",
+      "command": "& 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/tools-venv/Scripts/python.exe' -X utf8 'SOURCE_WORKSPACE/xml-webservice-20261113/material/pruefen.py' xml 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/wechselkurse.xml'",
+      "expected_exit_code": 0,
+      "chunk_id": "87be5e",
+      "wall_time_seconds": 0.6243566,
+      "exit_code": 0,
+      "original_token_count": 65,
+      "output": "WOHLGEFORMT: SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/wechselkurse.xml (Wurzelelement: wechselkurse)\r\nDamit sind weder die DTD-Gültigkeit noch die Richtigkeit der Werte nachgewiesen.\r\n"
+    },
+    {
+      "id": "original_dtd",
+      "command": "& 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/tools-venv/Scripts/python.exe' -X utf8 'SOURCE_WORKSPACE/xml-webservice-20261113/material/pruefen.py' dtd 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/wechselkurse.xml' 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/wechselkurse.dtd'",
+      "expected_exit_code": 0,
+      "chunk_id": "6bdfb1",
+      "wall_time_seconds": 0.621256,
+      "exit_code": 0,
+      "original_token_count": 99,
+      "output": "DTD-GÜLTIG: SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/wechselkurse.xml entspricht SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/wechselkurse.dtd.\r\nZahlenwerte, Datumswerte und die Vollständigkeit der drei Währungen prüft anschließend die Anwendung.\r\n"
+    },
+    {
+      "id": "syntax_xml",
+      "command": "& 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/tools-venv/Scripts/python.exe' -X utf8 'SOURCE_WORKSPACE/xml-webservice-20261113/material/pruefen.py' xml 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/syntaxfehler.xml'",
+      "expected_exit_code": 1,
+      "chunk_id": "830c33",
+      "wall_time_seconds": 0.623046,
+      "exit_code": 1,
+      "original_token_count": 42,
+      "output": "XML-FEHLER in Zeile 4, Spalte 44: Die Datei ist nicht wohlgeformt.\r\n  Parsermeldung: Opening and ending tag mismatch: kurs line 4 and kurs_falsch, line 4, column 44\r\n"
+    },
+    {
+      "id": "struktur_xml",
+      "command": "& 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/tools-venv/Scripts/python.exe' -X utf8 'SOURCE_WORKSPACE/xml-webservice-20261113/material/pruefen.py' xml 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/strukturfehler.xml'",
+      "expected_exit_code": 0,
+      "chunk_id": "b55f65",
+      "wall_time_seconds": 0.5767005,
+      "exit_code": 0,
+      "original_token_count": 65,
+      "output": "WOHLGEFORMT: SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/strukturfehler.xml (Wurzelelement: wechselkurse)\r\nDamit sind weder die DTD-Gültigkeit noch die Richtigkeit der Werte nachgewiesen.\r\n"
+    },
+    {
+      "id": "struktur_dtd",
+      "command": "& 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/tools-venv/Scripts/python.exe' -X utf8 'SOURCE_WORKSPACE/xml-webservice-20261113/material/pruefen.py' dtd 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/strukturfehler.xml' 'SOURCE_WORKSPACE/xml-webservice-20261113/qa/simulation/gut/arbeit/wechselkurse.dtd'",
+      "expected_exit_code": 1,
+      "chunk_id": "a673c0",
+      "wall_time_seconds": 0.5726032,
+      "exit_code": 1,
+      "original_token_count": 52,
+      "output": "DTD-UNGÜLTIG: Die XML-Struktur entspricht nicht der angegebenen DTD.\r\n  Zeile 2: Element wechselkurse content does not follow the DTD, expecting (quelle , kurs+ , hinweis?), got (kurs kurs kurs hinweis )\r\n"
+    }
+  ]
+}

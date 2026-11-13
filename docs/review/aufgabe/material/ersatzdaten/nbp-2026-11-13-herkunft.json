@@ -1,0 +1,12 @@
+{
+  "anfrage": "https://api.nbp.pl/api/exchangerates/tables/a/?format=xml",
+  "methode": "GET",
+  "http_status": 200,
+  "content_type": "application/xml; charset=utf-8",
+  "abgerufen_utc": "2026-11-13T11:27:55.116643+00:00",
+  "server_datum": "Fri, 13 Nov 2026 11:27:55 GMT",
+  "kursdatum": "2026-11-13",
+  "tabellennummer": "221/A/NBP/2026",
+  "sha256": "bc3b79f668dbc43e1f81287249bdd24a7630dacf3889d7031e2f72d3c280203e",
+  "hinweis": "Unveränderte Antwortbytes. Mid ist PLN pro einer Einheit der angegebenen Fremdwährung."
+}

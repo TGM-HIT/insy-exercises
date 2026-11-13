@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wechselkurse basis="PLN" datum="2026-11-13">
+  <kurs waehrung="EUR">4.4070</kurs>
+  <kurs waehrung="CZK">0.1806</kurs>
+  <kurs waehrung="PLN">1</kurs>
+  <hinweis>Mitgelieferte NBP-Ersatzantwort für den didaktischen Modellvergleich; kein Liveabruf durchgeführt.</hinweis>
+</wechselkurse>

@@ -1,0 +1,16 @@
+{
+  "label": "07-struktur-dtd",
+  "executed_at_utc": "2026-11-13T12:11:32.702121+00:00",
+  "command": [
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\qa\\tools-venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\material\\pruefen.py",
+    "dtd",
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\qa\\simulation\\mittel\\arbeit\\strukturfehler.xml",
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\qa\\simulation\\mittel\\arbeit\\wechselkurse.dtd"
+  ],
+  "stdout": "",
+  "stderr": "DTD-UNGÜLTIG: Die XML-Struktur entspricht nicht der angegebenen DTD.\n  Zeile 2: Element wechselkurse content does not follow the DTD, expecting (quelle , kurs+ , hinweis?), got (kurs kurs kurs hinweis )\n",
+  "exitcode": 1
+}

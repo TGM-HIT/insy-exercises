@@ -1,0 +1,5 @@
+Eigene Rechenkontrolle, tatsächliche arithmetische Auswertung:
+AT = 192
+PL = (760 + 90) / 4.4070 = 192.87497163603358293623780349
+CZ = (3900 + 250) * 0.1806 / 4.4070 = 170.06807351940095302927161334
+Ersparnis CZ gegenüber AT in angezeigten Centbeträgen = 21.93

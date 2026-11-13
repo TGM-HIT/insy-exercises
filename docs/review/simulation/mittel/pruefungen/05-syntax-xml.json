@@ -1,0 +1,15 @@
+{
+  "label": "05-syntax-xml",
+  "executed_at_utc": "2026-11-13T12:11:32.651084+00:00",
+  "command": [
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\qa\\tools-venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\material\\pruefen.py",
+    "xml",
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\qa\\simulation\\mittel\\arbeit\\syntaxfehler.xml"
+  ],
+  "stdout": "",
+  "stderr": "XML-FEHLER in Zeile 4, Spalte 44: Die Datei ist nicht wohlgeformt.\n  Parsermeldung: Opening and ending tag mismatch: kurs line 4 and kurs_falsch, line 4, column 44\n",
+  "exitcode": 1
+}

@@ -1,0 +1,2 @@
+DTD-GÜLTIG: SOURCE_WORKSPACE\xml-webservice-20261113\qa\simulation\mittel\arbeit\wechselkurse.xml entspricht SOURCE_WORKSPACE\xml-webservice-20261113\qa\simulation\mittel\arbeit\wechselkurse.dtd.
+Zahlenwerte, Datumswerte und die Vollständigkeit der drei Währungen prüft anschließend die Anwendung.

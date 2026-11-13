@@ -1,0 +1,7 @@
+<!ELEMENT wechselkurse (quelle, kurs+, hinweis?)>
+<!ELEMENT quelle (#PCDATA)>
+<!ELEMENT kurs (#PCDATA)>
+<!ELEMENT hinweis (#PCDATA)>
+<!ATTLIST wechselkurse basis (PLN) #REQUIRED>
+<!ATTLIST wechselkurse datum CDATA #REQUIRED>
+<!ATTLIST kurs waehrung (EUR|CZK|PLN) #REQUIRED>

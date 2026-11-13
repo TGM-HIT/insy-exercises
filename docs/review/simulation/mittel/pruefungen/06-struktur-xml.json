@@ -1,0 +1,15 @@
+{
+  "label": "06-struktur-xml",
+  "executed_at_utc": "2026-11-13T12:11:32.704680+00:00",
+  "command": [
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\qa\\tools-venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\material\\pruefen.py",
+    "xml",
+    "SOURCE_WORKSPACE\\xml-webservice-20261113\\qa\\simulation\\mittel\\arbeit\\strukturfehler.xml"
+  ],
+  "stdout": "WOHLGEFORMT: SOURCE_WORKSPACE\\xml-webservice-20261113\\qa\\simulation\\mittel\\arbeit\\strukturfehler.xml (Wurzelelement: wechselkurse)\nDamit sind weder die DTD-Gültigkeit noch die Richtigkeit der Werte nachgewiesen.\n",
+  "stderr": "",
+  "exitcode": 0
+}
