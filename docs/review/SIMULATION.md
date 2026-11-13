@@ -2,14 +2,15 @@
 
 Diese Hinweise richten sich an die Lehrkraft. Die aktuelle [Aufgabe](TASK.md)
 bleibt eine gemeinsame GK-Aufgabe für **4 UE à 50 Minuten** mit sieben
-XML-/DTD-Fragen: **3 × 1/5, 2 × 2/5 und 2 × 3/5**.
+Fragen zum grundlegenden Verständnis von XML und DTD.
 
 ## Drei modellierte Bearbeitungen
 
 Die Simulation wurde am 13.11.2026 mit Aufgabenfassung `20261113v2` durchgeführt.
 Version `20261113v3` vereinheitlicht die Dateiablage und Materialbereitstellung;
-sie ergänzt keine neuen Lernanforderungen. Die folgenden Ergebnisse sind keine
-neu gemessenen Schülerleistungen der Version 3.
+sie ergänzt keine neuen Lernanforderungen. Version `20261113v4` entfernt die
+sichtbaren Schwierigkeitsangaben, ohne die Fragen inhaltlich zu ändern. Die folgenden
+Ergebnisse sind keine neu gemessenen Schülerleistungen dieser Überarbeitungen.
 
 **Verhalten, Hilfen und Unterrichtszeiten sind KI-gestützte Modellannahmen.**
 Dateien, XML-/DTD-Prüfungen, Rechenkontrollen und Browserimporte wurden tatsächlich

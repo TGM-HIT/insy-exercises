@@ -18,17 +18,17 @@ abgerufen …“. Entferne diese Ausfüllhinweise bei der Abgabe.
 
 ## 3. Theorie
 
-Beantworte die sieben Grundfragen der Angabe während der Bearbeitung. Bei 1/5
-genügen Stichpunkte, bei 2/5 und 3/5 ein bis drei kurze Sätze. Insgesamt sind
-etwa 15–20 Minuten innerhalb der vier UE vorgesehen.
+Beantworte die sieben Grundfragen der Angabe während der Bearbeitung. Bei den
+Fragen 1–3 genügen Stichpunkte, bei den Fragen 4–7 ein bis drei kurze Sätze.
+Insgesamt sind etwa 15–20 Minuten innerhalb der vier UE vorgesehen.
 
-1. **[1/5] Wurzelelement:** [Bedeutung und Name in deiner Datei.]
-2. **[1/5] Element, Attribut und Text:** [Die vier Bestandteile des Beispiels benennen.]
-3. **[1/5] Zweck einer DTD:** [Aufgabe und eine eigene Strukturregel.]
-4. **[2/5] Häufigkeit und Reihenfolge:** [Bedeutung von + und ?, erlaubte Anzahl und Position des Hinweises.]
-5. **[2/5] Pflichtattribut und erlaubte Werte:** [#REQUIRED, Enumeration und Beurteilung der beiden Fälle.]
-6. **[3/5] Wohlgeformt oder DTD-gültig:** [Kopie A und B einordnen und den Unterschied erklären.]
-7. **[3/5] Grenze der DTD:** [Negativen Kurswert einordnen und nötige zusätzliche Regel nennen.]
+1. **Wurzelelement:** [Bedeutung und Name in deiner Datei.]
+2. **Element, Attribut und Text:** [Die vier Bestandteile des Beispiels benennen.]
+3. **Zweck einer DTD:** [Aufgabe und eine eigene Strukturregel.]
+4. **Häufigkeit und Reihenfolge:** [Bedeutung von + und ?, erlaubte Anzahl und Position des Hinweises.]
+5. **Pflichtattribut und erlaubte Werte:** [#REQUIRED, Enumeration und Beurteilung der beiden Fälle.]
+6. **Wohlgeformt oder DTD-gültig:** [Kopie A und B einordnen und den Unterschied erklären.]
+7. **Grenze der DTD:** [Negativen Kurswert einordnen und nötige zusätzliche Regel nennen.]
 
 ## 4. Arbeitsschritte
 

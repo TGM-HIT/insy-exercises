@@ -228,19 +228,18 @@ Bei gleichen angezeigten Gesamtkosten ist der Gleichstand zu benennen.</p>
 
 ### Grundlegend
 
-Die sieben Fragen prüfen das **grundlegende Verständnis von XML und DTD**. Die
-Schwierigkeit bezeichnet die Anforderung innerhalb dieser GK-Aufgabe; auch 3/5
-ist hier keine erweiterte Kompetenz. Bearbeite die Fragen bei den passenden
-Arbeitsschritten und plane insgesamt etwa **15–20 Minuten innerhalb der vier UE** ein.
-Bei 1/5 genügen Stichpunkte, bei 2/5 und 3/5 jeweils ein bis drei kurze Sätze.
+Die sieben Fragen prüfen das **grundlegende Verständnis von XML und DTD**.
+Bearbeite sie bei den passenden Arbeitsschritten und plane insgesamt etwa
+**15–20 Minuten innerhalb der vier UE** ein. Bei den Fragen 1–3 genügen
+Stichpunkte, bei den Fragen 4–7 jeweils ein bis drei kurze Sätze.
 
-1. **[1/5] Wurzelelement:** Was ist das Wurzelelement eines XML-Dokuments? Nenne das Wurzelelement deiner Wechselkursdatei.
-2. **[1/5] Element, Attribut und Text:** Benenne in `<kurs waehrung="EUR">4.4070</kurs>` den Elementnamen, den Attributnamen, den Attributwert und den Textinhalt.
-3. **[1/5] Zweck einer DTD:** Was legt eine DTD für ein XML-Dokument fest? Nenne eine Strukturregel aus deiner eigenen DTD.
-4. **[2/5] Häufigkeit und Reihenfolge:** Erkläre `kurs+` und `hinweis?` in deiner DTD. Darf ein Dokument keinen Kurs enthalten? Darf der Hinweis fehlen? Darf ein vorhandener Hinweis vor den Kursen stehen? Begründe mit der festgelegten Reihenfolge.
-5. **[2/5] Pflichtattribut und erlaubte Werte:** Was bewirken `#REQUIRED` und `(EUR|CZK|PLN)` beim Attribut `waehrung`? Ist ein Kurs ohne dieses Attribut beziehungsweise mit `waehrung="USD"` nach deiner DTD gültig? Begründe kurz.
-6. **[3/5] Wohlgeformt oder DTD-gültig:** Gehe von deinem korrekten XML und einer passenden DTD aus. In Kopie A wird ein Endtag `</kurs>` durch `</kurs_falsch>` ersetzt. In Kopie B wird das vollständige Element `quelle` entfernt. Welche Kopie ist wohlgeformt, welche ist DTD-gültig? Erkläre den Unterschied.
-7. **[3/5] Grenze der DTD:** Ein Kurs enthält den Text `-4.4070`. Das Element ist in der DTD mit `#PCDATA` beschrieben; die übrige Datei ist korrekt. Kann das XML wohlgeformt und DTD-gültig sein, obwohl der Rechner es ablehnt? Begründe, was die DTD hier prüft und welche zusätzliche Regel die Anwendung benötigt.
+1. **Wurzelelement:** Was ist das Wurzelelement eines XML-Dokuments? Nenne das Wurzelelement deiner Wechselkursdatei.
+2. **Element, Attribut und Text:** Benenne in `<kurs waehrung="EUR">4.4070</kurs>` den Elementnamen, den Attributnamen, den Attributwert und den Textinhalt.
+3. **Zweck einer DTD:** Was legt eine DTD für ein XML-Dokument fest? Nenne eine Strukturregel aus deiner eigenen DTD.
+4. **Häufigkeit und Reihenfolge:** Erkläre `kurs+` und `hinweis?` in deiner DTD. Darf ein Dokument keinen Kurs enthalten? Darf der Hinweis fehlen? Darf ein vorhandener Hinweis vor den Kursen stehen? Begründe mit der festgelegten Reihenfolge.
+5. **Pflichtattribut und erlaubte Werte:** Was bewirken `#REQUIRED` und `(EUR|CZK|PLN)` beim Attribut `waehrung`? Ist ein Kurs ohne dieses Attribut beziehungsweise mit `waehrung="USD"` nach deiner DTD gültig? Begründe kurz.
+6. **Wohlgeformt oder DTD-gültig:** Gehe von deinem korrekten XML und einer passenden DTD aus. In Kopie A wird ein Endtag `</kurs>` durch `</kurs_falsch>` ersetzt. In Kopie B wird das vollständige Element `quelle` entfernt. Welche Kopie ist wohlgeformt, welche ist DTD-gültig? Erkläre den Unterschied.
+7. **Grenze der DTD:** Ein Kurs enthält den Text `-4.4070`. Das Element ist in der DTD mit `#PCDATA` beschrieben; die übrige Datei ist korrekt. Kann das XML wohlgeformt und DTD-gültig sein, obwohl der Rechner es ablehnt? Begründe, was die DTD hier prüft und welche zusätzliche Regel die Anwendung benötigt.
 
 ## Abgabe
 
@@ -292,4 +291,4 @@ im [Archiv des gesicherten Aufgabenstands](https://github.com/TGM-HIT/insy-exerc
 
 ---
 
-**Version** *20261113v3*
+**Version** *20261113v4*
