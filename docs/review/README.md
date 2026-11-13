@@ -52,5 +52,4 @@ unter `aufgabe/material/`.
 
 Die Ablage betrifft ausschließlich **`docs/review/` in `TGM-HIT/insy-exercises`**.
 Sie ergänzt den Kurs um Review-Unterlagen; die bisherigen Semesteraufgaben bleiben
-an ihren bestehenden Pfaden erhalten. Die frühere Review-Kopie in `insy-solutions`
-wurde nicht entfernt.
+an ihren bestehenden Pfaden erhalten.
