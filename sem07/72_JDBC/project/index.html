@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSY Webshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        body { max-width: 900px; }
+        table { width: 100%; }
+        .section { margin-bottom: 2em; }
+        form { display: grid; gap: 0.5em; max-width: 400px; }
+        #order-items { display: flex; flex-direction: column; gap: 0.5em; }
+        .order-line { display: flex; gap: 0.5em; align-items: center; }
+        .order-line select, .order-line input { flex: 1; }
+        button { cursor: pointer; }
+        #message { padding: 0.5em; border-radius: 4px; display: none; }
+        #message.success { display: block; background: #2d5; color: #000; }
+        #message.error { display: block; background: #d52; color: #fff; }
+    </style>
+</head>
+<body>
+    <h1>INSY Webshop</h1>
+
+    <div class="section">
+        <h2>Artikel</h2>
+        <table>
+            <thead><tr><th>ID</th><th>Beschreibung</th><th>Preis</th><th>Bestand</th></tr></thead>
+            <tbody id="articles-table"></tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Kunden</h2>
+        <table>
+            <thead><tr><th>ID</th><th>Name</th><th>Adresse</th></tr></thead>
+            <tbody id="clients-table"></tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Bestellungen</h2>
+        <table>
+            <thead><tr><th>ID</th><th>Kunde</th><th>Artikel</th><th>Gesamtpreis</th></tr></thead>
+            <tbody id="orders-table"></tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Bestellung aufgeben</h2>
+        <div id="message"></div>
+        <form id="order-form">
+            <label>Kunde
+                <select id="client-select" required></select>
+            </label>
+            <label>Artikel
+                <div id="order-items">
+                    <div class="order-line">
+                        <select class="article-select" required></select>
+                        <input type="number" class="amount-input" min="1" value="1" placeholder="Menge" required>
+                    </div>
+                </div>
+            </label>
+            <button type="button" id="add-line">+ Artikel hinzufügen</button>
+            <button type="submit">Bestellung abschicken</button>
+        </form>
+    </div>
+
+    <script>
+        const API = 'http://127.0.0.1:8000';
+        let articles = [];
+
+        async function loadAll() {
+            const [artRes, cliRes, ordRes] = await Promise.all([
+                fetch(`${API}/articles`),
+                fetch(`${API}/clients`),
+                fetch(`${API}/orders`)
+            ]);
+            articles = await artRes.json();
+            const clients = await cliRes.json();
+            const orders = await ordRes.json();
+
+            document.getElementById('articles-table').innerHTML = articles.map(a =>
+                `<tr><td>${a.id}</td><td>${a.description}</td><td>${a.price.toFixed(2)} €</td><td>${a.amount}</td></tr>`
+            ).join('');
+
+            document.getElementById('clients-table').innerHTML = clients.map(c =>
+                `<tr><td>${c.id}</td><td>${c.name}</td><td>${c.address}</td></tr>`
+            ).join('');
+
+            document.getElementById('orders-table').innerHTML = orders.map(o =>
+                `<tr><td>${o.id}</td><td>${o.client}</td><td>${o.lines}</td><td>${o.price.toFixed(2)} €</td></tr>`
+            ).join('');
+
+            const clientSelect = document.getElementById('client-select');
+            clientSelect.innerHTML = clients.map(c =>
+                `<option value="${c.id}">${c.name}</option>`
+            ).join('');
+
+            populateArticleSelects();
+        }
+
+        function populateArticleSelects() {
+            document.querySelectorAll('.article-select').forEach(sel => {
+                sel.innerHTML = articles.map(a =>
+                    `<option value="${a.id}">${a.description} (${a.price.toFixed(2)} €)</option>`
+                ).join('');
+            });
+        }
+
+        document.getElementById('add-line').addEventListener('click', () => {
+            const line = document.createElement('div');
+            line.className = 'order-line';
+            line.innerHTML = `
+                <select class="article-select" required></select>
+                <input type="number" class="amount-input" min="1" value="1" placeholder="Menge" required>
+                <button type="button" onclick="this.parentElement.remove()">×</button>
+            `;
+            document.getElementById('order-items').appendChild(line);
+            populateArticleSelects();
+        });
+
+        document.getElementById('order-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const msg = document.getElementById('message');
+            const clientId = document.getElementById('client-select').value;
+            const lines = document.querySelectorAll('.order-line');
+            const params = [`client_id=${clientId}`];
+            lines.forEach((line, i) => {
+                const articleId = line.querySelector('.article-select').value;
+                const amount = line.querySelector('.amount-input').value;
+                params.push(`article_id_${i + 1}=${articleId}`, `amount_${i + 1}=${amount}`);
+            });
+
+            try {
+                const res = await fetch(`${API}/placeOrder?${params.join('&')}`);
+                const data = await res.json();
+                if (data.error) {
+                    msg.textContent = `Fehler: ${data.error}`;
+                    msg.className = 'error';
+                } else {
+                    msg.textContent = `Bestellung #${data.order_id} erfolgreich erstellt!`;
+                    msg.className = 'success';
+                    loadAll();
+                }
+            } catch (err) {
+                msg.textContent = `Netzwerkfehler: ${err.message}`;
+                msg.className = 'error';
+            }
+        });
+
+        loadAll();
+    </script>
+</body>
+</html>
