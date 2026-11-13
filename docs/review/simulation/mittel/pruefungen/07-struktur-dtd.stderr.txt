@@ -1,2 +1,0 @@
-DTD-UNGÜLTIG: Die XML-Struktur entspricht nicht der angegebenen DTD.
-  Zeile 2: Element wechselkurse content does not follow the DTD, expecting (quelle , kurs+ , hinweis?), got (kurs kurs kurs hinweis )

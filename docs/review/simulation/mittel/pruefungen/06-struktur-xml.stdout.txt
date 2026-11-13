@@ -1,2 +1,0 @@
-WOHLGEFORMT: SOURCE_WORKSPACE\xml-webservice-20261113\qa\simulation\mittel\arbeit\strukturfehler.xml (Wurzelelement: wechselkurse)
-Damit sind weder die DTD-Gültigkeit noch die Richtigkeit der Werte nachgewiesen.

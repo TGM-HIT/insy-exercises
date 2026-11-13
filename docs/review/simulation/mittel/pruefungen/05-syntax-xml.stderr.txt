@@ -1,2 +1,0 @@
-XML-FEHLER in Zeile 4, Spalte 44: Die Datei ist nicht wohlgeformt.
-  Parsermeldung: Opening and ending tag mismatch: kurs line 4 and kurs_falsch, line 4, column 44

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<wechselkurse>
-  <basis>PLN</basis>
-  <datum>2026-11-13</datum>
-  <quelle>https://api.nbp.pl/api/exchangerates/tables/a/?format=xml</quelle>
-  <kurs><waehrung>EUR</waehrung>4,4070</kurs>
-  <kurs><waehrung>CZK</waehrung>0.1806</kurs>
-  <kurs><waehrung>PLN</waehrung>1</kurse>
-</wechselkurse>
