@@ -1,6 +1,6 @@
 # Projekt: Lieferantenangebote mit XML vergleichen
 
-Diese Dateien unterstützen die gemeinsame GK-Aufgabe aus [TASK.md](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/review/TASK.md).
+Diese Dateien unterstützen die gemeinsame GK-Aufgabe aus [TASK.md](https://github.com/TGM-HIT/insy-exercises/blob/main/docs/sem07/74_Semistrukturierte_Dateiformate/TASK.md).
 Die Werkzeuge sind fertig; du erstellst die XML-Datei und die DTD selbst. Arbeite
 im heruntergeladenen Ordner `project`. Die kurze Vorlage
 [DOKUMENTATION.md](DOKUMENTATION.md) begleitet deine Bearbeitung.

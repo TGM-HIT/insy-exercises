@@ -43,12 +43,17 @@ und Lernerfolge lassen sich erst in einem Unterrichtsdurchlauf prüfen.
 
 ## Einheitliche Ablage
 
+Seit dem 22.11.2026 liegt die Aufgabe an ihrem regulären Platz unter
+`docs/sem07/74_Semistrukturierte_Dateiformate`. Die Fassung `20261122v1` ersetzt
+die bisherige Aufgabenreihe; der vorherige Review-Ordner wurde dorthin verschoben.
+Die Inhalte der Fragen und die GK-Anforderungen wurden dabei nicht verändert.
+
 Wie bei den Vergleichsaufgaben 71 und 72 liegen Angabe und Checkliste direkt im
 Aufgabenordner. Das Arbeitsmaterial wird als Ordner `project/` bereitgestellt.
 Der aktuelle Stand enthält **12 Dateien**:
 
 ```text
-review/
+74_Semistrukturierte_Dateiformate/
 ├── TASK.md
 ├── CHECK.md
 ├── SIMULATION.md
@@ -84,6 +89,10 @@ neuen Projektordner die erwarteten Ergebnisse. Die sieben Fragen und die
 Bewertungskriterien sind gegenüber Version 2 unverändert.
 
 ## Erhaltene Nachweise und Archive
+
+Die unmittelbar ersetzte Aufgabenreihe mit allen 29 Dateien liegt seit dem
+22.11.2026 unverändert unter [deprecated/sem07/74_Semistrukturierte_Dateiformate](https://github.com/TGM-HIT/insy-exercises/tree/main/deprecated/sem07/74_Semistrukturierte_Dateiformate).
+Sie ist kein zusätzlicher aktueller Arbeitsauftrag.
 
 Die ausführlichen Ergebnisse und früheren Aufgabenstände bleiben im festen
 Git-Commit `27704ddaa452e5c4dbe284fbcca831c747924591` erhalten. Die folgenden Links

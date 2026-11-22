@@ -1,29 +1,18 @@
-# Checkliste: Semistrukturierte Dateiformate
-
-**Vorschlag, vor Unterrichtseinsatz durch die Lehrkraft festzulegen.**
-
-Dieser Gesamtvorschlag ist noch keine verbindliche Kursbewertung. Die Teilchecklisten dienen
-als Nachweise und ergeben keine sieben zusätzlich zu addierenden Noten. Die Grundaufgaben
-aller Stationen gehören zum Grundbereich. Vertiefungen sind optional.
+# Checkliste: Lieferantenangebote mit XML vergleichen
 
 ## Grundlegend überwiegend
 
-- [ ] Formatvergleich, Wohlgeformtheit und DTD mit eigenen Erklärungen und aussagekräftigen Tests bearbeitet.
-- [ ] DOM-Änderung an den geforderten Produkten erfolgreich, übrige Daten erhalten.
-- [ ] Grundlegendes Einlesen, mindestens drei korrekte XPath-Abfragen und eine aus XML erzeugte HTML-Tabelle lauffähig.
+- [ ] 1. Webservice-Antwort beschafft; Anfrage, Kursdatum und die benötigten EUR-/CZK-Werte nachvollziehbar ermittelt.
+- [ ] 2. Eigenes XML mit Quelle, Datum und den drei korrekt zugeordneten Kursen erstellt; Wohlgeformtheit erfolgreich geprüft.
+- [ ] 3. Eigene DTD beschreibt Elemente, Reihenfolge, Wiederholung und Pflichtattribute; das korrekte XML besteht die Validierung.
+- [ ] 4. Eigenes XML im Rechner verwendet; Gesamtkosten verglichen und eine begründete Lieferantenempfehlung abgegeben.
+- [ ] Fragestellungen 1–5 nachvollziehbar beantwortet; XML-Bausteine und grundlegende DTD-Regeln verstanden.
+- [ ] Dokumentation
 
 ## Grundlegend vollständig
 
-- [ ] Alle Grundaufgaben der sieben Stationen vollständig; Import prüft Geschäftsregeln, Fehler verändern die letzte gültige Ausgabe nicht.
-- [ ] Alle sechs XPath-Abfragen und die gefilterte, sortierte HTML-Ausgabe mit Sollwerten nachgewiesen.
-- [ ] Ergebnisse reproduzierbar; Lernversuche, Fragestellungen und Abgabegespräch nachvollziehbar.
-
-## Erweitert überwiegend
-
-- [ ] Namespace-Varianten bei DOM und XPath korrekt bearbeitet und erklärt.
-- [ ] Großer XML-Katalog ereignisweise verarbeitet; Ergebnis und Speicherverhalten nachvollziehbar geprüft.
-
-## Erweitert vollständig
-
-- [ ] XSLT-Ausgabe nach Kategorien gruppiert, mit Parameter und korrektem Dezimal-Warenwert; leere Gruppen und leere Ergebnisse sinnvoll behandelt.
-- [ ] Eine XPath-3.1-Map mit Kategorienanzahlen umgesetzt und die eingesetzten erweiterten Konzepte im Gespräch erklärt.
+- [ ] 3. DTD berücksichtigt erlaubte Attributwerte und den optionalen Hinweis vollständig.
+- [ ] 4. Beide Fehlerkopien mit den erwarteten unterschiedlichen Ergebnissen geprüft und in drei Testzeilen einschließlich Original dokumentiert.
+- [ ] 4. Einen Gesamtbetrag für PL oder CZ manuell kontrolliert; Ersparnis oder Gleichstand gegenüber AT korrekt erläutert und Vergleichsansicht gesichert.
+- [ ] Fragestellungen 1–7 vollständig und fachlich richtig beantwortet; Wohlgeformtheit, DTD-Gültigkeit und fachliche Werteprüfung unterschieden.
+- [ ] Dokumentation
