@@ -87,7 +87,7 @@ Erstelle aus dem ERD aus *GEK52 Datenmodellierung* **Landwirtschaftsbetrieb und 
 
 ### Erweitert
 
-Versuche sinnvolle *foreign key Constraints* in das Datenbankschema einzubauen.
+Versuche sinnvolle *foreign key Constraints* (inklusive `ON UPDATE/ON DELETE` in das Datenbankschema einzubauen.
 
 ## Abgabe
 Die durchgeführten Tätigkeiten und gewünschten Elemente müssen in einer Dokumentation gemäß der Dokumentationsrichtlinien zusammengefasst werden. Die Fragestellungen sollen mit Quellen ebenfalls in diesem Dokument bearbeitet werden.
