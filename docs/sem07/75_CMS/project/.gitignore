@@ -1,0 +1,4 @@
+.env
+.env.restore
+backups/*
+!backups/.gitkeep
