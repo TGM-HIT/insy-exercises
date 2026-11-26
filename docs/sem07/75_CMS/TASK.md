@@ -33,7 +33,7 @@ Du kannst Inhalte, Darstellung und technische Administration eines CMS untersche
 Bearbeite die Aufgaben in der angegebenen Reihenfolge. Dokumentiere jeden Schritt knapp und nachvollziehbar in deinem Protokoll.
 
 ### Material und geprüfter Technologiestand
-Lade [material.zip](material.zip) herunter und arbeite im entpackten Ordner `material`. Er enthält Docker Compose, Logo/Schriften, eine leere Rollenmatrix, ein Testprotokoll und Hilfen zur Sicherung. Er enthält **keine fertige Website, Benutzerkonfiguration oder ausgefüllte Berechtigungsmatrix**.
+Lade das [Materialpaket](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2Fsem07%2F75_CMS%2Fproject) herunter und arbeite im entpackten Ordner `project`. Er enthält Docker Compose, Logo/Schriften, eine leere Rollenmatrix, ein Testprotokoll und Hilfen zur Sicherung. Er enthält **keine fertige Website, Benutzerkonfiguration oder ausgefüllte Berechtigungsmatrix**.
 
 | Bestandteil | Geprüfte Basis | Entscheidung |
 | --- | --- | --- |
@@ -229,7 +229,7 @@ Keine zusätzlichen Anforderungen festgelegt (siehe oben).
 * "WP-CLI: Datenbankexport"; zuletzt besucht 2026-09-13; [online](https://developer.wordpress.org/cli/commands/db/export/)
 * "WP-CLI: Datenbankimport"; zuletzt besucht 2026-09-13; [online](https://developer.wordpress.org/cli/commands/db/import/)
 * "WP-CLI: search-replace"; zuletzt besucht 2026-09-13; [online](https://developer.wordpress.org/cli/commands/search-replace/)
-* "Materialpaket"; [material.zip](material.zip)
+* "Materialpaket"; [online](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2Fsem07%2F75_CMS%2Fproject)
 * "Offizielle TGM-Website"; [online](https://www.tgm.ac.at/)
 
 ---

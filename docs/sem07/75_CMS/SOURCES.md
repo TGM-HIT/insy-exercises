@@ -3,6 +3,12 @@
 Geprüft am **13.09.2026**. Die alte Angabe enthielt nur den WordPress-Downloadlink.
 Die folgende Auswahl ergänzt offizielle Produktdokumentation und Herstellerquellen.
 
+## Materialpaket
+
+| Quelle | Verwendung in der Aufgabe |
+| --- | --- |
+| [Materialpaket im GitHub-Repository](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FTGM-HIT%2Finsy-exercises%2Ftree%2Fmain%2Fdocs%2Fsem07%2F75_CMS%2Fproject) | Ordner `project` mit Docker Compose, Logo/Schriften, Rollenmatrix, Testprotokoll und Sicherungsskript; als Ordner herunterladbar. |
+
 ## Laufzeit und Wartung
 
 | Quelle | Verwendung in der Aufgabe |
