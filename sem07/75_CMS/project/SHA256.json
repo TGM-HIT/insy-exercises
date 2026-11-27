@@ -1,0 +1,15 @@
+{
+  ".env.example": "9c172f3140c688fe0eaf8c713c9e1744761fa9cd1bf1b8d7d3b08fe2741c3585",
+  ".gitignore": "860c74771ca818e69c8820610da7a404beb1e40fe6b338e2dad28a0594628c2f",
+  "compose.yaml": "2eb44b0d6dce302ccc3baf82dfe42ae2f9474f0ad6fc710b79ff84d198ce74c4",
+  "README.md": "742e3c36aa47b2b4d975e7ce504fc49a43ce25de97d87a16d5ba76361f57936a",
+  "roles-matrix.md": "9fe6cbf6b82e2e71aff6ba994da07cd5ede48551ebc7ffec15b217c536def2e2",
+  "testprotokoll.md": "1c7fc9401379f85f1ade7ca15b2db6353701055839190caffa27a7e649c88119",
+  "assets/HERKUNFT.md": "fe195ef0c752bebf498220ce16e8608bebcfdeaf50c76c09c9bc1584d90a8682",
+  "assets/TGM-Bold.ttf": "cdb5dcf1f43df2455452be2d57f13f51c1047ff51a1d3b71dcde31bf9a75f643",
+  "assets/TGM-Italic.ttf": "8049715be4c38a441ddce2658c0660ce5f92b1272ad79e35055a29e0d80c7a44",
+  "assets/TGM-Regular.ttf": "827ee9f965d79d32c04700be87c0ac191db244371f072fc56d903393d160aa50",
+  "assets/TGMLogo.png": "ec49dfec5895bf9f1d67f23a0b5275bf629095a81f24fdb4c340ac9650e8a9aa",
+  "backups/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "scripts/archive.sh": "fa24f515f7e01711abd0399a025f4e297e4b84ea6e1a3eeca081aa98f82a26dd"
+}

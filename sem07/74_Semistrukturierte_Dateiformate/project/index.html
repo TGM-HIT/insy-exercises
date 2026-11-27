@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Lieferantenvergleich · Küche &amp; Bar</title>
+<style>
+:root{--ink:#182e2c;--muted:#526661;--green:#155d51;--green-light:#e7f2eb;--paper:#f5f3ed;--line:#d9e1db;--white:#fff;--amber:#8a510b;--amber-light:#fff4dc;--red:#a52c2c;--red-light:#fff0ed;--radius:16px}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select,textarea{font:inherit}button,a,input,select,textarea,summary{outline-offset:4px}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #d7802c}button{cursor:pointer}button:disabled{cursor:default;opacity:.45}h1,h2,h3,p{margin:0}h1{font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.12;letter-spacing:-.045em;font-weight:740}h2{font-size:1.15rem;letter-spacing:-.02em}h3{font-size:1rem}.shell{max-width:1360px;margin:auto;padding:26px 32px 30px}.brand{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:27px;font-weight:700}.brand-name{display:flex;align-items:center;gap:10px}.logo{display:grid;place-items:center;background:var(--green);color:#fff;width:38px;height:38px;border-radius:11px;letter-spacing:-.08em}.badge{font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;background:#e8e6dc;padding:6px 10px;border-radius:20px;color:var(--muted)}.intro{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:25px}.intro p{color:var(--muted);max-width:710px;margin-top:10px}.order{font-size:.85rem;border-left:3px solid #c87935;padding-left:14px;min-width:225px}.order strong{display:block;font-size:.98rem;color:var(--ink)}.layout{display:grid;grid-template-columns:330px minmax(0,1fr);gap:22px;align-items:start}.panel{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:21px}.panel+.panel{margin-top:18px}.panel-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:15px}.small{font-size:.84rem;color:var(--muted)}.eyebrow{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:750;margin-bottom:6px}.primary,.secondary{border-radius:9px;padding:10px 15px;font-weight:650;border:1px solid transparent;transition:background .15s}.primary{background:var(--green);color:#fff}.primary:hover:not(:disabled){background:#0a463e}.secondary{background:#fff;border-color:#b9cbc1;color:var(--green)}.secondary:hover{background:var(--green-light)}.compact{padding:6px 9px;font-size:.8rem}.file-label{display:block;font-weight:650;font-size:.9rem;margin-bottom:8px}input[type=file]{display:block;max-width:100%;width:100%;font-size:.82rem;color:var(--muted);padding:8px 0}input::file-selector-button{font:inherit;font-weight:650;background:var(--green-light);color:var(--green);border:1px solid #b7d2c1;border-radius:7px;padding:8px 10px;cursor:pointer;margin-right:8px}.privacy{font-size:.77rem;color:var(--muted);margin-top:10px}details{margin-top:18px;border-top:1px solid var(--line);padding-top:13px}summary{cursor:pointer;font-size:.86rem;font-weight:650;color:var(--green)}textarea{width:100%;resize:vertical;font:12px/1.5 ui-monospace,monospace;border:1px solid #bacbc0;border-radius:8px;padding:10px;margin:10px 0;min-height:140px}.status{font-size:.85rem;padding:11px 12px;margin-top:15px;background:#f0f3f0;border-radius:9px;color:var(--muted);overflow-wrap:anywhere}.status.good{background:var(--green-light);color:#204e38}.status.bad,.error{background:var(--red-light);color:var(--red)}.meta{font-size:.83rem;margin-top:15px}.meta dt{color:var(--muted);font-size:.74rem;margin-top:8px}.meta dd{margin:0;overflow-wrap:anywhere}.note{font-size:.82rem;padding:10px 12px;border-radius:9px;background:var(--amber-light);color:var(--amber);margin-top:12px}.muted-box{background:#f5f7f4;border-radius:9px;padding:13px;font-size:.84rem;color:var(--muted)}.rates{width:100%;border-collapse:collapse;font-size:.85rem;margin-top:12px}.rates th{font-weight:550;color:var(--muted);font-size:.72rem;text-align:right;line-height:1.3}.rates th:first-child,.rates td:first-child{text-align:left}.rates td{text-align:right;padding:7px 0;border-bottom:1px solid #edf0eb;font-variant-numeric:tabular-nums}.offers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:13px 0 17px}.offer{background:#fafbf8;border:1px solid var(--line);border-radius:12px;padding:14px}.offer-header{display:flex;gap:8px;align-items:center;margin-bottom:12px}.country{font-weight:750;font-size:.72rem;display:grid;place-items:center;min-width:32px;height:32px;background:#e8eeea;color:#3b6556;border-radius:8px}.offer h3{font-size:.93rem}.offer .small{font-size:.74rem}.field{margin-top:10px}.field label{display:block;font-size:.76rem;color:var(--muted);margin-bottom:4px}.field input,.field select{width:100%;padding:8px 9px;border:1px solid #bfcfc4;background:#fff;color:var(--ink);border-radius:7px;font-variant-numeric:tabular-nums}.field input[aria-invalid=true]{border-color:var(--red)}.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.error{border-radius:9px;padding:10px 12px;font-size:.84rem;margin-top:12px}.result-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.empty{margin-top:16px;padding:30px 20px;border:1px dashed #bdcfc1;border-radius:12px;text-align:center;color:var(--muted)}.empty-icon{font-size:1.9rem;color:#94aa9b;display:block;margin-bottom:8px}.recommendation{background:var(--green);color:#fff;border-radius:12px;padding:18px 20px;margin:16px 0}.recommendation .eyebrow{color:#c7e3d3}.recommendation h3{font-size:1.23rem;font-weight:720;letter-spacing:-.02em}.recommendation p{font-size:.87rem;color:#e0eee5;margin-top:5px}.comparison-wrap{overflow:auto}.comparison{border-collapse:collapse;width:100%;font-size:.86rem;font-variant-numeric:tabular-nums;white-space:nowrap}.comparison th{font-size:.72rem;line-height:1.3;font-weight:600;text-align:right;color:var(--muted);padding:10px 8px;border-bottom:1px solid var(--line)}.comparison td{text-align:right;padding:13px 8px;border-bottom:1px solid #e8eee7}.comparison th:first-child,.comparison td:first-child{text-align:left;padding-left:0}.comparison td:last-child,.comparison th:last-child{padding-right:0}.comparison tr.best td{color:var(--green);font-weight:700}.rankmark{display:inline-block;width:7px;height:7px;margin-right:5px;background:var(--green);border-radius:50%}.total{font-weight:750;font-size:.95rem}.formula{margin-top:15px;display:grid;gap:6px;font-size:.8rem;color:var(--muted)}.formula-line{background:#f4f6f2;padding:8px 10px;border-radius:7px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.explain{font-size:.79rem;color:var(--muted);margin-top:12px}.bottom{border-top:1px solid #d7dfd5;margin-top:24px;padding-top:12px;font-size:.76rem;color:var(--muted);display:flex;justify-content:space-between;gap:20px}.hidden,[hidden]{display:none!important}.tag{font-size:.65rem;font-weight:650;color:var(--green);background:var(--green-light);padding:3px 6px;border-radius:5px;display:inline-block;margin-top:3px}
+@media(max-width:1000px){.layout{grid-template-columns:280px minmax(0,1fr)}.shell{padding:22px}.offers{gap:8px}.offer{padding:11px}.intro{align-items:start}.order{min-width:180px}.field input,.field select{padding:8px 6px}}@media(max-width:780px){.layout{grid-template-columns:1fr}.intro{display:block}.order{margin-top:18px}.offers{grid-template-columns:repeat(3,minmax(0,1fr))}.shell{padding:18px}.brand{margin-bottom:22px}.panel{padding:17px}.bottom{display:block}.bottom span{display:block;margin-top:5px}}@media(max-width:480px){.offers{grid-template-columns:1fr}.offer{padding:14px}.offer-fields{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}.field{margin-top:3px}.badge{max-width:100px;text-align:center}.result-head{align-items:start}}
+@media print{body{background:#fff;font-size:11px}.shell{padding:0;max-width:none}.brand{margin-bottom:10px}.intro{margin-bottom:12px}.intro h1{font-size:23px}.layout{display:block}.left-column{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}.panel{padding:12px;border-color:#aaa;break-inside:avoid}.panel+.panel{margin-top:12px}.left-column .panel{margin-top:0}.input-controls,details,.actions,button,.privacy,.badge,.empty,.no-print{display:none!important}.status{margin-top:6px;padding:6px}.rates td{padding:3px}.meta{margin:5px 0}.offers{margin:8px 0;gap:8px}.offer{padding:8px}.offer-header{margin-bottom:5px}.offer-fields{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px}.field input,.field select{border:0;padding:0;font-size:11px;appearance:none}.field label{font-size:9px}.field{margin-top:0}.recommendation{background:#e7f2eb!important;color:#183b2d!important;padding:10px}.recommendation p,.recommendation .eyebrow{color:#254d3c}.comparison td{padding:8px 5px}.formula{font-size:10px;gap:3px}.bottom{margin-top:12px}.order{font-size:11px}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <header>
+    <div class="brand"><div class="brand-name"><span class="logo" aria-hidden="true">K&amp;B</span>Küche &amp; Bar</div><span class="badge">Einkauf · XML-Praxis</span></div>
+    <div class="intro"><div><p class="eyebrow">Eine Datendatei. Eine Einkaufsentscheidung.</p><h1>Was kostet das Angebot wirklich?</h1><p>Lade deine Wechselkurse und vergleiche Warenpreis <strong>plus Versand</strong> in Euro. Die Entscheidung basiert auf den Daten deiner eigenen XML-Datei.</p></div><div class="order"><strong>Eine vergleichbare Bestellung</strong>1.000 Papierbecher · je 300 ml<br>Gleiche Qualität, Menge und Lieferfrist</div></div>
+  </header>
+  <main class="layout">
+    <aside class="left-column">
+      <section class="panel" aria-labelledby="import-title">
+        <div class="panel-heading"><h2 id="import-title">1 · Eigene XML laden</h2></div>
+        <div class="input-controls"><label class="file-label" for="xml-file">Deine Wechselkursdatei</label><input id="xml-file" type="file" accept=".xml,application/xml,text/xml"><p class="privacy">Die Datei wird nur in diesem Browser verarbeitet und nicht hochgeladen. Höchstens 100 KB, UTF-8.</p>
+          <details><summary>XML stattdessen als Text einfügen</summary><label for="xml-text" class="small">Inhalt deiner selbst erstellten Datei</label><textarea id="xml-text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Hier den vollständigen XML-Inhalt einfügen …"></textarea><button class="secondary compact" id="import-text" type="button">XML-Text prüfen und übernehmen</button></details>
+        </div>
+        <div id="import-status" class="status" role="status" aria-live="polite">Noch keine Wechselkursdatei geladen.</div>
+        <dl class="meta" id="file-meta" hidden><dt>Datei</dt><dd id="file-name"></dd><dt>Kursdatum</dt><dd id="rate-date"></dd><dt>Quelle</dt><dd id="source-text"></dd><dt id="hint-label" hidden>Hinweis aus der Datei</dt><dd id="source-hint" hidden></dd></dl>
+        <div id="old-rates" class="note" hidden></div>
+        <p class="explain">Die eigene DTD prüfst du mit dem bereitgestellten Prüfwerkzeug. Dieser Rechner prüft das vereinbarte Format und die benötigten Werte.</p>
+      </section>
+      <section class="panel" aria-labelledby="rates-title"><h2 id="rates-title">Die Daten hinter dem Vergleich</h2><p class="small" style="margin-top:8px">Basis <strong>PLN</strong>: Ein Kurs gibt an, wie viele polnische Złoty eine Einheit der jeweiligen Währung wert ist.</p><div id="rates-empty" class="muted-box" style="margin-top:12px">Nach dem Import erscheinen hier deine drei Kurse für EUR, PLN und CZK.</div><table id="rate-table" class="rates" hidden><caption class="small" style="text-align:left;margin-bottom:8px">Aus deiner XML-Datei</caption><thead><tr><th scope="col">Währung</th><th scope="col">PLN je Einheit</th><th scope="col">Euro je Einheit</th></tr></thead><tbody id="rate-rows"></tbody></table></section>
+    </aside>
+    <div class="right-column">
+      <section class="panel" aria-labelledby="offer-title"><div class="panel-heading"><h2 id="offer-title">2 · Angebote prüfen</h2><span class="small">Fiktive Angebote · Nettopreise</span></div><p class="small">Die Vorgaben beziehen sich jeweils auf die gesamte Bestellung. Versandkosten gelten in derselben Währung wie der Warenpreis.</p>
+        <form id="offer-form" novalidate>
+          <div class="offers">
+            <section class="offer" aria-labelledby="title-at"><div class="offer-header"><span class="country" aria-hidden="true">AT</span><div><h3 id="title-at">Lieferant AT</h3><p class="small">Österreich</p><span class="tag">Bisheriger Lieferant</span></div></div><div class="offer-fields"><div class="field"><label for="currency-at">Währung · AT</label><select id="currency-at"><option value="EUR" selected>EUR</option><option value="PLN">PLN</option><option value="CZK">CZK</option></select></div><div class="field"><label for="goods-at">Warenpreis · AT</label><input id="goods-at" type="number" min="0" max="1000000" step="0.01" value="180.00" inputmode="decimal" required></div><div class="field"><label for="shipping-at">Versand · AT</label><input id="shipping-at" type="number" min="0" max="1000000" step="0.01" value="12.00" inputmode="decimal" required></div></div></section>
+            <section class="offer" aria-labelledby="title-pl"><div class="offer-header"><span class="country" aria-hidden="true">PL</span><div><h3 id="title-pl">Lieferant PL</h3><p class="small">Polen</p></div></div><div class="offer-fields"><div class="field"><label for="currency-pl">Währung · PL</label><select id="currency-pl"><option value="EUR">EUR</option><option value="PLN" selected>PLN</option><option value="CZK">CZK</option></select></div><div class="field"><label for="goods-pl">Warenpreis · PL</label><input id="goods-pl" type="number" min="0" max="1000000" step="0.01" value="760.00" inputmode="decimal" required></div><div class="field"><label for="shipping-pl">Versand · PL</label><input id="shipping-pl" type="number" min="0" max="1000000" step="0.01" value="90.00" inputmode="decimal" required></div></div></section>
+            <section class="offer" aria-labelledby="title-cz"><div class="offer-header"><span class="country" aria-hidden="true">CZ</span><div><h3 id="title-cz">Lieferant CZ</h3><p class="small">Tschechien</p></div></div><div class="offer-fields"><div class="field"><label for="currency-cz">Währung · CZ</label><select id="currency-cz"><option value="EUR">EUR</option><option value="PLN">PLN</option><option value="CZK" selected>CZK</option></select></div><div class="field"><label for="goods-cz">Warenpreis · CZ</label><input id="goods-cz" type="number" min="0" max="1000000" step="0.01" value="3900.00" inputmode="decimal" required></div><div class="field"><label for="shipping-cz">Versand · CZ</label><input id="shipping-cz" type="number" min="0" max="1000000" step="0.01" value="250.00" inputmode="decimal" required></div></div></section>
+          </div><div class="actions"><button id="calculate" class="primary" type="submit" disabled>Angebote vergleichen</button><button id="reset-offers" class="secondary compact" type="button">Vorgegebene Angebote wiederherstellen</button></div><div id="offer-error" class="error" role="alert" hidden></div>
+        </form>
+      </section>
+      <section class="panel" aria-labelledby="result-title"><div class="result-head"><h2 id="result-title">3 · Entscheidung begründen</h2><button id="print" type="button" class="secondary compact" disabled>Vergleich drucken</button></div><div id="result-empty" class="empty"><span class="empty-icon" aria-hidden="true">↗</span><strong>Deine Daten machen den Unterschied.</strong><p class="small">Importiere zuerst die geprüfte XML-Datei.<br>Danach werden Gesamtkosten und Ersparnis sichtbar.</p></div><div id="result" hidden aria-live="polite"><div class="recommendation"><p class="eyebrow">Ergebnis für diese Bestellung</p><h3 id="recommend-title"></h3><p id="recommend-text"></p></div><div class="comparison-wrap"><table class="comparison"><thead><tr><th scope="col">Angebot</th><th scope="col">Ware in €</th><th scope="col">Versand in €</th><th scope="col">Gesamt in €</th><th scope="col">Gegenüber AT</th></tr></thead><tbody id="comparison-rows"></tbody></table></div><p class="explain">„Gegenüber AT“ zeigt die Ersparnis zum bisherigen Lieferanten; ein negativer Betrag bedeutet Mehrkosten. Die Gesamtsumme wird erst nach der Umrechnung von Ware und Versand auf Cent gerundet.</p><div class="formula"><strong>So wird gerechnet</strong><div id="formula-rows"></div></div><p class="explain">Vergleichsbasis: gleiche Ware, Bestellmenge und Lieferfrist. Berücksichtigt sind Nettowarenpreis und Versand. Steuern sowie Zahlungs- und Wechselgebühren sind im Unterrichtsfall nicht angesetzt.</p></div></section>
+    </div>
+  </main>
+  <footer class="bottom"><span>Arbeitsmittel zur XML-Aufgabe · Kursdatum und Datenquelle gehören zur Entscheidung.</span><span>Vollständig lokal · ohne Benutzerkonto</span></footer>
+</div>
+<script id="calculation-core">
+/* Exakte Dezimalrechnung: Kurse und Preise werden bis zur Cent-Rundung als Brüche verarbeitet. */
+const OfferCore = (() => {
+  const CURRENCIES = ['EUR', 'PLN', 'CZK'];
+  const SOURCE = 'https://api.nbp.pl/api/exchangerates/tables/a/?format=xml';
+  const MAX_BYTES = 100 * 1024;
+  function decimal(value, label = 'Wert', places = 12) {
+    const text = String(value).trim();
+    if (!new RegExp('^(?:0|[1-9]\\d{0,6})(?:\\.\\d{1,' + places + '})?$').test(text)) throw new Error(label + ': Bitte eine Zahl mit Dezimalpunkt und höchstens ' + places + ' Nachkommastellen verwenden.');
+    const parts = text.split('.');
+    const fraction = parts[1] || '';
+    const n = BigInt(parts[0] + fraction), d = 10n ** BigInt(fraction.length);
+    if (n > 1000000n * d) throw new Error(label + ': Der Wert darf höchstens 1.000.000 betragen.');
+    return {n, d, text};
+  }
+  function rate(value, label = 'Kurs') {
+    const parsed = decimal(value, label);
+    if (parsed.n <= 0n) throw new Error(label + ': Der Kurs muss größer als null sein.');
+    return parsed;
+  }
+  function rounded(n, d) { return (n * 2n + d) / (d * 2n); }
+  function convertedCents(amount, currencyRate, euroRate) {
+    return rounded(amount.n * currencyRate.n * euroRate.d * 100n, amount.d * currencyRate.d * euroRate.n);
+  }
+  function add(a, b) { return {n:a.n*b.d+b.n*a.d, d:a.d*b.d}; }
+  function compare(offers, rates) {
+    for (const code of CURRENCIES) if (!rates[code] || rates[code].n <= 0n) throw new Error('Ein positiver Kurs für ' + code + ' fehlt.');
+    if (rates.PLN.n !== rates.PLN.d) throw new Error('Der Kurs für die Basiswährung PLN muss genau 1 sein.');
+    const rows = offers.map(offer => {
+      if (!CURRENCIES.includes(offer.currency)) throw new Error('Unbekannte Währung.');
+      const goods = decimal(offer.goods, offer.name + ' – Warenpreis', 2);
+      const shipping = decimal(offer.shipping, offer.name + ' – Versand', 2);
+      return {...offer, goodsValue:goods, shippingValue:shipping,
+        goodsCents:convertedCents(goods, rates[offer.currency], rates.EUR),
+        shippingCents:convertedCents(shipping, rates[offer.currency], rates.EUR),
+        totalCents:convertedCents(add(goods, shipping), rates[offer.currency], rates.EUR)};
+    });
+    if (!rows.length || rows[0].id !== 'at') throw new Error('Der bisherige Lieferant AT muss als Vergleichsbasis vorhanden sein.');
+    const baseline = rows[0].totalCents;
+    const minimum = rows.reduce((low, row) => row.totalCents < low ? row.totalCents : low, baseline);
+    return {rows:rows.map(row => ({...row, savingsCents:baseline-row.totalCents})), winners:rows.filter(row => row.totalCents === minimum), saving:baseline-minimum, minimum};
+  }
+  function validDate(text) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(text)) return false;
+    const date = new Date(text + 'T00:00:00Z');
+    return Number.isFinite(date.getTime()) && date.toISOString().slice(0,10) === text;
+  }
+  function parseXML(text) {
+    if (new TextEncoder().encode(text).length > MAX_BYTES) throw new Error('Die XML-Datei ist größer als 100 KB.');
+    if (/<!\s*(?:DOCTYPE|ENTITY)\b/i.test(text)) throw new Error('DOCTYPE und eigene Entity-Deklarationen sind hier nicht erlaubt. Übergib die DTD separat an das Prüfwerkzeug.');
+    const encoding = text.match(/^\uFEFF?\s*<\?xml[^?]*\bencoding\s*=\s*['"]([^'"]+)['"]/i) || text.match(/^\s*<\?xml[^?]*\bencoding\s*=\s*['"]([^'"]+)['"]/i);
+    if (encoding && !/^utf-8$/i.test(encoding[1])) throw new Error('Die XML-Datei muss UTF-8 verwenden.');
+    const doc = new DOMParser().parseFromString(text, 'application/xml');
+    if (doc.getElementsByTagName('parsererror').length || doc.documentElement.localName === 'parsererror') throw new Error('XML-Syntaxfehler: Prüfe geschlossene Tags, Anführungszeichen und Sonderzeichen.');
+    const root = doc.documentElement;
+    if (root.tagName !== 'wechselkurse' || root.namespaceURI) throw new Error('Das Wurzelelement muss wechselkurse heißen und ohne Namespace geschrieben sein.');
+    function attributes(element, permitted, required = permitted) {
+      for (const attribute of element.attributes) if (!permitted.includes(attribute.name)) throw new Error('Unerwartetes Attribut ' + attribute.name + ' in ' + element.tagName + '.');
+      for (const name of required) if (!element.hasAttribute(name)) throw new Error('Das Pflichtattribut ' + name + ' fehlt in ' + element.tagName + '.');
+    }
+    function plainText(element) {
+      attributes(element, element.tagName === 'kurs' ? ['waehrung'] : []);
+      if (element.namespaceURI || element.children.length) throw new Error(element.tagName + ' darf nur Text und keine verschachtelten Elemente enthalten.');
+      const content = element.textContent.trim();
+      if (!content && element.tagName !== 'hinweis') throw new Error(element.tagName + ' darf nicht leer sein.');
+      return content;
+    }
+    attributes(root, ['basis','datum']);
+    if (root.getAttribute('basis') !== 'PLN') throw new Error('Die Basiswährung muss PLN sein.');
+    const date = root.getAttribute('datum');
+    if (!validDate(date)) throw new Error('datum muss ein gültiges Datum im Format YYYY-MM-DD enthalten.');
+    const today = new Date();
+    const localDate = [today.getFullYear(), String(today.getMonth()+1).padStart(2,'0'), String(today.getDate()).padStart(2,'0')].join('-');
+    if (date > localDate) throw new Error('Das Kursdatum darf nicht in der Zukunft liegen.');
+    for (const node of root.childNodes) if ((node.nodeType === 3 || node.nodeType === 4) && node.textContent.trim()) throw new Error('Direkt in wechselkurse ist nur die vereinbarte Folge von Elementen erlaubt.');
+    const children = Array.from(root.children);
+    if (!children.length || children[0].tagName !== 'quelle') throw new Error('Das erste Kindelement muss quelle sein.');
+    const source = plainText(children.shift());
+    if (source !== SOURCE) throw new Error('quelle muss die vereinbarte NBP-Adresse enthalten: ' + SOURCE);
+    let hint = '';
+    if (children.length && children[children.length-1].tagName === 'hinweis') hint = plainText(children.pop());
+    const rates = Object.create(null);
+    for (const child of children) {
+      if (child.tagName !== 'kurs') throw new Error('Nach quelle sind kurs-Elemente und abschließend höchstens ein hinweis erlaubt.');
+      const content = plainText(child), code = child.getAttribute('waehrung');
+      if (!CURRENCIES.includes(code)) throw new Error('Erlaubte Währungen sind EUR, PLN und CZK.');
+      if (rates[code]) throw new Error('Die Währung ' + code + ' kommt mehrfach vor. Jede Währung wird genau einmal benötigt.');
+      rates[code] = rate(content, 'Kurs ' + code);
+    }
+    for (const code of CURRENCIES) if (!rates[code]) throw new Error('Der Kurs für ' + code + ' fehlt.');
+    if (rates.PLN.n !== rates.PLN.d) throw new Error('PLN ist die Basiswährung und muss den Kurs 1 haben.');
+    return {date, source, hint, rates, ageDays:Math.floor((Date.parse(localDate+'T00:00:00Z')-Date.parse(date+'T00:00:00Z'))/86400000)};
+  }
+  return {CURRENCIES,SOURCE,MAX_BYTES,decimal,rate,rounded,convertedCents,compare,validDate,parseXML};
+})();
+</script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const names = {at:'Lieferant AT',pl:'Lieferant PL',cz:'Lieferant CZ'};
+  const defaults = {at:['EUR','180.00','12.00'],pl:['PLN','760.00','90.00'],cz:['CZK','3900.00','250.00']};
+  const integers = new Intl.NumberFormat('de-AT', {maximumFractionDigits:0});
+  let imported = null, importSequence = 0;
+  function money(cents) { const negative=cents<0n; const absolute=negative?-cents:cents; return (negative?'−':'')+integers.format(absolute/100n)+','+String(absolute%100n).padStart(2,'0'); }
+  function localized(text) { return String(text).replace('.', ','); }
+  function cell(text, className) { const td=document.createElement('td'); td.textContent=text; if(className)td.className=className; return td; }
+  function emptyResult(message) {
+    $('result').hidden=true; $('result-empty').hidden=false; $('print').disabled=true;
+    $('comparison-rows').replaceChildren(); $('recommend-title').textContent=''; $('recommend-text').textContent=''; $('formula-rows').replaceChildren();
+    if (message) { $('offer-error').hidden=false; $('offer-error').textContent=message; }
+    else { $('offer-error').hidden=true; $('offer-error').textContent=''; }
+  }
+  function clearImport() {
+    imported=null; $('calculate').disabled=true; $('file-meta').hidden=true; $('file-name').textContent=''; $('rate-date').textContent=''; $('source-text').textContent=''; $('source-hint').textContent=''; $('old-rates').hidden=true; $('rate-table').hidden=true; $('rate-rows').replaceChildren(); $('rates-empty').hidden=false; emptyResult();
+  }
+  function importFailed(error) { clearImport(); $('import-status').className='status bad'; $('import-status').textContent=error.message || 'Die Datei konnte nicht gelesen werden.'; }
+  function acceptXML(text, filename) {
+    clearImport();
+    try {
+      imported=OfferCore.parseXML(text);
+      $('file-name').textContent=filename; $('rate-date').textContent=imported.date.split('-').reverse().join('.'); $('source-text').textContent=imported.source;
+      $('hint-label').hidden=!imported.hint; $('source-hint').hidden=!imported.hint; $('source-hint').textContent=imported.hint; $('file-meta').hidden=false;
+      $('import-status').className='status good'; $('import-status').textContent='Format und Werte geprüft. Drei Wechselkurse übernommen.';
+      $('old-rates').hidden=imported.ageDays<=7; $('old-rates').textContent='Historischer Datenstand: Diese Kurse sind '+imported.ageDays+' Tage alt. Der Vergleich gilt für das angezeigte Kursdatum.';
+      for (const code of OfferCore.CURRENCIES) {
+        const rate=imported.rates[code], euro=imported.rates.EUR;
+        const row=document.createElement('tr'); row.append(cell(code),cell(localized(rate.text)),cell(new Intl.NumberFormat('de-AT',{minimumFractionDigits:2,maximumFractionDigits:6}).format(Number(rate.n)*Number(euro.d)/(Number(rate.d)*Number(euro.n))))); $('rate-rows').append(row);
+      }
+      $('rate-table').hidden=false; $('rates-empty').hidden=true; $('calculate').disabled=false; calculate();
+    } catch(error) { importFailed(error); }
+  }
+  function readOffers() {
+    for (const input of $('offer-form').querySelectorAll('input')) input.removeAttribute('aria-invalid');
+    return Object.keys(names).map(id => {
+      for (const field of ['goods','shipping']) {
+        const input=$(field+'-'+id);
+        try { OfferCore.decimal(input.value, names[id]+' – '+(field==='goods'?'Warenpreis':'Versand'),2); }
+        catch(error) { input.setAttribute('aria-invalid','true'); throw error; }
+      }
+      return {id,name:names[id],currency:$('currency-'+id).value,goods:$('goods-'+id).value,shipping:$('shipping-'+id).value};
+    });
+  }
+  function calculate() {
+    if(!imported) return;
+    try {
+      const result=OfferCore.compare(readOffers(),imported.rates); $('offer-error').hidden=true; $('offer-error').textContent='';
+      $('result-empty').hidden=true; $('result').hidden=false; $('print').disabled=false; $('comparison-rows').replaceChildren(); $('formula-rows').replaceChildren();
+      const winners=result.winners.map(row=>row.name).join(' und ');
+      $('recommend-title').textContent=result.winners.length>1?'Gleichstand: '+winners:winners+' ist am günstigsten.';
+      $('recommend-text').textContent='Gesamtkosten: '+money(result.minimum)+' €. '+(result.saving>0n?'Ersparnis gegenüber dem bisherigen Lieferanten: '+money(result.saving)+' € pro Bestellung.':'Der bisherige Lieferant AT ist bereits günstigster Anbieter'+(result.winners.length>1?' (preisgleich).':'.'));
+      for(const row of result.rows) {
+        const tr=document.createElement('tr'); if(row.totalCents===result.minimum)tr.className='best';
+        const nameCell=cell(row.name+(row.id==='at'?' · bisher':''));
+        if(row.totalCents===result.minimum){const mark=document.createElement('span');mark.className='rankmark';mark.setAttribute('aria-hidden','true');nameCell.prepend(mark);}
+        tr.append(nameCell,cell(money(row.goodsCents)),cell(money(row.shippingCents)),cell(money(row.totalCents),'total'),cell(row.id==='at'?'Referenz':money(row.savingsCents)+' €')); $('comparison-rows').append(tr);
+        const line=document.createElement('div');line.className='formula-line';line.textContent=row.name+': ('+localized(row.goods)+' + '+localized(row.shipping)+') '+row.currency+' × '+localized(imported.rates[row.currency].text)+' ÷ '+localized(imported.rates.EUR.text)+' = '+money(row.totalCents)+' EUR'; $('formula-rows').append(line);
+      }
+    } catch(error) { emptyResult(error.message); }
+  }
+  $('xml-file').addEventListener('change',async () => {
+    const sequence=++importSequence,file=$('xml-file').files[0]; clearImport();
+    if(!file) { $('import-status').className='status'; $('import-status').textContent='Keine Datei ausgewählt.'; return; }
+    $('import-status').className='status'; $('import-status').textContent='Datei wird geprüft …';
+    try { if(file.size>OfferCore.MAX_BYTES)throw new Error('Die XML-Datei ist größer als 100 KB.'); const buffer=await file.arrayBuffer(); if(sequence!==importSequence)return; const text=new TextDecoder('utf-8',{fatal:true}).decode(buffer); acceptXML(text,file.name); }
+    catch(error) { if(sequence===importSequence)importFailed(error instanceof TypeError?new Error('Die Datei enthält keine gültige UTF-8-Kodierung.'):error); }
+  });
+  $('import-text').addEventListener('click',() => { ++importSequence; $('xml-file').value=''; acceptXML($('xml-text').value,'Eingefügter XML-Text'); });
+  $('offer-form').addEventListener('submit',event=>{event.preventDefault();calculate();});
+  $('offer-form').addEventListener('input',calculate); $('offer-form').addEventListener('change',calculate);
+  $('reset-offers').addEventListener('click',()=>{for(const[id,values]of Object.entries(defaults))for(const[index,field]of ['currency','goods','shipping'].entries())$(field+'-'+id).value=values[index];calculate();});
+  $('print').addEventListener('click',()=>window.print());
+})();
+</script>
+</body>
+</html>
