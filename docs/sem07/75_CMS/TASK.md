@@ -177,12 +177,18 @@ Arbeite allein oder zu zweit. Abzugeben sind ein knappes Protokoll mit Sitemap, 
 
 Zeige das laufende lokale System und die wiederhergestellte Kopie. Eine reine Screenshotsammlung ersetzt die Vorführung nicht. Die private Sicherung hältst du für die Abnahme bereit; sie gehört nicht ins öffentliche Repository. Kennzeichne KI-Unterstützung und erkläre eigene Entscheidungen. Als kleine Änderung im Gespräch kann z.B. ein neuer Beitrag oder eine Anpassung eines Rollenrechts verlangt werden.
 
+Vor der Vorführung prüfst du die öffentliche Website mit dem Skript `scripts/abnahme-check.sh` aus dem Materialpaket. Es kontrolliert ohne Anmeldung Kennzeichnung, Ankerlinks, Query Loop, Logo, Abteilungsseiten, Beitragssichtbarkeit und Entwurfsfilter:
+
+```sh
+BASE_URL=http://127.0.0.1:8085 DRAFT_TITLE="Interner Entwurf" PAGE_SLUGS="abteilung-a abteilung-b" BACK_ANCHOR=ausbildung bash scripts/abnahme-check.sh
+```
+
+`DRAFT_TITLE` ist der Titel eines unveröffentlichten Entwurfs, `PAGE_SLUGS` die Adressen der Abteilungsseiten und `BACK_ANCHOR` der Anker des Ausbildungsabschnitts. Ohne diese Angaben werden die entsprechenden Prüfungen als „PRÜFEN“ ausgegeben. Das Skript ersetzt nicht die Prüfung von Rollen, Layout, Tastaturbedienung und Kontrasten; diese dokumentierst du im Testprotokoll. Ein Lauf auf Port 8086 nach der Wiederherstellung prüft zusätzlich, dass keine Links mehr auf Port 8085 zeigen.
+
 Abgabetermin laut Lernplattform. Die alten Termine aus 2025/2026 gelten nicht weiter.
 
 ## Bewertung
-Gruppengröße: 1–2 Personen
-
-Die Vorlage war insgesamt als **grundlegende Kompetenz** ausgewiesen. Diese Zuordnung bleibt erhalten; es werden keine Aufgaben in EK verschoben und keine neuen EK-Pflichten eingeführt. Da die Vorlage keine feinere Bewertungsmatrix enthielt, ist die folgende Konkretisierung in [CHECK.md](CHECK.md) ein **Bewertungsvorschlag**.
+Gruppengröße: 1 Person
 
 ### Grundanforderungen **überwiegend erfüllt**
 
@@ -199,15 +205,7 @@ Die Vorlage war insgesamt als **grundlegende Kompetenz** ausgewiesen. Diese Zuor
 - [ ]  Wiederherstellung in einer zweiten Installation erfolgreich
 - [ ]  Entscheidungen, Grenzen und Reflexionsfragen im Gespräch erklärt
 
-### Erweiterte Anforderungen **überwiegend erfüllt**
-
-Keine zusätzlichen Anforderungen festgelegt. Optionale Weiterarbeit nach abgeschlossener Grundaufgabe – tatsächliche Klassen-/Abteilungstrennung oder ein eigener kleiner Block – ist ein Lernangebot ohne hier festgelegte zusätzliche Bewertung. Den Umfang vor einer Erweiterung mit der Lehrkraft abstimmen.
-
-### Erweiterte Anforderungen **zur Gänze erfüllt**
-
-Keine zusätzlichen Anforderungen festgelegt (siehe oben).
-
-*:robot: Diese Aufgabe wurde Mithilfe von KI erstellt.*
+* :robot: Diese Aufgabe wurde Mithilfe von KI erstellt.*
 
 ## Quellen
 * "WordPress herunterladen"; zuletzt besucht 2026-09-13; [online](https://wordpress.org/download/)
@@ -234,4 +232,4 @@ Keine zusätzlichen Anforderungen festgelegt (siehe oben).
 
 ---
 
-**Version**  *20261126v1*
+**Version**  *20261126v2*

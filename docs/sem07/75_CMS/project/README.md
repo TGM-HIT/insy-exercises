@@ -153,6 +153,19 @@ unbemerkt eine teilweise wiederhergestellte Installation weiterzuverwenden.
 4. Beendet die nicht mehr benötigte Kopie mit
    `docker compose --env-file .env.restore down` (Volumes bleiben erhalten).
 
+## Abnahmeprüfung ohne Anmeldung
+
+`scripts/abnahme-check.sh` prüft die öffentliche Website auf die automatisch prüfbaren
+Punkte aus TASK.md. Benötigt werden `curl`, `grep`, `sed` und `sort`.
+
+```sh
+BASE_URL=http://127.0.0.1:8085 DRAFT_TITLE="Interner Entwurf" PAGE_SLUGS="abteilung-a abteilung-b" BACK_ANCHOR=ausbildung bash scripts/abnahme-check.sh
+```
+
+Die Variablen `DRAFT_TITLE`, `PAGE_SLUGS` und `BACK_ANCHOR` sind optional; ohne sie
+werden die zugehörigen Prüfungen als „PRÜFEN“ ausgegeben. Rollen, Layout, Tastatur
+und Kontraste prüft das Skript nicht.
+
 ## Häufige Fehler
 
 - Port belegt: Vor der Erstinstallation `WP_PORT` in `.env` ändern. Bei einer
